@@ -99,7 +99,15 @@
 %\tuprints{urn=XXXXX,printid=XXXX,year=2022,license=cc-by-4.0}
 % To see further information on the license option in English, remove the license= key and pay attention to the warning & help message.
 
-% \dedication{Für alle, die \TeX{} nutzen.}
+%\dedication{Für alle, die \TeX{} nutzen.}
+
+\chapter*{Danksagungen}
+
+\input{texdateien/danksagung.tex}
+
+\chapter*{Kurzfassung}
+
+\input{texdateien/kurzfassung.tex}
 
 \maketitle
 
@@ -113,14 +121,20 @@
 \tableofcontents
 
 \chapter{Einleitung}
-	\include{texdateien/einleitung.tex}
+	\input{texdateien/einleitung.tex}
 \chapter{Methode}
 	
+=======
+	\input{texdateien/einleitung.tex}
+\chapter{Methode}
+	\input{texdateien/methode.tex}
+>>>>>>> stopiddidnotcommit
 \chapter{Ergebnisse}
-	\include{texdateien/ergebnisse.tex}
+	\input{texdateien/ergebnisse.tex}
 \chapter{Diskussion}
-\chapter{Zusammenfassung}
-\chapter{Schluss}
+	\input{texdateien/diskussion.tex}
+\chapter{Schlussfolgerung}
+	\input{texdateien/schlussfolgerung.tex}
 
 \chapter{Quellen}
 \printbibliography
