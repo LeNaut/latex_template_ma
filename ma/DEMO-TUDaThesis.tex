@@ -34,7 +34,7 @@
 %Literaturverzeichnis
 %%%%%%%%%%%%%%%%%%%
 \usepackage{biblatex}   % Literaturverzeichnis
-\bibliography{DEMO-TUDaBibliography}
+\bibliography{CitaviV1}
 
 
 %%%%%%%%%%%%%%%%%%%
@@ -45,6 +45,8 @@
 %\usepackage{longtable} % Mehrseitige Tabellen
 %\usepackage{xltabular} % Mehrseitige Tabellen mit anpassbarer Breite
 \usepackage{booktabs}   % Verbesserte Möglichkeiten für Tabellenlayout über horizontale Linien
+\usepackage{makecell}
+\usepackage{subcaption}
 
 %%%%%%%%%%%%%%%%%%%
 %Paketvorschläge Mathematik
@@ -75,7 +77,7 @@
 }
 
 \title{TUDaThesis -- Abschlussarbeiten im CD der TU Darmstadt}
-\subtitle{Subtitle}
+%\subtitle{Subtitle}
 \author[L. Widmayer]{Linnea Widmayer}%optionales Argument ist die Signatur,
 %\birthplace{Geburtsort}%Geburtsort, bei Dissertationen zwingend notwendig
 \reviewer{Nico Faul \and Prof. Thomas Burg}%Gutachter
@@ -83,8 +85,8 @@
 %Diese Felder werden untereinander auf der Titelseite platziert.
 %\department ist eine notwendige Angabe, siehe auch dem Abschnitt `Abweichung von den Vorgaben für die Titelseite'
 \department{etit} % Das Kürzel wird automatisch ersetzt und als Studienfach gewählt, siehe Liste der Kürzel im Dokument.
-\institute{Institut}
-\group{Arbeitsgruppe}
+\institute{IMNS}
+%\group{Arbeitsgruppe}
 
 \submissiondate{\today}
 \examdate{\today}
@@ -100,15 +102,6 @@
 % To see further information on the license option in English, remove the license= key and pay attention to the warning & help message.
 
 %\dedication{Für alle, die \TeX{} nutzen.}
-
-\chapter*{Danksagungen}
-
-\input{texdateien/danksagung.tex}
-
-\chapter*{Kurzfassung}
-
-\input{texdateien/kurzfassung.tex}
-
 \maketitle
 
 \affidavit% oder \affidavit[digital] falls eine rein digitale Abgabe vorgesehen ist.
@@ -118,17 +111,23 @@
 % Die Verwendung funktioniert so:
 %\affidavit[signature-image={\includegraphics[width=\width,height=1cm]{example-image}}, <hier können andere Optionen wie z.B. affidavit=digital zusätzlich stehen>]
 
+\chapter*{Danksagungen}
+
+\input{texdateien/danksagung.tex}
+
+\chapter*{Kurzfassung}
+
+\input{texdateien/kurzfassung.tex}
+
 \tableofcontents
 
 \chapter{Einleitung}
 	\input{texdateien/einleitung.tex}
 \chapter{Methode}
-	\input{texdateien/einleitung.tex}
-\chapter{Methode}
 	\input{texdateien/methode.tex}
 \chapter{Ergebnisse}
 	\input{texdateien/ergebnisse.tex}
-\chapter{Diskussion}
+\chapter{Diskussion (VIELLEICHT IN ERGEBNISSE)}
 	\input{texdateien/diskussion.tex}
 \chapter{Schlussfolgerung}
 	\input{texdateien/schlussfolgerung.tex}
