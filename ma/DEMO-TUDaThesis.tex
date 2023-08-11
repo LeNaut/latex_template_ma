@@ -1,5 +1,5 @@
 \documentclass[
-	ngerman,
+	english,
 	ruledheaders=section,%Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
 	class=report,% Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
 	thesis={type=master},% Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
@@ -22,7 +22,7 @@
 %%%%%%%%%%%%%%%%%%%
 %Sprachanpassung & Verbesserte Trennregeln
 %%%%%%%%%%%%%%%%%%%
-\usepackage[english, main=ngerman]{babel}
+\usepackage[english, main=english]{babel}
 \usepackage[autostyle]{csquotes}% Anführungszeichen vereinfacht
 
 % Falls mit pdflatex kompiliert wird, wird microtype automatisch geladen, in diesem Fall muss diese Zeile entfernt werden, und falls weiter Optionen hinzugefügt werden sollen, muss dies über
@@ -111,28 +111,28 @@
 % Die Verwendung funktioniert so:
 %\affidavit[signature-image={\includegraphics[width=\width,height=1cm]{example-image}}, <hier können andere Optionen wie z.B. affidavit=digital zusätzlich stehen>]
 
-\chapter*{Danksagungen}
+\chapter*{Acknowledgment}
 
 \input{texdateien/danksagung.tex}
 
-\chapter*{Kurzfassung}
+\chapter*{Abstract}
 
 \input{texdateien/kurzfassung.tex}
 
 \tableofcontents
 
-\chapter{Einleitung}
+\chapter{Introduction}
 	\input{texdateien/einleitung.tex}
-\chapter{Methode}
+\chapter{Method}
 	\input{texdateien/methode.tex}
-\chapter{Ergebnisse}
+\chapter{Results}
 	\input{texdateien/ergebnisse.tex}
-\chapter{Diskussion (VIELLEICHT IN ERGEBNISSE)}
+\chapter{Discussion (VIELLEICHT IN ERGEBNISSE)}
 	\input{texdateien/diskussion.tex}
-\chapter{Schlussfolgerung}
+\chapter{Conclusion}
 	\input{texdateien/schlussfolgerung.tex}
 
-\chapter{Quellen}
+\chapter{References}
 \printbibliography
 
 \end{document}
