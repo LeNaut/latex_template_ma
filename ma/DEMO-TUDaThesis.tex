@@ -1,3 +1,4 @@
+% !TeX spellcheck = en_US
 \documentclass[
 	english,
 	ruledheaders=section,%Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
@@ -47,6 +48,7 @@
 \usepackage{booktabs}   % Verbesserte Möglichkeiten für Tabellenlayout über horizontale Linien
 \usepackage{makecell}
 \usepackage{subcaption}
+\usepackage{placeins}
 
 %%%%%%%%%%%%%%%%%%%
 %Paketvorschläge Mathematik
@@ -122,14 +124,23 @@
 \tableofcontents
 
 \chapter{Introduction}
+
 	\input{texdateien/einleitung.tex}
+	
 \chapter{Method}
+
 	\input{texdateien/methode.tex}
+	
 \chapter{Results}
+
 	\input{texdateien/ergebnisse.tex}
-\chapter{Discussion (VIELLEICHT IN ERGEBNISSE)}
-	\input{texdateien/diskussion.tex}
+	
+%\chapter{Discussion (VIELLEICHT IN ERGEBNISSE)}
+
+	%\input{texdateien/diskussion.tex}
+	
 \chapter{Conclusion}
+
 	\input{texdateien/schlussfolgerung.tex}
 
 \chapter{References}
