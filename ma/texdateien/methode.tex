@@ -15,6 +15,7 @@ The motivation for this master thesis is to find a way to use cryo light microsc
 To perform cryo-light microscopy and cryo-TEM, a sample transfer from one slide to another slide is proposed. The slide change must be performed at -140°C to maintain the vitrificated state of the sample. Additionally as the first slide used for plunge freezing is hydrophilic, lifting the sample is not simply possible without designing a new layer. First, I investigated lipids for potential positive characteristics for a sacrificial layer or detaching it mechanically. then I am trying PDMS and use different mixture ratios and plasma curing to make mechanical removal easier.
 
 \section{Phospholipids}
+\label{section:metodeLipide}
 
 Phospholipids are the building block of membranes in nature. They own two long hydrophobic chains and a polar head. A membrane is a bilayer of Phospholipids with the hydrophobic parts showing inwards and the hydrophilic head pointing outwards. They are also natural detergents, as they can bind to hydrophobic waste and forming an emulsion, making them removable with polar liquids like water \cite{SriramaM.BhairiPh.D..}.
 
@@ -49,8 +50,8 @@ Then a slide is placed inside each potential solvent. After 15 minutes, the slid
 
 As solubility is very temperature dependent, a test is conducted at -140°C. The general process is the same, but the liquids are given in liquid nitrogen cooled baths, which are regulated to the desired temperature. 
 
-UMSCHREIBEN:
-As not all solutions are liquid at -140°C (Table \ref{table:SchmelztemperaturLösungsmittel}), they are tested at higher temperatures in which they are still liquid. Also they are tested as mixtures with other solvents with a lower melting point, in hope the resulting mixture has a lower melting point. Additionally all lipids are tested in liquid ethane.
+The Freezing point of tested Solutions are not all below -140°C (Table \ref{table:SchmelztemperaturLösungsmittel}).
+To still test the solubility, they are partially tested at temperatures slightly above their freezing point. Also solution with a high freezing point are mixed with solution with a low freezing point as an attempt to reduce their freezing point.
 
 \begin{table}[hbt!]
 	\centering
@@ -78,18 +79,19 @@ As not all solutions are liquid at -140°C (Table \ref{table:SchmelztemperaturL�
 	\label{table:SchmelztemperaturLösungsmittel}
 \end{table}
 
+In the end, the experiment has proven that solving lipids fast and reliable is not possible with tested solvents. As all solvent lipid combinations seem to be endothermic, finding a working solvent lipid combination is very unlikely.
+
+Additionally, some solvents tested are soluble in water. It is unknown whether the solvents could be solved or diffuse inside the ice layer at -140\,°C. Therefore the ice layer could be changed in some undesired manner. if a final solvent is found which is soluble in water, this needs to be addressed an tested in future experiments.
 
 \section{"finger"}
 
 The next potential method is mechanically lifting a piece or the whole ice layer off the slide. The challenge is that the sample needs to stay at a vitrified state. The "finger" as previously explained is a device which can lift at a temperature range which guarantees that the sample stays vitrificated. Additionally, a bath previously build was used. Additionally, I constructed a second bath for improves space and flexibility for using samples.
 
-SECOND BATH BESCHREIBEN WIE GEMACHT
+HFE (LANGES WORT) is an oil typically used as an cryoimmersion fluid \Cite{Faoro.2018b}QUELLE ÜBERPRÜFEN!. Besides that, it has temperature dependent abilities. At freezing temperatures, it does not freeze into a solid at once. It gets more and more viscious before it freezes completely. this temperature dependency is used to first apply the HFE at higher temperatures with low viscosity and pull on the sample at low temperatures.
 
+The process has following steps: First, if not already done, cool down the finger to -140\,°C. The sample is prepared and fixed onto a shuttle in the harbor underneath  the finger.Then, HFE is applied on the tip. Then, the finger is positioned with the stages over the sample. After checking from different sides an camera, the finger is lowered onto the sample. Then the temperature is reduced and waited until the sample and finger is cooled down. Then the finger is pulled up by turning the stage until it detaches from the sample. After this step, if detaching was successful, the shuttle is changed to an empty shuttle. the Piece is lowered onto it and the piece is unglued by lowering the temperature. then the piece is fixed onto the shuttle.
 
-
-Ablauf finger
-
-
+To collect first insight, samples with parylene and lipids (as described in Section \ref{section:metodeLipide}) are used. by doing those experiments, different variables where determined which could significantly influence of successful detaching. Then the different variables are examined with different experiments to improve the finger. Following variables are determined: the amount of HFE can affect the maximum force and can be falsely applied, the temperature also affects the maximum force, tensile forces and shear forces, the thickness of the ice layer, the layer between slide and ice. In the following, I will examine those in greater detail.
 
 \subsection{determining needed amount of glue}
 
@@ -97,11 +99,11 @@ First, the HFE used as glue was applied with a pincer. TO archieve this, the HFE
 
 As an effort to determine the correct amount of HFE a pipette was used. ...
 
-
-
 \subsection{temperature test}
 
-\subsection{detaching ice from lipids}
+\subsection{tensile- vs shear mode}
+
+\subsection{ice thickness}
 
 \section{PDMS}
 
