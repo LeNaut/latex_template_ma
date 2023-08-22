@@ -95,13 +95,38 @@ To collect first insight, samples with parylene and lipids (as described in Sect
 
 \subsection{determining needed amount of glue}
 
-First, the HFE used as glue was applied with a pincer. TO archieve this, the HFE is given in a cold bath at -140°C. This stops HFE from evaporating. The thickened hfe is now scooped with pincers on the tip of the finger. Though the correct amount is only determinable qualitative.
+Using the correct amount of HFE as glue is important for a high repeatability. Too little glue is not able to connect the finger to the sample. too much glue results into a thicker layer, which is the weakest link between finger and sample. additionally, the glue can spread underneath the "window" which is holding down the sample onto the shuttle. 
 
-As an effort to determine the correct amount of HFE a pipette was used. ...
+In first experiments, the HFE used as glue was applied with a pincer. TO archieve this, the HFE is given in a cold bath at -140°C. This stops HFE from evaporating. The thickened hfe is now scooped with pincers on the tip of the finger. Though the correct amount is only determinable qualitative.
+
+As an effort to determine the correct amount of HFE a pipette is used. The HFE is pipetted at room temperature, because at lower temperatures the viscosity is already too high. While applying the HFE onto the desired surface, around $4\,\mu l$ is already evaporating. Also, sometimes the hfe does not land on the tip but on the side of the tip, where it is not very useful. 
+
+In the first experiment, I dosaged three different amount onto the tip of the finger with the pipette. The amount on the finger did not correspond to the amount of HFE. So other variablilities like the time between loading and unloading and hitting the correct spot on the finger is more relevant than the amount of HFE used.
+
+To still determine the correct glue amount, two pictures representing the lowest and the highest usable HFE amount was picked. then the volume is calculated. this can be used as reference for future work for dosaging the right amount of HFE.
 
 \subsection{temperature test}
 
+Ethoxynonafluorobutane, also called HFE 7200, has a melting point of -138\,°C. Below, HFE gets increasingly viscious until it is hard and brittle. This property can be used as a temperature controlled glue. To attach/detach a piece, a temperature at around -138\,°C is used so the HFE is nearly liquid. At lower temperatures, HFE hardens and glues the finger onto the piece. First, a temperature of -160\,°C is used to glue and attach to the sample. But the temperature regulation is not always able to set the temperature and even lower temperatures are maybe beneficial. 
+
+HFE
+
 \subsection{tensile- vs shear mode}
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{tikzpicture}
+		\draw (-4,0.5) -- (4,2.5) -- (4,2) -- (-4,0) -- (-4,0.5);
+		\draw (1.5,5) -- (.5,4) -- (-.5,4) -- (-1.5,5) -- (1.5,5) --(1.5,6);
+		\draw (-1.5,5) -- (-1.5,6) node[anchor=north west] {finger};
+		\draw[thick, ->] (0,1.5) -- (0,4) node[anchor=north east] {combined force};
+		\draw[thick, ->] (0,1.5)  node[anchor=south east] {shear mode} -- (1,1.75);
+		\draw[thick, ->] (1,1.75)-- (0,4) node[anchor=north west] {tensile mode};
+		
+	\end{tikzpicture}
+	\caption{Tensile vs Shear mode}
+	\label{fig:tensilevsshear}
+\end{figure}
 
 \subsection{ice thickness}
 
