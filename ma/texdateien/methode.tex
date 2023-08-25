@@ -138,15 +138,7 @@ HFE
 
 \begin{figure}[hbt!]
 	\centering
-	\begin{tikzpicture}
-		\draw (-4,0.5) -- (4,2.5) -- (4,2) -- (-4,0) -- (-4,0.5);
-		\draw (1.5,5) -- (.5,4) -- (-.5,4) -- (-1.5,5) -- (1.5,5) --(1.5,6);
-		\draw (-1.5,5) -- (-1.5,6) node[anchor=north west] {finger};
-		\draw[thick, ->] (0,1.5) -- (0,4) node[anchor=north east] {combined force};
-		\draw[thick, ->] (0,1.5)  node[anchor=south east] {shear mode} -- (1,1.75);
-		\draw[thick, ->] (1,1.75)-- (0,4) node[anchor=north west] {tensile mode};
-		
-	\end{tikzpicture}
+	\input{../images/Zeichnung_finger_Tensile_vs_Shear.pdf_tex}
 	\caption{Tensile vs Shear mode}
 	\label{fig:tensilevsshear}
 \end{figure}
@@ -154,6 +146,16 @@ HFE
 \subsection{ice thickness}
 
 \section{PDMS}
+
+PDMS has generally good properties for ice removal. It is very hydrophobic, so Ice can hardly adhere to the surface. 
+
+I used Dowsil Sylgard 184 Silicone elastomer as PDMS \cite{DOW.}. It has two component, Base coat and curing agent. Depending on the Mixture ratio of these two components, the PDMS gets different properties. 
+
+In one paper
+
+Additionally,as PDMS is hydrophobic, plasmatreatment is used to make the surface more hydrophilic. Additionally, plasma treatment is changing the structure of the PDMS. 
+
+I found that plasma treatment has different effects on the PDMS on different mixture ratios. 
 
 Why PDMS was chosen
 
