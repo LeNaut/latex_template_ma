@@ -136,9 +136,9 @@ HFE
 
 \subsection{tensile- vs shear mode}
 
-The direction of force is also a factor which can easen liftoff of ice. Tensile mode an shear mode can be currently applied with the finger. Tensile modes advantage is the easy application with the finger. But for separating layers, this mode takes more force, as a bigger area adhering on the slide take the forces of the finger. The tensile mode would take less force, but removing a smaller part off the surface is difficult. Additionally in practice, Applying shear stress with HFE is proving difficult, as this is the weakest link regarding shear forces.
+The direction of force is also a factor which can easen liftoff of ice. Tensile mode an shear mode can be currently applied with the finger. Tensile modes advantage is the easy application with the finger. But for separating layers, this mode takes more force, as a bigger area adhering on the slide take the forces of the finger. The tensile mode would take less force, but removing a smaller part off the surface is difficult.
 
-In application, the shuttle is tilted around 15 degrees for easier access to the shuttle. The finger is also tilted so the tip is parallel to the shuttle. But the force is generally applied still in Z direction. The resulting force can be split in tensile mode and shear mode.
+In application, the shuttle is tilted around 15 degrees for easier access to the shuttle. The finger is also tilted so the tip is parallel to the shuttle. To apply force, the finger can be pulled by stages in each X, Y, and Z direction. In 
 
 Other tests, only tensile mode was used.
 
@@ -163,7 +163,7 @@ To compare the influence of hand freezing and plunge freezing, results of liftin
 
 PDMS is as stated before a coating which is used for passive deicing. It is hydrophobic and has a low surface energy. Also it can be coat spinned into a thin layer, which is needed in this application. Also it is widely available and tunable. The only downside is that the surface needs to by hydrophile when plunge freezing. The simplest method is using a Plasma generator.
 
-Plasma curing is also used for PDMS in for example Bonding (QUELLE). Also PDMS can reach under certain condition a glass like state, which makes the surface brittle and reduces the adhesion forces further (PAPER). This was done by mixture ratios of 50:1 to 100:1. Also, Plasmacuring makes the surface temporarily hydrophilic by polarizing the surface. But this is destroyed by contact of any material. Still, plasma treatment is influencing the adhesion of the ice, making it harder to remove.
+Plasma curing is also used for PDMS in Bonding (QUELLE). Also PDMS can reach under certain condition a glass like state, which makes the surface brittle and reduces the adhesion forces further (PAPER). This was done by mixture ratios of 50:1 to 100:1. Also, Plasmacuring makes the surface temporarily hydrophilic by polarizing the surface. But this is destroyed by contact of any material. Still, plasma treatment is influencing the adhesion of the ice, making it harder to remove.
 
 I used Dowsil Sylgard 184 Silicone elastomer as PDMS \cite{DOW.}. It has two component, Base coat and curing agent. Depending on the Mixture ratio of these two components, the PDMS gets different properties. This 
 
@@ -177,9 +177,36 @@ Why PDMS was chosen
 
 All PDMS samples with different mixtures are prepared in the same way. The preparation starts with weighting out the needed amount of base coat and curing agent. The mixture is now stirred intensively. Then the mixture is placed in a vacuum bell for 30 minutes to gas out air bubbles. Meanwhile the cover glasses used as slides are cleaned with ethanol or isopropanol. Afterwards, the DPMS mixture is coat-spinned on the cover glass for 5 seconds with 300 rpm and then 120 seconds with 3000 rpm. Then the coated cover glasses are baked in the oven for 30 minutes exept a mixture of 1 base coat and 2 curing agent mixing ratio PDMS. For those 24 hours are needed, as it takes longer to harden and it will result in unwanted effects at plasma curing.
 
+
+
 \subsection{Influence of plasma treatment on PDMS}
 
 \subsubsection{setup}
+
+To test the tensile strength of different PDMS mixtures and the effect of plasmacuring, a Pulling machine (NAME RAUSFINDEN)is used. 
+On the Top part, two sensors are installed. The upper Sensor is rated for \SI{2}{\kilo\newton}(ÜBERPRÜFEN). the lower sensor is rated for up to \SI{100}{\newton}. As the upper one is extremely stiff and the forces are \SI{<<2}{\kilo\newton}, the upper Sensor can be assumed as inflexible. On both the upper and lower part, two clamps are fixed onto the machine. On the Bottom Clamp a 3D-Printed stage is used with threaded holes for screws. 
+
+Glass slides with coated PDMS are used, which are fixed on the bottom end of the machine (Fig. \ref{fig:PullingMachineSetup}). On the top end, waterjet cut stams are clamped on. Then a drop of uv glue is put on the top part. the top part is lowered onto the bottom side. Then the uv glue is cured with an uv pistol for 3 minutes (1.5 minutes from the left 1.5 minutes from the right). Then the the sample is pulled with constant distance.
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=6cm, height=9cm]{AufbauPullingMachine}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=6cm, height=9cm]{AufbauPullingMachineCloseup}
+		\caption{}
+	\end{subfigure}
+	\caption{Setup on the Pulling Machine.}
+	\label{fig:PullingMachineSetup}
+\end{figure}
+
+Because Glue dosaging varied a good amount, the Area is not assumed to be the bottom of the stamp. After Pulling, the glue is sticking on the stamp, outlining the area of the glue. The glue is analized under a microscope and the area is measured. With the Area and the maximum Force shortly before detaching, the Tensile stress is calculated. Then the experiment is repeated.
+
+
 
 \subsection{detaching ice from PDMS}
 
