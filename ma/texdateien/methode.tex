@@ -2,18 +2,6 @@
 
 Das ist die Methode.
 
-\section{Task and requirements}
-
-In Application, samples (for example cells) are frozen inside a thin ice layer. The sample can be stained with fluorescence and observed with cryo light microscopy. Also a sample can be prepared to study with cryo-transmission electron microscopy (cryo-TEM) . This allows to see samples in an hydrated state. This is only possible in cryo-TEM, as liquid water would evaporate in vaccuum \cite{Danino.2012}.
-
-For sample preparation in cryo light microscopy and cryo-TEM, plunge-freezing is used \cite{Danino.2012} \cite{Faoro.2018}. This can be done either by hand or with a plunge-freezer, but both methods use the same steps. First, the slide is held by tweezers. then a 2 to 4 ml water drop including the sample is pipetted on the hydrophilic slide. Therefore the droplet spreads over the slide. Then the water droplet is blotted with filter paper, creating a thin film of water which is evaporating quickly. Then the slide is shot in cold liquid under -140°C, for example liquid ethane. A temperature drop of over 100°C freezes the water into a thin ice layer. With this procedure, vitificated ice is formed without a crystal structure.
-
-A vitrificated sample is needed as ice crystals damage the samples and can disturb cryo light microscopy. Vitrificated ice is created by freezing water abruptly into temperatures under -120°C \cite{Wowk.2010}. To create a vitrificated sample, the slide needs a high thermal conductivity to freeze the water quickly. Also the liquid which is used to freeze the sample should not possess the Leidenfrost effect. The vapors which are created with the leidenfrost effect will prevent a rapid temperature drop. As liquid nitrogen has the leidenfrost effect, other liquids like liquid ethane are used.
-
-The motivation for this master thesis is to find a way to use cryo light microscopy and cryo-TEM on the same sample. But currently, no slide is found which has all requirements to be used in plunge-freezing, cryo light microscopy and cryo-TEM. in plunge-freezing, a hydrophile surface is needed to archieve a thin ice layer. Additionally the thermal conductivity of the slide needs to be high for the steep temperature drop needed to create vitificed ice. For light microscopy, a transparent slide is not always required. But a good thermal conductivity is advantageous as less energy is needed to keep the sample cool (WAS FÜR VORRAUSSETZUNGEN GIBT ES DA?). In cryo-TEM, the sample needs to be extremely thin and small. Additionally, only light elements should be used as heavier electrons are disturbing the image in cryo-TEM.
-
-To perform cryo-light microscopy and cryo-TEM, a sample transfer from one slide to another slide is proposed. The slide change must be performed at -140°C to maintain the vitrificated state of the sample. Additionally as the first slide used for plunge freezing is hydrophilic, lifting the sample is not simply possible without designing a new layer. First, I investigated lipids for potential positive characteristics for a sacrificial layer or detaching it mechanically. then I am trying PDMS and use different mixture ratios and plasma curing to make mechanical removal easier.
-
 \section{Phospholipids}
 \label{section:metodeLipide}
 
@@ -108,9 +96,95 @@ Additionally, some solvents tested are soluble in water. It is unknown whether t
 
 \section{"finger"}
 
-The next potential method is mechanically lifting a piece or the whole ice layer off the slide. The challenge is that the sample needs to stay at a vitrified state. The "finger" as previously explained is a device which can lift at a temperature range which guarantees that the sample stays vitrificated. Additionally, a bath previously build was used. Additionally, I constructed a second bath for improves space and flexibility for using samples.
+The next tested method is detaching the ice layer mechanically. For this, a lifting assembly is used. To make this possible, the bottom layer is varied to reduce the adhesion of the ice. Also, as the assembly was not used in similar work before, different variables are addressed and examined.  
+
+\subsection{Assemblies used at cryogenic temperatures}
+
+The assembly used to lift up samples is called finger. The finger has two main parts: A metal rod with a slightly pointed tip (Fig. \ref{fig:querschnittfinger}). Near the tip, the rod is also temperature controlled with a temperature sensor and a heater. On the tip, a glue like HFE can be used to glue onto the sample. The second main part is a 3D printed part, containing the outer shell and routing of the cold gaseous nitrogen. The nitrogen is first flowing inside and around the metal bar for cooling. then, the Gas is flowing through an outer mantle for additional cooling and out on top.
+
+The finger is  mounted on three stages and a track. the three stages allow fine adjustment of the finger position in X,Y and Z axis. Also, when the finger is sticking to a surface, force can be applied by moving the stages in either direction. The Finger can also be moved along the rail. In use, the assembly is clamped down on the rail, to prevent additional movement. when not in use, the assembly can be moved on the rail further back. this allows access beneath the finger.
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{overpic}[height=7cm]{TempFinger}%
+		%\color{red}%
+		%\put(49,48){\vector(0,-1){10}}%
+		%\put(49,48){\makebox(0,0)[cb]{Mitte}}%
+		%Beschriftung:
+		\thicklines
+		\put(42,15){\vector(-1,0){10}}
+		\put(42,15){\makebox(0,0)[lb]{ Heater,}}
+		\put(42,15){\makebox(0,0)[lt]{ Temperature sensor}}
+		\put(3,50){\vector(1,0){20}}
+		\put(3,50){\makebox(0,0)[r]{Steel Rod }}
+		\put(5,96){\vector(1,-1){10}}
+		\put(5,96){\makebox(0,0)[r]{Gas inlet }}
+		\put(48,96){\vector(-1,-1){10}}
+		\put(48,96){\makebox(0,0)[l]{ Gas outlet}}
+		\put(17,0){\vector(2,1){10}}
+		\put(17,0){\makebox(0,0)[r]{Tip }}
+		% Gas Flow:
+		%\put(21,45){\vector(0,-1){12}}
+		%\put(19,33){\oval(4,4)[b]}
+		%\put(17,33){\line(0,1){12}}
+	\end{overpic}
+	\caption{Querschnitt finger}
+	\label{fig:querschnittfinger}
+\end{figure}
+
 
 HFE (LANGES WORT) is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}QUELLE ÜBERPRÜFEN!. Besides that, it has temperature dependent abilities. At freezing temperatures, it does not freeze into a solid at once. It gets more and more viscious before it freezes completely. this temperature dependency is used to first apply the HFE at higher temperatures with low viscosity and pull on the sample at low temperatures.
+
+There are two ways of transporting samples around the work station. The shuttle fits inside the harbor. one sample can be fixed on it with screws and a brace with a hole called "window". The hole in the window exposes the upper side of the sample, allowing access for the finger and microscopy. On the other hand, small container with space for three $\varnothing$\SI{5}{\milli\meter} samples are used. These are 3D Printed, modified version of other containers, which can be stored in Sets of 12 in a long term storage.
+
+FIGURE CONTAINER AND SHUTTLE.
+
+In the beginning a smaller bath is used (Fig. \ref{fig:KleinesBad}). The Small bath contains two floors. The second floor is exposed and used for work. embedded in the floor are container holder, allowing transport and storage of samples. Then three elevated baths are installed for other Liquids or tools. Also a Haven for a shuttle is installed which is used for the microscopy. The small baths and the haven is elevated over the second floor, so a temperatures over \SI{-195.8}{\degreeCelsius} can be regulated. The whole assembly is insulated by Nitrogen gas flowing inside the wall of the bath. Then the Nitrogen gas is blown from the brim radially to the rotation axis. The nitrogen gas separates the damp air in the room with the dry nitrogen gas inside the bath, preventing ice to form inside the bath.
+
+This small bath can also be used with a finger. But this has some limitation: first, the space is small. The finger can be moved, but the space limits work with pincers. Additionally, the smaller baths are not needed for using the finger. also the Shuttle needs to be tilted in a specific angle so the shuttle can be moved in and out of the haven. The work flow also allows only one Shuttle in use at once, limiting throughput. Also Liquid nitrogen needs to be refilled quickly.
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{overpic}[width=10cm]{SmallBath}
+		\put(40,25){\vector(1,1){10}}
+		\put(40,25){\makebox(0,0)[r]{Shuttle Haven}}
+		\put(25,45){\vector(1,0){10}}
+		\put(25,45){\makebox(0,0)[r]{Tool Bath}}
+		\put(73,35){\vector(-1,1){10}}
+		\put(73,35){\makebox(0,0)[l]{Ethanol Bath}}
+		\put(73,27){\vector(-1,1){10}}
+		\put(73,27){\makebox(0,0)[l]{HFE Bath}}
+		\put(49,76){\vector(-0.15,-1){3.4}}
+		\put(51,76){\vector(0.15,-1){3.4}}
+		\put(50,76){\makebox(0,0)[b]{container holder}}
+		\put(75,78){\vector(-2,-1){10}}
+		\put(76,78){\vector(-1,-2){4.5}}
+		\put(75,78){\makebox(0,0)[b]{outlets}}
+		\put(75,80){\makebox(0,0)[b]{Nitrogen Gas}}
+		
+	\end{overpic}
+	\caption{Small Bath.}
+	\label{fig:KleinesBad}
+\end{figure}
+
+During this master thesis, a second bigger bath is build (Fig. \ref{fig:GroßesBadMitFinger}). In general, the structure is similar. It also has a second elevated floor which is fabricated out of two plates screwed together. it also has indents for containers. No baths are installed, but space is held free for later addition of small baths. Also two harbors can be mounted for parellel work on two shuttles. Also both harbors can be mounted either flat or with an angle. The Bath is insulated with styrofoam and a rim with holes for warm nitrogen gas is placed on top. The holes are places along the inside of the longer side, so the stream covers the whole area with minimal turbulence. This also keeps the inside ice free.
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{overpic}[width=7cm,grid]{BigBathWithFinger}
+		
+	\end{overpic}
+	\caption{Big Bath with Finger.}
+	\label{fig:GroßesBadMitFinger}
+\end{figure}
+
+The Shuttles are also used in cryo light microscopes. The Microscope used for cryotemperatures have an additional box installed, routing Cold nitrogen gas underneath a harbor, where the sample is placed. Heaters are placed around the box and under the harbor to archieve a constant temperature. On top of the Harbor, warm Nitrogen is blown so no ice is forming inside the optical path.
+
+\FloatBarrier
+
+\subsection{general process}
+
+The goal is to mechanically lift a piece or the whole ice layer off the slide it is frozen to. The challenge is that the sample needs to stay at a vitrified state. The "finger" as previously explained is a device which can lift at a temperature range which guarantees that the sample stays vitrificated. 
 
 The process has following steps: First, if not already done, cool down the finger to -140\,°C. The sample is prepared and fixed onto a shuttle in the harbor underneath  the finger.Then, HFE is applied on the tip. Then, the finger is positioned with the stages over the sample. After checking from different sides an camera, the finger is lowered onto the sample. Then the temperature is reduced and waited until the sample and finger is cooled down. Then the finger is pulled up by turning the stage until it detaches from the sample. After this step, if detaching was successful, the shuttle is changed to an empty shuttle. the Piece is lowered onto it and the piece is unglued by lowering the temperature. then the piece is fixed onto the shuttle.
 
@@ -130,17 +204,17 @@ To still determine the correct glue amount, two pictures representing the lowest
 
 \subsection{temperature test}
 
-Ethoxynonafluorobutane, also called HFE 7200, has a melting point of -138\,°C. Below, HFE gets increasingly viscious until it is hard and brittle. This property can be used as a temperature controlled glue. To attach/detach a piece, a temperature at around -138\,°C is used so the HFE is nearly liquid. At lower temperatures, HFE hardens and glues the finger onto the piece. First, a temperature of -160\,°C is used to glue and attach to the sample. But the temperature regulation is not always able to set the temperature and even lower temperatures are maybe beneficial. 
+Ethoxynonafluorobutane, also called HFE 7200, has a melting point of \SI{-138}{\degreeCelsius}. Below, HFE gets increasingly viscious until it is hard and brittle. This property can be used as a temperature controlled glue. 
 
-HFE
+In use three mode with different temperatures exist: first in "unglue" node, the shuttle and the finger is held at \SI{-140}{\degreeCelsius}. HFE has a low viscosity, which allows application on the sample. Also detachment without breaking the sample is possible. in "glue" the shuttle and the finger are cooled to \SI{-160}{\degreeCelsius}, HFE hardens and force can be applied to detach the ice layer. then, "thaw" cleans the finger by heating the tip to \SI{20}{\degreeCelsius}. 
+
+As HFE is getting harder with temperature, lower temperatures in the "glue" state could allow higher forces to reliably detach the ice layer. To test this hypothesis, HFE is examined at temperatures until \SI{-170}{\degreeCelsius}. (DESCRIPTON??? VIELLEICHT?)
 
 \subsection{tensile- vs shear mode}
 
 The direction of force is also a factor which can easen liftoff of ice. Tensile mode an shear mode can be currently applied with the finger. Tensile modes advantage is the easy application with the finger. But for separating layers, this mode takes more force, as a bigger area adhering on the slide take the forces of the finger. The tensile mode would take less force, but removing a smaller part off the surface is difficult.
 
-In application, the shuttle is tilted around 15 degrees for easier access to the shuttle. The finger is also tilted so the tip is parallel to the shuttle. To apply force, the finger can be pulled by stages in each X, Y, and Z direction. In 
-
-Other tests, only tensile mode was used.
+In application, the shuttle is tilted around 15 degrees for easier access to the shuttle. The finger is also tilted so the tip is parallel to the shuttle. To apply force, the finger can be pulled by stages in either X, Y, or Z direction. For each direction, the stress can be split into tensile and shear stress. In Z direction, mostly tensile stress is applied (Fig. \ref{fig:tensilevsshear} (a)). in X direction, mostly shear stress is applied (Fig. \ref{fig:tensilevsshear} (b)). In Y direction, only shear stress is applied, but will result in shattering of the sample, as the Ice layer is clamped down which will not allow sideways motion.
 
 \begin{figure}[hbt!]
 	\centering
@@ -157,8 +231,6 @@ Initially, to save time for experiments, the samples are freezed by Hand in liqu
 
 To compare the influence of hand freezing and plunge freezing, results of lifting off samples frozen with both methods are compared. No other factors are varied in those experiments. In the end, hand freezing and plunge freezing did not make a difference. Therefore, hand freezing was also applied in future experiments, as this effect is determined as neglegtable compared to other factors.
 
-
-
 \section{PDMS}
 
 PDMS is as stated before a coating which is used for passive deicing. It is hydrophobic and has a low surface energy. Also it can be coat spinned into a thin layer, which is needed in this application. Also it is widely available and tunable. The only downside is that the surface needs to by hydrophile when plunge freezing. The simplest method is using a Plasma generator.
@@ -171,12 +243,9 @@ Additionally,as PDMS is hydrophobic, plasmatreatment is used to make the surface
 
 I found that plasma treatment has different effects on the PDMS on different mixture ratios. 
 
-Why PDMS was chosen
-
 \subsection{Preparation of PDMS samples}
 
 All PDMS samples with different mixtures are prepared in the same way. The preparation starts with weighting out the needed amount of base coat and curing agent. The mixture is now stirred intensively. Then the mixture is placed in a vacuum bell for 30 minutes to gas out air bubbles. Meanwhile the cover glasses used as slides are cleaned with ethanol or isopropanol. Afterwards, the DPMS mixture is coat-spinned on the cover glass for 5 seconds with 300 rpm and then 120 seconds with 3000 rpm. Then the coated cover glasses are baked in the oven for 30 minutes exept a mixture of 1 base coat and 2 curing agent mixing ratio PDMS. For those 24 hours are needed, as it takes longer to harden and it will result in unwanted effects at plasma curing.
-
 
 
 \subsection{Influence of plasma treatment on PDMS}
