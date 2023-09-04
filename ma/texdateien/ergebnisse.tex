@@ -169,25 +169,31 @@ Wrong positioning, forming of ice
 
 \section{PDMS}
 
-Now two mixture ratios of PDMS are compared. For this, samples where coated with 4:1 and 1:2 curing agent to base coat weight ratio. Also for ..., glass without pdms is used. The pulling mashine was used to determine the max force. A plexiglass stamp was used for pulling off the PDMS layer. UV Glue was used to fixate the plexiglass onto the PDMS and is cured with 3 min UV exposure. After pulling, the Area of the separating layers is determined via microscope. Then the max pulling tension is calculated. This was repeated several times. The Result shows, that glass is hardest do pull off. Then 4:1 is harder to separate than 1:2 (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). In literature, 1:2 weight ratio should have a lower adhesion force on ice too\cite{IbanezIbanez.2022}. For those reasons, 1:2 was picked to continue experiments with plasma treatment.
+To speed up the process of finding the right balance of PDMS Mixture ratio and plasma curing, experiments at room temperature done. For this, a pulling machine is used. First the sample is prepared. Then, the sample is clamped to the pulling machine. Then a plexiglass stamp is aligned on top of the sample. With UV glue, the stamp is glued to the PDMS layer on the sample. Before gluing, the Force and distance is set to zero on the pulling machine. After gluing, a couple minutes are waited so no further stress changes are ongoing from the gluing process. then the Machine is pulling on the sample with constant velocity. After detachment, the measurement is stopped. Afterwards, the stamp and the layer are analyzed under a microscope. The area is determined. With the maximum force and area, the maximum stress is calculated. Each experiment is repeated multiple times.
 
-\begin{figure}
+In between experiments, small variations are made: two different stamps are used, one has an area of \SI{2}{\milli\meter} x \SI{3}{\milli\meter} and another stamp is \SI{3}{\milli\meter} x \SI{3}{\milli\meter}. Since the area is measured afterwards, this should not have a significant effect on the results. Also, in the beginning, while waiting of the stress changes to subside, the pulling machine was inactive. with this, the Force before pulling will be higher as zero. Before pulling, the machine is set back to zero. After pulling, there is an offset between the neutral value and the value before because of zeroing, so the offset needs to be corrected. To avoid this, the pulling machine is set to zero force while waiting instead. Then no offset correction is needed. The offset correction and new method increased the accuracy between pull tests.
+
+To verify the setup, samples coated with 4:1 and 1:2 curing agent to base coat weight ratio and uncoated coverglass used as slides are compared. The results show 2:1 mixture ratio with $87.3\pm19.9\,\si{\kilo\pascal}$ is easier to detach than 1:4 mixture ratio with $429.1\pm5.1\,\si{\kilo\pascal}$ (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). Also glass without PDMS takes up a lot more tensile stress with $1161.5\pm111.5\,\si{\kilo\pascal}$. sometimes the machine is able to break the glass. Under the microscope, it is not visible if the PDMS layer itself was lifted from the glass or not.
+
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=14cm]{plotVGLZugspannungPDMSMischungsverhaeltnisse}
 	\caption{Comparison 4:1, 1:2 Base coat to curing Agent and glass without PDMS}
 	\label{fig:vgl4:1zu1:2zuGlas}
 \end{figure}
 
-\begin{figure}
+In literature, the ice adhesion on PDMS without plasma treatment is \SI{35}{\kilo\pascal}. for 2:1 and 5:1 the stress is between $60$ to \SI{80}{\kilo\pascal} \cite{IbanezIbanez.2022}. This is lower considerably lower than the experiment before. Therefore, one limitation is that the actual adhesion between ice and PDMS cannot be simulated by this experiment. Still, there is a correlation between the values and the experiment can give an insight of PDMS durability. In the end, if the separation happens between ice and pdms or pdms and glass are both good results. 
+
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=14cm]{ForceOverTime}
 	\caption{force over Time}
 \end{figure}
 
-In the next experiment, the effect of plasma curing is investigated. The same setup is used. Samples with a 2:1 weight ratio are additionally plasma treated before quickly clamping on the pulling mashine. Even with low repetition rates, a clear tendency can be observed. With lower and stronger plasma treatment, the durable the PDMS Layer gets (Fig. \ref{fig:PlotPlasmaAktivierung}). Over the whole range, The needed stress sextubles. Because the repititon rate is low, the exact values should be treated cautiosly. Also the results are not applicable to other mixture ratios, as different behaviour in plasma activation was observed between 2:1 and 4:1 weight ratio. also no glass-like state was observed in 2:1 weight ratio mixture.
+In the next experiment, the effect of plasma curing is investigated. As the mixture ratio of 1:2 has the lowest adhesion, this experiment used this pdms mixture ratio. The same setup is used. Samples with a 2:1 weight ratio PDMS are additionally plasma treated before quickly clamping on the pulling machine. Even with low repetition rates, a clear tendency can be observed. With lower and stronger plasma treatment, the durable the PDMS Layer gets (Fig. \ref{fig:PlotPlasmaAktivierung}). Over the whole range, The needed stress sextubles. Because the repititon rate is low, the exact values should be treated cautiosly. Also the results are not applicable to other mixture ratios, as different behaviour in plasma activation was observed between 2:1 and 4:1 weight ratio. also no glass-like state was observed in 2:1 weight ratio mixture.
 
 
-\begin{figure}[h]
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=14cm]{plot2_1PlasmaAktivierung}
 	\caption{PDMS 2:1 Comparison between various Plasma curing strengths and durations.}
@@ -195,4 +201,4 @@ In the next experiment, the effect of plasma curing is investigated. The same se
 \end{figure}
 
 
-
+TODO VGL
