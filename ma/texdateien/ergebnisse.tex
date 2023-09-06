@@ -106,10 +106,12 @@ Results show that pipetting HFE is not reliable. The range spreads of too little
 \begin{figure}[hbt!]
 	\centering
 	\begin{subfigure}[]{0.45\textwidth}
+		\centering
 		\includegraphics[width=6cm]{Temp_Picture_Lower_Limit}
 		\caption{chosen example for lower limit}
 	\end{subfigure}
 	\begin{subfigure}[]{0.45\textwidth}
+		\centering
 		\includegraphics[width=6cm]{Temp_Picture_Upper_Limit}
 		\caption{chosen example upper limit}
 	\end{subfigure}
@@ -138,7 +140,9 @@ Therefore, the finger can be used at \SI{-165}{\degreeCelsius}. But for better r
 
 \subsection{Tensile mode vs Shear mode}
 
+As mentioned before, Force can be applied by moving the stage in either X, Y or Z axis. In the tilted position of the harbor, moving in Z axis splits in mostly tensile mode but also shear mode. This is used in almost all experiments.
 
+In a couple experiments, moving in X axis is tried instead. Generally, way less force is transferred. this is feelable on the stage and hearable at detachment. The reason is probably the HFE not being able to handle high shear forces. (kann ich das beweisen???)
 
 \subsection{Detaching ice with finger of plunge freezed samples}
 
@@ -171,13 +175,15 @@ Wrong positioning, forming of ice
 
 To speed up the process of finding the right balance of PDMS Mixture ratio and plasma curing, experiments at room temperature done. For this, a pulling machine is used. First the sample is prepared. Then, the sample is clamped to the pulling machine. Then a plexiglass stamp is aligned on top of the sample. With UV glue, the stamp is glued to the PDMS layer on the sample. Before gluing, the Force and distance is set to zero on the pulling machine. After gluing, a couple minutes are waited so no further stress changes are ongoing from the gluing process. then the Machine is pulling on the sample with constant velocity. After detachment, the measurement is stopped. Afterwards, the stamp and the layer are analyzed under a microscope. The area is determined. With the maximum force and area, the maximum stress is calculated. Each experiment is repeated multiple times.
 
+\subsection{experiments at room temperature}
+
 In between experiments, small variations are made: two different stamps are used, one has an area of \SI{2}{\milli\meter} x \SI{3}{\milli\meter} and another stamp is \SI{3}{\milli\meter} x \SI{3}{\milli\meter}. Since the area is measured afterwards, this should not have a significant effect on the results. Also, in the beginning, while waiting of the stress changes to subside, the pulling machine was inactive. with this, the Force before pulling will be higher as zero. Before pulling, the machine is set back to zero. After pulling, there is an offset between the neutral value and the value before because of zeroing, so the offset needs to be corrected. To avoid this, the pulling machine is set to zero force while waiting instead. Then no offset correction is needed. The offset correction and new method increased the accuracy between pull tests.
 
 To verify the setup, samples coated with 4:1 and 1:2 curing agent to base coat weight ratio and uncoated coverglass used as slides are compared. The results show 2:1 mixture ratio with $87.3\pm19.9\,\si{\kilo\pascal}$ is easier to detach than 1:4 mixture ratio with $429.1\pm5.1\,\si{\kilo\pascal}$ (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). Also glass without PDMS takes up a lot more tensile stress with $1161.5\pm111.5\,\si{\kilo\pascal}$. sometimes the machine is able to break the glass. Under the microscope, it is not visible if the PDMS layer itself was lifted from the glass or not.
 
 \begin{figure}[hbt!]
-	\centering
-	\includegraphics[width=14cm]{plotVGLZugspannungPDMSMischungsverhaeltnisse}
+	\centering	
+	\input{../images/plotVGLZugspannungPDMSMischungsverhaeltnisse.pgf}
 	\caption{Comparison 4:1, 1:2 Base coat to curing Agent and glass without PDMS}
 	\label{fig:vgl4:1zu1:2zuGlas}
 \end{figure}
@@ -186,7 +192,7 @@ In literature, the ice adhesion on PDMS without plasma treatment is \SI{35}{\kil
 
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[width=14cm]{ForceOverTime}
+	\input{../images/plotForceOverTime.pgf}
 	\caption{force over Time}
 \end{figure}
 
@@ -195,10 +201,33 @@ In the next experiment, the effect of plasma curing is investigated. As the mixt
 
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[width=14cm]{plot2_1PlasmaAktivierung}
+	\input{../images/plot2_1PlasmaAktivierung.pgf}
 	\caption{PDMS 2:1 Comparison between various Plasma curing strengths and durations.}
 	\label{fig:PlotPlasmaAktivierung}
 \end{figure}
 
+PDMS wie aussehen in Raumtemperatur
 
-TODO VGL
+Kontaktwinkel schätzen
+
+\subsection{experiments at cryogenic temperatures}
+
+At cryogenic temperatures, three different mixture ratios are tested. 1:2 mixture ratio is used with minimal plasmaactivation, based on the result in previous chapter. 4:1 is used with 10 minutes 100\% plasma activation. 50:1 is used with 3 minutes plasmaactivation with 25\% and 100\%. additionally for 50:1, plasma activation for 10 minutes at 100\% is tested
+
+1:2
+
+To additionally measure the force applied of the finger, the pulling machine is used in combination with the finger. In the lab, the small bath is used for sample preparation. after microscopy, the sample is transported to the pulling machine. the big bath is fixed on the bottom of the pulling machine. on top, the finger is clamped into the shackle and aligned to the shuttle. The process is still as previously stated. 
+
+This setup has a lot of limitation. Aligning the finger is very difficult, as the screws are hard to reach in cold temperature. When cooling, the previous alignment ist lost as the coldness distort the setup. Also little movement at the finger has maximum effect on the sample and alignment. touching the tubes can loosen the sample and/or the setup needs to be new aligned. Even a bigger window is not enough. Errors in alignment and therefore gluing to the border of the window and loosening through movement are the two biggest error sources in this setup. So the old setup is used in further experiments to eliminate big error sources.
+
+GRAPHIK HIER MIT MAxIMALER KRAFT DIE MIT HFE AUSGEWIRKT WIRD
+
+RECHNUNG WIE DIE ZUGSPANNUNG IST ZWISCHEN DEN FENSTERN.
+
+	Zugmaschine mit Finger
+
+4:1
+
+50:1 
+
+
