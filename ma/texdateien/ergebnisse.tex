@@ -210,6 +210,8 @@ PDMS wie aussehen in Raumtemperatur
 
 Kontaktwinkel schätzen
 
+\FloatBarrier
+
 \subsection{experiments at cryogenic temperatures}
 
 At cryogenic temperatures, three different mixture ratios are tested. 1:2 mixture ratio is used with minimal plasmaactivation, based on the result in previous chapter. 4:1 is used with 10 minutes 100\% plasma activation. 50:1 is used with 3 minutes plasmaactivation with 25\% and 100\%. additionally for 50:1, plasma activation for 10 minutes at 100\% is tested
@@ -219,6 +221,53 @@ At cryogenic temperatures, three different mixture ratios are tested. 1:2 mixtur
 To additionally measure the force applied of the finger, the pulling machine is used in combination with the finger. In the lab, the small bath is used for sample preparation. after microscopy, the sample is transported to the pulling machine. the big bath is fixed on the bottom of the pulling machine. on top, the finger is clamped into the shackle and aligned to the shuttle. The process is still as previously stated. 
 
 This setup has a lot of limitation. Aligning the finger is very difficult, as the screws are hard to reach in cold temperature. When cooling, the previous alignment ist lost as the coldness distort the setup. Also little movement at the finger has maximum effect on the sample and alignment. touching the tubes can loosen the sample and/or the setup needs to be new aligned. Even a bigger window is not enough. Errors in alignment and therefore gluing to the border of the window and loosening through movement are the two biggest error sources in this setup. So the old setup is used in further experiments to eliminate big error sources.
+
+Over all pulls, the HFE can transfer a maximum force of $1.30\pm0.49\,\si{\newton}$. The area which experienced the force is unknown. Additionally, the force distribution is uneven (e.g. like Fig. \ref{fig:ZeichnungBerechnungStress_a}). Still, a worst case and a best case which are easily calculated can be determined. as best case, all force is evenly distributed under the area of the finger (Fig. \ref{fig:ZeichnungBerechnungStress_b}). With this assumption, the Area is equal to the finger tip area. The worst case is an even distribution over the whole surface (Fig. \ref{fig:ZeichnungBerechnungStress_c}). The surface is clamped by the window. So the inner diameter of the Window is the worst case area. In reality, the Force is somewhere in between (Table \ref{table:VerschAbschätzungenStressFinger}).
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.3\textwidth}
+		\centering
+		\input{../images/ZeichnungBerechnungStressFinger_Combined.pdf_tex}
+		\caption{}
+		\label{fig:ZeichnungBerechnungStress_a}
+	\end{subfigure}
+	\begin{subfigure}[]{0.3\textwidth}
+		\centering
+		\input{../images/ZeichnungBerechnungStressFinger_Finger.pdf_tex}
+		\caption{}
+		\label{fig:ZeichnungBerechnungStress_b}
+	\end{subfigure}
+	\begin{subfigure}[]{0.3\textwidth}
+		\centering
+		\input{../images/ZeichnungBerechnungStressFinger_Window.pdf_tex}
+		\caption{}
+		\label{fig:ZeichnungBerechnungStress_c}
+	\end{subfigure}
+	\caption{Areas Vgl (TODO BESCHREIBUNG)}
+	\label{fig:ZeichnungBerechnungStress}
+\end{figure}
+
+
+\begin{table}[hbt!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Area used & Area Size & Tensile Stress\\
+		\hline
+		\hline
+		Finger & \SI{2.217}{\milli\meter\squared} & $585.4\pm219.4\,\si{\kilo\pascal}$ \\ 
+		\hline
+		Small Window & \SI{4.91}{\milli\meter\squared} & $264.3\pm99.1\,\si{\kilo\pascal}$ \\ 
+		\hline
+		Big Window & \SI{12.56}{\milli\meter\squared} & $103.3\pm38.7\,\si{\kilo\pascal}$ \\ 
+		\hline
+	\end{tabular}
+	\caption{different Areas used estimation of finger. The Real value is between the optimum of the finger area and the worst case of the window.}
+	\label{table:VerschAbschätzungenStressFinger}
+\end{table}
+
+
 
 GRAPHIK HIER MIT MAxIMALER KRAFT DIE MIT HFE AUSGEWIRKT WIRD
 
