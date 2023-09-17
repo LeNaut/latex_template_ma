@@ -337,73 +337,100 @@ The gap between sample and "finger" is sometimes hard to estimate. The HFE volum
 
 PDMS is a polymer used in coatings for passive deicing. It is hydrophobic and has a low surface energy. Also it can be coat spinned into a thin layer to form the thin coat. Also it is widely available and tunable. To use PDMS in plunge freezing, the PDMS is plasma activated. The requires a Plasma generator.
 
-To create different PDMS mixtures, Dowsil Sylgard 184 Silicone elastomer is used\cite{DOW.}. It has two components.  The base coat component is highly viscious, whereas the curing agent is liquid. The Specified mixture ratio is 10 base coat to 1 curing agent (10:1). In many application, other mixture ratios are used and additives are added for tuning PDMS. In my research, I focussed on tuning only the mixture ratio of base coat to curing agent. 
+To create different PDMS mixtures, Dowsil Sylgard 184 Silicone elastomer is used\cite{DOW.}. The PDMS kit has two components. The base coat component is highly viscious, whereas the curing agent is liquid. The Specified mixture ratio is 10 base coat to 1 curing agent in weight (10:1). In some applications, other mixture ratios are used and additives are added for tuning PDMS. In my research, I focussed on tuning the mixture ratio of base coat to curing agent. 
 
-Plasma curing is commonly used as PDMS treatment. It is for example used in bonding two PDMS surfaces together \cite{Borok.2021}. It is also used for increasing wettability and adhesion. Plasma treatment is changing the chemistry of the polymer chains on the surface. Charged Oxygen Ions are deposited on the surface, making the surface hydrophile and increasing water adhesion. With this, the structure of the PDMS is permanently changed. In some cases cracks form as the surface oxidizes to a silica like form.
+PDMS properties are also temperature dependent. In \cite{Zhang.2020}, multiple characteristics are determined for cryogenic temperatures. The PDMS is prepared with the standard mixture ratio of 10:1. The compressive strength increases with lower temperatures until \SI{-123.15}{\degreeCelsius}. At this temperature, the compressive strength reaches a maximum of \SI{224.50}{\mega\pascal} in average. At lower temperatures, the PDMS gets brittle. At \SI{-150.15}{\degreeCelsius} PDMS has a compressive strength of \SI{106.99}{\mega\pascal}.
 
-In \cite{Owen.1994}, the effect of plasma treatment of Oxygen, Nitrogen, Argon and Helium is researched. The effect on wettability, adhesion and cracking is observed. Thin PDMS sheets are used. They found only small differences between gasses. Therefore using air (mainly a mixture of nitrogen and oxygen) is sufficient to plasma activate the surface.
+The "finger" requires a temperature of \SI{-160}{\degreeCelsius}. Therefore, the temperature drops enough to make PDMS of 10:1 mixture ratio brittle. Generally, a brittle PDMS surface helps to detach the ice layer. Tensile forces loosens the PDMS under the Ice. The PDMS layer breaks within itself, loosening the ice layer from the rest of the sample. Still, an extreme brittleness is needed, which may not be reached. With PDMS of other mixture ratios, the brittleness could change, including the temperature dependency.
 
-THIS NEEDS MORE WORK TOO
+\subsection{Plasma surface treatment of PDMS}
 
-ABSATZ RISSE BEI KÄLTE
+Plasma curing is commonly used as PDMS treatment. For example, it is used to bond two PDMS surfaces together \cite{Borok.2021}. It is also used for increasing wettability and adhesion. Plasma treatment is changing the chemistry of the polymer chains on the surface. Charged Oxygen Ions are deposited on the surface. these Ions make the surface temporarily hydrophile and increasing water adhesion. The Ions change the structure of the PDMS is permanently by oxidation. In some cases, cracks form as the surface oxidizes to a silica like form.
 
-The effect of Plasma activation between mixture ratios is mostly unknown. At mixture ratios above 50:1 base coat to curing agent, no significant differences between plasma activation is observed \cite{Ohishi.2017}. The effect of plasma activation below 50:1 mixture ratio is unknown. 
+In \cite{Owen.1994}, the influence of different gasses on PDMS plasma treatment is examined. Oxygen, Nitrogen, Argon and Helium are compared on the effect on wettability, adhesion and cracking. Thin PDMS sheets are used with unknown composition. They found similar results between gasses. All gasses produced a thin and brittle surface with cracks and high wettability. Based on these results, used gas is not a significant factor for plasma activation. Therefore using only air (mainly a mixture of nitrogen and oxygen) is sufficient to determine the effect of plasma treatment.
 
-ÜBERLEITUNG
+%&The effect of Plasma activation between mixture ratios is mostly unknown. At mixture ratios above 50:1 base coat to curing agent, no significant differences between plasma activation is observed \cite{Ohishi.2017}. 
+
+In \cite{Ohishi.2017}, the influence of plasma treatment on Mixture ratios of 50:1 to 100:1 is described. A thin layer of those PDMS mixtures is put onto a preformed PDMS piece with lower mixture ratio. The preformed piece is used to apply shear stress to the surface by stretching the lower PDMS form piece. Therefore only tensile force are examined. It shows no significant difference between described mixture ratios. It also shows that higher plasma treatment leads to more brittle surfaces, reducing the force needed to break the PDMS Layer by $90\,\%$.
+
+Also known are the adhesion forces on PDMS from 1:3 to 50:1 mixture ratio. In \cite{IbanezIbanez.2022}, PDMS is mixed in different weight ratios. The mixture is given into a mold and afterwards fully cured. An ice block is frozen on top of the PDMS. Using a pulling machine the maximum tensile and shear forces for detaching ice from PDMS are determined. Results show that mixture ratios 10:1 to 1:3 have significant lower adhesion forces on ice. At for example at 2:1, the shear mode is just under \SI{20}{\kilo\pascal} and the tensile mode around \SI{30}{\kilo\pascal}. 
+
+Still, the effect of plasma activation under 50:1 is unknown. The plasma activation has two effects: first, it can increase the adhesion on ice to PDMS. second, the PDMS changes its structure, which could increase as well as decrease the strength of the PDMS layer. In the following, the effect of plasma activation on PDMS are examined. This is done at room temperature to speed up the process.
 
 \subsection{Preparation of PDMS samples}
 
-All PDMS samples are prepared in a similar way only warying minimal in a couple of steps. The preparation starts with weighting out the needed amount of base coat and curing agent. The mixture is then stirred intensively. The mixture is placed under a vacuum bell to gas out air bubbles. Meanwhile the slides are cleaned with ethanol or isopropanol and dried. Afterwards, the PDMS mixture is coat-spinned on the slides. Then the coated cover glasses are baked in the oven.
+All PDMS samples are prepared in a similar way. The preparation starts with weighting out the desired amount of base coat and curing agent. The mixture is stirred intensively. The mixture is placed under a vacuum bell to gas out all air bubbles from stirring. Meanwhile the glass covers are cleaned with ethanol or isopropanol and dried. Afterwards, the PDMS mixture is coat-spinned onto the glass covers. Then the coated cover glasses are baked in the oven.
 
-For 1:2 base coat to curing agent weight ratio, the PDMS mixture is comparably liquid. A vacuum of \SI{30}{\minute} is used. A coat spinning time of \SI{120}{\minute} at \SI{3000}{\rpm} is results in a smooth surface for all used slides. The baking time should be at least \SI{24}{\hour} by \SI{80}{\degreeCelsius}. For shorter baking times, plasma treatment has a slighlty different effect. Normally, touching a treated area will neutralize the effect of plasma treatment like hydrophility only locally on the touched surface. But here, touching the surface leads to the complete neutralization of plasma treatment when touching. In this work, the effect is undesired. 
+For 1:2 base coat to curing agent weight ratio, the PDMS mixture is lightly viscious. A vacuum of \SI{30}{\minute} is drawn for degassing. A coat spinning time of \SI{120}{\minute} at \SI{3000}{\rpm} results in a smooth surface on all used slides. The baking time of at least \SI{24}{\hour} by \SI{80}{\degreeCelsius} is needed. For shorter baking times, plasma treatment has a slighlty different effect. Normally, touching a treated area will neutralize the effect of plasma treatment like hydrophility only locally on the touched surface. But here, touching the surface leads to the complete neutralization of plasma treatment when touching. In this work, the effect is undesired.
  
-For 4:1 base coat to curing agent weight ratio, the PDMS is more viscious. The Vacuum and coat spinning are the same for \SI{30}{\minute} vacuum and \SI{3000}{\rpm} for \SI{120}{\minute}. But a baking time of \SI{30}{\minute} at \SI{80}{\degreeCelsius} is already sufficient to harden the PDMS. 
+For 4:1 base coat to curing agent weight ratio, the PDMS mixture is more viscious. The Vacuum and coat spinning are the same for \SI{30}{\minute} vacuum and \SI{3000}{\rpm} for \SI{120}{\minute}. But a baking time of \SI{30}{\minute} at \SI{80}{\degreeCelsius} is already sufficient to harden the PDMS. 
 
-For 50:1 base coat to curing agent weight ratio, the PDMS mixture is as viscious as the base coat. A longer vacuum of \SI{1}{\hour} is needed to air out all bubbles. Because of the higher viscosity, the coat spinning is increased to \SI{3500}{\rpm} for \SI{180}{\minute} (NACHSCHAUEN). Also a longer baking time of \SI{20}{\hour} at \SI{80}{\degreeCelsius} is needed to harden the PDMS. 
+For 50:1 base coat to curing agent weight ratio, the PDMS mixture is as viscious as the base coat. A longer vacuum of \SI{1}{\hour} is needed to air out all bubbles. The coat spinning speed and time is increased to \SI{3500}{\rpm} for \SI{180}{\minute} (NACHSCHAUEN). Also a longer baking time of \SI{20}{\hour} at \SI{80}{\degreeCelsius} is needed to harden the PDMS. 
 
-Additionally, rectangular cover glass with 20x20 and 24x40 are coat spinned and split in multiple smaller pieces to speed up the sample preparation process. The process is the same described as before for each PDMS mixture ratio, but with two additional steps.
+In the coat spinning setup, each slide is coat spinned in succession of each other. Each coat spinning process needs 2 to 3 minutes. This results in a time consuming process. To speed up the process, rectangular cover glass with 20x20 and 24x40 are coat spinned. afterwards the cover glass is split in multiple smaller pieces. 
 
-Before coat spinning, the glass is scratched with a diamond Pencil. This helps with breaking the glass into smaller parts into predefined parts. Then, tape is put over the scratched glass. Then the pdms is coat spinned onto the glass with tape on the bottom side. 
+The process is the same described as before for each PDMS mixture ratio, but with some adjustments. Before coat spinning, the glass is scratched with a diamond pencil. The scratches in the glass are weak points for breaking out smaller parts. Tape is put over the scratched glass. The glass is put into the coat spinner with the taped side facing down. The PDMS is coat spinned onto the exposed glass side. The baking process is as previously described. After baking, the glass is broken into smaller pieces. This is done by dragging the attached tape over a table edge. Then the glass is fixedto the table with PDMS facing up. The PDMS is covered with (????) to keep the PDMS clean. As the sticky side of the tape is not facing the table, the tape ends are additionally taped to the Table. Then smaller sample pieces can be broken off, The pieces are loosened from the tape by forcing a flat pincer between glass and the tape it is attached to.
 
-After baking in the oven, the glass the glass is broken into smaller pieces. Then the glass is fixed again tape side down to the table and is covered with PLASTIC (WIE HEI?T DIE FOLIE???). Then smaller sample pieces can be broken off by loosening the broken glass pieces with flat pincers.
+This method has advantages as well as drawbacks to coat spinning small glass pieces separately. First, time is won by coat spinning, as one big glass can be split into several smaller ones. The Sample can stay fixed at the table without risking damaged. The samples can be broken off shortly before the experiment. But with hand scratching, only irregular and rectangular shapes can be won out of the bigger glass piece. also there is a significant loss of samples. This is by one part by breaking the sample. Some cracks do not follow the scratch, which leads to too small samples. Also in the process of loosening a piece cracks can form, making the piece too small for use.
 
-This method has advantages as well as drawbacks to coat spinning small glass pieces separately. First, time is won by coat spinning, as one big glass can be split into several smaller ones. But with hand scratching, only irregular and rectangular shapes can be won out of the bigger glass piece. also at breaking and loosening with pincers, samples are lost. This is a result of cracks forming through rough handling with the pincers and cracks also forming at non scratched parts.
+In the end, these two different fabrication methods are used for different experiments. The small round cover glasses are used in combination with the finger. The regular pieces are easier set up with the shuttle. The glass pieces broken out of a big cover glass are used under the pulling machine at room temperature. In this setup, fluctuations in size of the glass pieces are easier to handle and the clamp has more flexibility.
 
-\subsection{Influence of plasma treatment on PDMS}
+\subsubsection{Setup of the pulling machine}
 
-As not much data is known about Plasma treatment on certain PDMS mixture ratios, 
-
-In one paper, the influence of plasma treatment on Mixture ratios of 50:1 to 100:1 is described  \cite{Ohishi.2017}. A thin layer of those pdms mixtures is put onto a preformed PDMS piece with lower mixture ratio. The preformed piece is used to apply shear stress to the surface by stretching the lower PDMS form piece. Therefore only tensile force is examined in this paper. It shows no significant difference between described mixture ratios. It also shows that higher plasma treatment leads to more brittle surfaces, reducing the force needed to break the PDMS Layer by $90\,\%$.
-
-Also known is the adhesion force on PDMS on different mixtures from 1:3 to 50:1 mixture ratio \cite{IbanezIbanez.2022}. A block of PDMS is molded with one mixture ratio. Then, an Ice block is frozen on top of the PDMS. Hooks are attached on both sides and a pulling machine is pulling on the ice and PDMS. This is done with tensile and shear mode. It shows that mixture ratios 10:1 to 1:3 have significant lower adhesion forces on ice. At for example at 2:1, the shear mode is just under \SI{20}{\kilo\pascal} and the tensile mode around \SI{30}{\kilo\pascal}. 
-
-Still, the effect of plasmaactivation under 50:1 is unknown. The Plasmaactivation could have two effects: first, it can increase the adhesion on ice to pdms. second, the pdms could change it structure, which could increase as well as decrease the strength of the PDMS layer. In the following, the effect of plasma activation on PDMS is examined.
-
-\subsubsection{setup}
-
-To test the tensile strength of different PDMS mixtures and the effect of plasmacuring, a Pulling machine (NAME RAUSFINDEN)is used. 
-On the Top part, two sensors are installed. The upper Sensor is rated for \SI{2}{\kilo\newton}(ÜBERPRÜFEN). the lower sensor is rated for up to \SI{100}{\newton}. As the upper one is extremely stiff and the forces are \SI{<<2}{\kilo\newton}, the upper Sensor can be assumed as inflexible. On both the upper and lower part, two clamps are fixed onto the machine. On the Bottom Clamp a 3D-Printed stage is used with threaded holes for screws. 
-
-Glass slides with coated PDMS are used, which are fixed on the bottom end of the machine (Fig. \ref{fig:PullingMachineSetup}). On the top end, waterjet cut stams are clamped on. Then a drop of uv glue is put on the top part. the top part is lowered onto the bottom side. Then the uv glue is cured with an uv pistol for 3 minutes (1.5 minutes from the left 1.5 minutes from the right). Then the the sample is pulled with constant distance.
+To test the tensile strength of different PDMS mixtures and the effect of plasmacuring, a Pulling machine (NAME RAUSFINDEN)is used. On the top part, two load cells are installed (Fig. \ref{fig:PullingMachineSetupBigPic}) The upper load cell is rated for \SI{2}{\kilo\newton}(ÜBERPRÜFEN). the lower load cell is rated for up to \SI{100}{\newton}. As the upper one is extremely stiff and the forces are \SI{<<100}{\newton}, the upper sensor is assumed as inflexible. On both the upper and lower part, two clamps are fixed onto the machine. On the bottom clamp a 3D-Printed stage is used for fixing on the sample.
 
 \begin{figure}[hbt!]
-	\centering
-	\begin{subfigure}[]{0.45\textwidth}
-		\centering
-		\includegraphics[width=6cm, height=9cm]{AufbauPullingMachine}
-		\caption{}
-	\end{subfigure}
-	\begin{subfigure}[]{0.45\textwidth}
-		\centering
-		\includegraphics[width=6cm, height=9cm]{AufbauPullingMachineCloseup}
-		\caption{}
-	\end{subfigure}
-	\caption{Setup on the Pulling Machine.}
-	\label{fig:PullingMachineSetup}
+ 	\centering
+ 	\begin{subfigure}[]{0.45\textwidth}
+ 		\centering
+ 		\begin{overpic}[width=6cm, height=9cm]{AufbauPullingMachine}
+ 			\white
+ 			\put(45, 82){\vector(-1,0){10}}
+ 			\put(45, 82){\makebox(0,0)[bl]{\SI{2}{\kilo\newton}}}
+ 			\put(45, 82){\makebox(0,0)[tl]{Load cell}}
+ 			\put(20, 55){\vector(1,0){10}}
+ 			\put(20, 55){\makebox(0,0)[br]{\SI{100}{\newton}}}
+ 			\put(20, 55){\makebox(0,0)[tr]{Load cell}}
+			\put(20, 35){\vector(1,0){10}}
+ 			\put(20, 35){\makebox(0,0)[r]{top clamp}}
+ 			\put(45, 20){\vector(-1,0){10}}
+ 			\put(45, 20){\makebox(0,0)[bl]{bottom}}
+			\put(45, 20){\makebox(0,0)[tl]{clamp}}
+			%\put(21, 29){\vector(1,0){10}}
+			%\put(21, 29){\makebox(0,0)[r]{Fig. \ref{fig:PullingMachineSetupZoomedPic}}}
+ 		\end{overpic}
+ 		\caption{}
+ 		\label{fig:PullingMachineSetupBigPic}
+ 	\end{subfigure}
+ 	\begin{subfigure}[]{0.45\textwidth}
+ 		\centering
+ 		\begin{overpic}[width=6cm, height=9cm]{AufbauPullingMachineCloseup}
+ 			\white
+ 			\put(30, 78){\makebox(0,0)[c]{Top clamp}}	
+ 			\put(30, 14){\makebox(0,0)[c]{Bottom clamp}}
+ 			\put(21, 56){\vector(1,-1){10}}
+ 			\put(21, 56){\makebox(0,0)[r]{Stamp}}
+ 			\put(33, 26){\vector(0,1){10}}
+ 			\put(33, 26){\makebox(0,0)[t]{Stage}}
+ 			\put(45, 51){\vector(-1,-1){10}}
+ 			\put(45, 51){\makebox(0,0)[l]{Brace}}
+ 			\put(43, 39){\vector(-1,0){10}}
+ 			\put(43, 39){\makebox(0,0)[l]{Screw}}
+ 			\put(21.5, 40.5){\vector(1,0){10}}
+ 			\put(21.5, 40.5){\makebox(0,0)[br]{UV glue}}
+ 			\put(21.5, 40.5){\makebox(0,0)[tr]{on sample}}
+ 			
+ 		\end{overpic}
+ 		\caption{}
+ 		\label{fig:PullingMachineSetupZoomedPic}
+ 	\end{subfigure}
+ 	\caption{Setup for tensile tests of a thin PDMS layer. The Sample is placed on the stage. A brace is screwed over the sample to hold it in place. A stamp is fixed to the top clamp. The UV Glue is applied between stamp and sample and cured with 3 minutes UV Exposure. With the \SI{100}{\newton} load cell, the force is measured over distance pulled. The load on the \SI{2}{\kilo\newton} load cell is neglectable as the forces measured are \SI{<<100}{\newton}.}
+ 	\label{fig:PullingMachineSetup}
 \end{figure}
 
-Because Glue dosaging varied a good amount, the Area is not assumed to be the bottom of the stamp. After Pulling, the glue is sticking on the stamp, outlining the area of the glue. The glue is analyzed under a microscope and the area is measured. With the Area and the maximum Force shortly before detaching, the Tensile stress is calculated. Then the experiment is repeated.
+On the bottom, a 3D-Printed stage is clamped (Fig. \ref{fig:PullingMachineSetupZoomedPic}). The stage has four holes with threads for screws . Between the threads, the sample is placed. A brace similar to the "window" is fixed with screws onto the sample. A rectangle shape hole gives access for the UV-glue and the stamp. 
 
+The Process of a pull test starts with clamping a new stamp on the top. Then the sample is plasma treated. After treatment, the sample is quickly transported to the pulling machine and fixed to the stage with screws. The stamp is aligned to the sample. When alignment is finished, the UV glue is given onto the stamp. the top is lowered on the sample. The UV glue is cured with UV radiation for \SI{3}{\minute}. After gluing, \SI{3}{\minute} are waited until forces settle resulting from curing and heat. Then, the pulling machine pulls with constant speed and measures the stress strain curves. The process is ended manually. The now separated stamp and sample are stored for analyzation under a microscope. To calculate the maximum tensile stress, the area of the glue on the sample which is still attached to the stamp is measured.
 
 
 \subsection{detaching ice from PDMS}
