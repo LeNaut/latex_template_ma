@@ -98,9 +98,88 @@ The solving process of lipids proves to be endothermic. This means that heat is 
 \section{Detaching ice mechanically}
 \label{Chapter:LipidPullingTests}
 
-TODO
 
-For this section, cover glass coated in Parylene are used as object slide. The slide is then dipped in solution containing lipids for a lipid coating. A ice layer with fluoriscine is frozen with either plunge-freezing or using a pincer and liquid nitrogen. Additionally, the "finger" is used as tool to try lifting off a piece of ice from the frozen layer on top of the lipids. In the next sections, different variables are examined and tested.
+
+\subsection{PDMS experiments at room temperature}
+
+To speed up the process of finding the right balance of PDMS Mixture ratio and plasma curing, experiments at room temperature done. For this, a pulling machine is used. First the sample is prepared. Then, the sample is clamped to the pulling machine. Then a plexiglass stamp is aligned on top of the sample. With UV glue, the stamp is glued to the PDMS layer on the sample. Before gluing, The relative force and distance is set to zero on the pulling machine. After gluing, a couple minutes are waited so no further stress changes are ongoing from the gluing process. After setting the force again to zero, the Machine is pulling on the sample with constant velocity. After detachment, the measurement is stopped. Afterwards, the stamp and the layer are analyzed under a microscope. The area of the attached UV glue to the sample is determined. With the maximum force and area, the maximum stress is calculated. Each experiment is repeated multiple times.
+
+In between experiments, small variations and improvements are done: two different stamps are used, one has an area of \SI{2}{\milli\meter} x \SI{3}{\milli\meter} and another stamp is \SI{3}{\milli\meter} x \SI{3}{\milli\meter}. Since the area is measured by the attached surface to the sample, the effect of a bigger stamp is taken into account. Also, in first experiments, while waiting of the stress changes to subside, the pulling machine is holding the position. As the UV glue cools and shrinks while being polymerized, the UV glue pulls the stamp and the surface more and more together. Before pulling, the machine is set back to zero. After pulling, an offset exists between before pulling which is set to zero and after pulling when both ends are disconnected. The offset is then corrected in evaluation. To avoid calculating an offset, the pulling machine sets the distance corresponding to the forces being constant to zero. The offset correction and new method increased the accuracy between pull tests.
+
+To verify the setup, cover glass coated with 4:1 and 1:2 curing agent to base coat weight ratio and uncoated cover glass as control surface are compared. The results show 2:1 mixture ratio with $87.3\pm19.9\,\si{\kilo\pascal}$ is easier to detach than 1:4 mixture ratio with $429.1\pm5.1\,\si{\kilo\pascal}$ (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). Also the cover glass without PDMS takes up a lot more tensile stress up to $1161.5\pm111.5\,\si{\kilo\pascal}$. sometimes the machine is able to break the control cover glass. 
+
+In literature, the ice adhesion on PDMS without plasma treatment is \SI{35}{\kilo\pascal}. for 2:1 and 5:1 the stress is between $60$ to \SI{80}{\kilo\pascal} \cite{IbanezIbanez.2022}. This is considerably lower than the experiment before. Therefore, one limitation is that the actual adhesion between ice and PDMS cannot be simulated by this experiment. Still, there is a correlation between values measured and in literature. Additionally, A detachment between other layers than the transition of ice and PDMS counts as successful detachment. 
+
+\begin{figure}[hbt!]
+	\centering	
+	\input{../images/plotVGLZugspannungPDMSMischungsverhaeltnisse.pgf}
+	\caption{Comparison of PDMS with 4:1, 1:2 Base coat to curing Agent mixture ratio by weight coated on a cover glass and cover glass without PDMS as reference. the cover glass without pdms is clearly distinguishable by higher tensile stress. A mixture ratio of 1:2 shows the lowest tensile strength.}
+	\label{fig:vgl4:1zu1:2zuGlas}
+\end{figure}
+
+\begin{comment}
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=7cm, angle = 270, origin=c]{exampleZugversuchUntereHälfte}
+	\label{fig:ExampleSampleWithPDMS
+	\caption{Glass piece }
+\end{figure}
+\end{comment}
+
+In the next experiment, the effect of plasma curing is investigated. A mixture ratio of 1:2 is examined as this mixture ratio leads to the lowest adhesion to ice and other surfaces. The same setup on the pulling machine is used. Samples with a 2:1 weight ratio PDMS are additionally plasma treated before quickly clamping on the pulling machine. The minimum plasma activation possible with used plasma machine is $25\%$ at \SI{0.1}{\minute}. Below $25\%$ plasma does not reliably form in the chamber. the maximum tested plasma activation of \SI{2}{\minute} by $100\%$ is additionally done with a bigger plasma machine.
+
+After pulling, The UV glue is almost always firmly connected to the Stamp. In some cases, the UV glue is not connected to the Stamp. This suggest that the glue did not adhere well enough to the stamp. These attempts are sorted out. For the same reason, attempts where the cover glass cracked are sorted out as well. Additionally, cases in which the Tensile stress is near or within the uncertaincy of the control are sorted out as well. This can occur when the PDMS slide flips between loosening and fastening.
+
+Even with low repetition rates of $n = 1$ to $ n =3$, a clear tendency is visible. With lower and stronger plasma treatment, the tensile stress needed to detach from the PDMS Layer is higher (Fig. \ref{fig:PlotPlasmaAktivierung}). Over the whole range, The tensile strength of PDMS becomes up to six times higher. This is not expected, as plasma activation on mixture ratios of 50:1 has the opposite effect \cite{Ohishi.2017}. This means that this the results are not applicable to other mixture ratios. also no visible changes to a glass-like state was observed in 2:1 weight ratio mixture. Because the repetition rate is low, the exact values should be treated with caution. 
+
+\begin{figure}[hbt!]
+	\centering
+	\input{../images/plot2_1PlasmaAktivierung.pgf}
+	\caption{Tensile strength of PDMS 2:1 mixture ratio coated cover glass with different plasma activation. For each data point, the repetition rate is $n = 1$ to $ n =3$. A clear tendency of an increase of tensile Stress over intensity of plasma activation is visible. TODO PLOT ANPASSEN, VIELLEICHT DEN PUNKT BEI 2 min raushauen}
+	\label{fig:PlotPlasmaAktivierung}
+\end{figure}
+
+As PDMS is hydrophobic, plasma activation is needed to freeze a thin layer of ice onto the coated slide. However, super low plasma activation could not decrease the contact angle of water enough. To test the contact angle,  PDMS coated slides with mixture ratio 1:2 is plasma activated with $25\%$ for \SI{0.1}{\minute}, $30\%$ for \SI{0.2}{\minute} and $35\%$ or \SI{0.3}{\minute}. $25\%$ for \SI{0.1}{\minute} results in a contact angle around \SI{45}{\degree}. $25\%$ for \SI{0.2}{\minute} contact angle is around \SI{15}{\degree}. $35\%$ with \SI{0.3}{\minute} is below \SI{10}{\degree}. As a control, a PDMS coated cover glass with no treatment and a PDMS coated cover glass with UV treatment of \SI{3}{\minute} are compared. The untreated and UV treated PDMS coated glass have both a contact angle of over \SI{90}{\degree}. Both $25\%$ for \SI{0.2}{\minute} and $35\%$ with \SI{0.3}{\minute} are used in experiments.	
+
+\begin{figure}[hbt!]
+	\centering
+	\input{../images/plotForceOverTime.pgf}
+	\caption{force over Time}
+\end{figure}
+
+Additonally, two other PDMS mixtures are used. 4:1 with \SI{10}{\minute} and $100\,\%$ plasma activation is used as reference. 50:1 mixture ratio is additionally used with different plasma activation duration. To verify the results of \cite{Ohishi.2017}, PDMS with 50:1 mixture treated with \SI{3}{\minute} at each $25\,\%$ and $100\,\%$ and \SI{10}{\minute} at $100\,\%$. 
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{50_1_25p_3min_after_plasma_rommtemp.ome}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{50_1_100p_3min_after_plasma_rommtemp.ome}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{50_1_100p_10min_after_plasma_rommtemp.ome}
+		\caption{}
+	\end{subfigure}
+	\caption{Comparison of different Plasma activation on PDMS with 50:1 mixture ratio. In (a), $25\,\%$ Power at \SI{3}{\minute} leads to no crack formation. in (b), $100\,\%$ Power at \SI{3}{\minute} leads to cracks. Increasing the duration to \SI{10}{\minute} at $100\,\%$ power increases the cracks. The cracks indicate increased brittleness of the surface.}
+	\label{fig:Vgl50:1Plasma}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{PDMS pull test at cryogenic temperatures}
+
+%At cryogenic temperatures, three different mixture ratios are tested. 1:2 mixture ratio is used with minimal plasmaactivation, based on the result in previous chapter. 4:1 is used with 10 minutes 100\% plasma activation. 50:1 is used with 3 minutes plasmaactivation with 25\% and 100\%. additionally for 50:1, plasma activation for 10 minutes at 100\% is tested
+
+
+
+
+%For this section, cover glass coated in Parylene are used as object slide. The slide is then dipped in solution containing lipids for a lipid coating. A ice layer with fluoriscine is frozen with either plunge-freezing or using a pincer and liquid nitrogen. Additionally, the "finger" is used as tool to try lifting off a piece of ice from the frozen layer on top of the lipids. In the next sections, different variables are examined and tested.
 
 \subsection{Volume of Hydrofluorether}
 
@@ -128,7 +207,6 @@ The videos show that pipetting HFE is not reliable. The visible HFE volume on th
 
 Still, a visual estimate for the correct glue dosage is made by calculating the drop volume out of camera images. Two exemplary Pictures of an upper and lower limit of glue dosages is picked (Fig. \ref{fig:rangeHFE}). Then the volume is calculated with a formula for the volume of a spherical section. All needed components are calculated out of the estimated contact angle of the glue $\alpha \approx 45°$ and the tip diameter of $d = 1.68\,mm$. For the lower range a reduction of $d$ by a factor of $\frac{2}{3}$ is assumed as the drop is not covering the whole tip. The resulting volume range of the HFE is $ 0.11\,\mu l \gtrapprox V \gtrapprox 0.38\,\mu l $.
 
-
 \subsection{Temperature over applied force}
 
 The temperature dependent viscosity of HFE is used to attach and detach from the surface of the sample. With decreasing temperature, the viscosity of HFE increases. At some point, HFE forms cracks and gets brittle. To optimize the applied force at detaching, a temperature is needed which gives HFE high viscosity but does not form cracks at the same time. The determined temperature is then set for the "glue" state described before.
@@ -147,6 +225,59 @@ When cooling down to the desired temperature with the "glue" state, liquid nitro
 
 In conclusion, the finger "glue" temperature is most effective at \SI{-165}{\degreeCelsius}. Still, the reliablility suffers trough leaks, longer tubing and inproper insulation. For better repetition, a temperature of \SI{-160}{\degreeCelsius} is also used in experiments.
 
+\subsection{Applied Tensile force to HFE}
+
+To additionally measure the force applied of the finger, the pulling machine is used in combination with the finger. In the lab, the small bath is used for sample preparation. after microscopy, the sample is transported to the pulling machine. the big bath is fixed on the bottom of the pulling machine. on top, the finger is clamped into the shackle and aligned to the shuttle. The process is still as previously stated. 
+
+This setup has a lot of limitation. Aligning the finger is very difficult, as the screws are hard to reach in cold temperature. When cooling, the previous alignment ist lost as the coldness distort the setup. Also little movement at the finger has maximum effect on the sample and alignment. touching the tubes can loosen the sample and/or the setup needs to be new aligned. Even a bigger window is not enough. Errors in alignment and therefore gluing to the border of the window and loosening through movement are the two biggest error sources in this setup. So the old setup is used in further experiments to eliminate big error sources.
+
+Over all pulls, the HFE can transfer a maximum force of $1.30\pm0.49\,\si{\newton}$. The area which experienced the force is unknown. Additionally, the force distribution is uneven (e.g. like Fig. \ref{fig:ZeichnungBerechnungStress_c}). Still, a worst case and a best case which are easily calculated can be determined. as best case, all force is evenly distributed under the area of the finger (Fig. \ref{fig:ZeichnungBerechnungStress_a}). With this assumption, the Area is equal to the finger tip area. The worst case is an even distribution over the whole surface (Fig. \ref{fig:ZeichnungBerechnungStress_b}). The surface is clamped by the window. So the inner diameter of the Window is the worst case area. In reality, the Force is somewhere in between (Table \ref{table:VerschAbschätzungenStressFinger}).
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.3\textwidth}
+		\centering
+		\input{../images/ZeichnungBerechnungStressFinger_Finger.pdf_tex}
+		\caption{}
+		\label{fig:ZeichnungBerechnungStress_a}
+	\end{subfigure}
+	\begin{subfigure}[]{0.3\textwidth}
+		\centering
+		\input{../images/ZeichnungBerechnungStressFinger_Window.pdf_tex}
+		\caption{}
+		\label{fig:ZeichnungBerechnungStress_b}
+	\end{subfigure}
+		\begin{subfigure}[]{0.3\textwidth}
+		\centering
+		\input{../images/ZeichnungBerechnungStressFinger_Combined.pdf_tex}
+		\caption{}
+		\label{fig:ZeichnungBerechnungStress_c}
+	\end{subfigure}
+	\caption{Different worst- and best case examples of force distribution on sample. In best case, the force is concentrated on the small area around the finger tip (a). In worst case, the force is evenly spread over the whole sample (b). In reality, the force distribution is between shown extremes. One example of a realistic force distribution is shown in (c).}
+	\label{fig:ZeichnungBerechnungStress}
+\end{figure}
+
+
+\begin{table}[hbt!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Area used & Area Size & Tensile Stress\\
+		\hline
+		\hline
+		Finger & \SI{2.217}{\milli\meter\squared} & $585.4\pm219.4\,\si{\kilo\pascal}$ \\ 
+		\hline
+		Small Window & \SI{4.91}{\milli\meter\squared} & $264.3\pm99.1\,\si{\kilo\pascal}$ \\ 
+		\hline
+		Big Window & \SI{12.56}{\milli\meter\squared} & $103.3\pm38.7\,\si{\kilo\pascal}$ \\ 
+		\hline
+	\end{tabular}
+	\caption{Tensile stress and size of area used to calculate the tensile strength of the finger setup. In worst case, the force is distributed over the whole "window" size(Fig. \ref{fig:ZeichnungBerechnungStress_b}). In best case, the force is only distributed on the "finger" tip (Fig. \ref{fig:ZeichnungBerechnungStress_a}). The real value is between those extremes.}
+	\label{table:VerschAbschätzungenStressFinger}
+\end{table}
+
+\FloatBarrier
+
 \subsection{Tensile mode vs Shear mode}
 
 THIS NEEDS MORE LOVE
@@ -157,9 +288,9 @@ Pulling tests are compared along the X and the Z axis. Generally, way less force
 
 \subsection{Detaching ice structure}
 
-Different ice structures and thickness results in different stability of the ice layer. The freezing process has an influence on the formation of the ice structure. TO compare plunge freezing by a plunge-freezer to the process by hand, samples with lipid coated slides which are prepared with a plunge freezer are compared to samples frozen by hand. The water applied to form the ice layer is mixed with fluoresceine. The fluoresceine to water ratio is ??/5l and ??/500ml ÜBERPRÜF
+Different ice structures and thickness results in different stability of the ice layer. The freezing process has an influence on the formation of the ice structure. To compare plunge freezing by a plunge-freezer to the process by hand, samples with lipid coated slides which are prepared with a plunge freezer are compared to samples frozen by hand. The water applied to form the ice layer is mixed with fluoresceine. The fluoresceine to water ratio is $50\,\si{\milli\liter}/10\,\si{\milli\gram}$ and $5\,\si{\liter}/10\si{\milli\gram}$, depending on the microscope setup and objectives.
 
-Freezing by hand results in less predictable shaped ice layer. Sometimes, a non continuous layer forms (Fig. \ref{fig:VglHandFreeze} (a) and (b)). In other iteration, a continuous layer is formed. (Fig. \ref{fig:VglHandFreeze} (c) and (d)). A plunge freezer reliably produces continuous layer (Fig. \ref{fig:VglMachineFreeze}). The thickness between samples varies. Some ice layers are thick enough to include air bubbles.  
+Freezing by hand results in less predictable shaped ice layer. Sometimes, a non continuous layer forms (Fig. \ref{fig:VglHandFreeze} (a) and (b)). In other iteration, a continuous layer is formed. (Fig. \ref{fig:VglHandFreeze} (c) and (d)). A plunge freezer reliably produces continuous layer (Fig. \ref{fig:VglMachineFreeze}). The thickness between samples varies. Some ice layers are thick enough to include air bubbles. Also, both hand-freezed and plunge-freezed samples ice layer have sometimes visible cracks.
 
 \begin{figure}[hbt!]
 	\centering
@@ -213,9 +344,9 @@ Freezing by hand results in less predictable shaped ice layer. Sometimes, a non 
 	\label{fig:VglMachineFreeze}
 \end{figure}
 
-To further compare plunge-freezed samples, 4 of each hand freezed and plunge freezed samples are compared regarding detachability. The "finger" is attached with HFE onto the sample. With movement up on the Z axis, the "finger" is inducing tensile force to the ice layer as an attempt to detach an ice piece.
+To further compare both methods, 4 of each hand freezed and plunge freezed samples are compared regarding detachability. The "finger" is attached with HFE onto the sample. With movement up on the Z axis, the "finger" is inducing tensile force to the ice layer as an attempt to detach an ice piece. The results are categorized in 4 categories: Not successful pulls don't have visible changes of the flourescent ice layer, Partially successes are visible breaks or clear movement of ice parts on the ice layer, Successful liftoff is a missing piece and a visible piece on the finger, which could be used for future steps.
 
-The results are categorized in 4 categories: Not successful pulls don't have visible changes of the flourescent ice layer, Partially successes are visible breaks or clear movement of ice parts on the ice layer, Successful liftoff is a missing piece and a visible piece on the finger, which could be used for future steps. In the results, there is no difference between Hand freezed and plunge-freezed samples regarding detachability. Therefore Ice thickness is not a factor which makes detaching ice easier. As both methods don't show success in detaching ice pieces, it could still be a relevant factor but not a thing which should make a certain solution magically work xD
+In the results, there is no difference between hand-freezed and plunge-freezed samples regarding detachability (Fig. \ref{table:AttemptsHandsvsMachine}). Therefore, using a plunge-freezer does not result in samples with favorable properties.
 
 \begin{table}
 	\centering
@@ -234,135 +365,53 @@ The results are categorized in 4 categories: Not successful pulls don't have vis
 		\hline		
 	\end{tabular}
 	\caption{Comparison of detachability between hand-freezed and plunge-freezed samples}
+	\label{table:AttemptsHandsvsMachine}
 \end{table}
+
+1:2
+
+4:1
+
+50:1 
+
+%Combined!!
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Category & PDMS 1:2 & PDMS 4:1 & PDMS 50:1 \\
+		\hline
+		\hline
+		count executed tries & a & 3 & c\\
+		\hline
+		unsuccessful & a & 2 & c\\
+		\hline
+		breaks/movement of ice & a & 0 & c\\
+		\hline
+		piece lifted with finger & 0 & 1 & 0\\
+		\hline		
+	\end{tabular}
+	\caption{Comparison of detachability between PDMS mixture ratios}
+	\label{table:AttemptsPDMS}
+\end{table}
+
+
+CONTINUOUS ICE SURFACE; DAFÜR MUSS ABER PDMS VORHER KOMMEN
 
 \FloatBarrier
 
-\subsection{other observed error sources??}
+\subsection{observed error sources}
 
-During experiments, other error sources are found. 
+(AAH ABKLÄREN MIT SECTION IN METHODE: VIELLEICHT ALLES HIER REIN ODER VORNE)
 
-Zu viel abstand zu oberfläche
+When attaching, the right distance between sample and "finger" helps increasing the tensile force which can applied to the sample. As discussed in section \ref{section:positioning}, two types of positioning errors can occur: The positioning over the sample and the gap between sample and "finger". The first error can be corrected by stages in X and Y directions. The other error also depends on the HFE volume. With little volume, There is no risk of HFE spreading between sample an "window". With a high volume, Decreasing the gap can result in HFE spreading under the window brace if the "finger" is lowered too much. On the other hand, leaving a big gap between "finger" and sample results in a thicker HFE layer which takes less tensile forces.
 
-Integrität oberfläche
-
-Finger kühlt zu langsam ab.
-
-Wrong positioning, forming of ice
+The duration of time between reaching the "glue" state from the "unglue" state makes disconnecting before pulling more likely. The sample is cooled with the "finger" on top as well as by the harbor cooled with liquid nitrogen. Best case is the same cooling rate of "finger" and harbor. In practice, the cooling of the "finger" is faster. This also leads to successful attaching. If for example major leaks occur in the cold nitrogen gas supply, the cooling rate of the "finger" is slower than the harbor. In those cases, the "finger" does not stay attached to the sample. A theory is that HFE gets more viscous on the sample than on the "finger". While the HFE is perfectly adhering to the samples surface. Additionally, the HFE loses volume due to cooling. The HFE on the tip of the "finger" is able to fill out the missing volume and thin out around the finger due to gravity. With enough time, this could the HFE enough that the finger is not properly attached anymore. (NICHT SO DIE BESTE THEORIE; EIGENTLICH BEI GRO?ER LÜCKE?)
 
 The formation of Ice inside the bath is largely inhibited through the Nitrogen Gas inlets. The nitrogen is forming a barrier to the atmosphere which contains humidity that turns into ice at cold temperatures. However, through turbulence and the finger, some ice can form inside the bath. 
 
 In some experiments, high buildup of additional ice is observed on the sample. The additional ice is looser, reducing the possible grip onto the desired ice layer. The formation is traced back to a leakage in the finger. The tolerances between 3D printed part and metal bar should be able to seal the gap airtight. But trough changing out parts, the tolerances are looser, allowing a weak cold nitrogen current right on the sample. There are two possibility where the humidity itself is coming from: The cold nitrogen gas itself could contain some humidity. Second through additional turbulence, more air is sucked through the barrier. The air is directed directly on the sample, causing more ice buildup. To avoid this, the gap is sealed tight with tooth silicone????
 
-
-\section{PDMS}
-
-To speed up the process of finding the right balance of PDMS Mixture ratio and plasma curing, experiments at room temperature done. For this, a pulling machine is used. First the sample is prepared. Then, the sample is clamped to the pulling machine. Then a plexiglass stamp is aligned on top of the sample. With UV glue, the stamp is glued to the PDMS layer on the sample. Before gluing, the Force and distance is set to zero on the pulling machine. After gluing, a couple minutes are waited so no further stress changes are ongoing from the gluing process. then the Machine is pulling on the sample with constant velocity. After detachment, the measurement is stopped. Afterwards, the stamp and the layer are analyzed under a microscope. The area is determined. With the maximum force and area, the maximum stress is calculated. Each experiment is repeated multiple times.
-
-\subsection{experiments at room temperature}
-
-In between experiments, small variations are made: two different stamps are used, one has an area of \SI{2}{\milli\meter} x \SI{3}{\milli\meter} and another stamp is \SI{3}{\milli\meter} x \SI{3}{\milli\meter}. Since the area is measured afterwards, this should not have a significant effect on the results. Also, in the beginning, while waiting of the stress changes to subside, the pulling machine was inactive. with this, the Force before pulling will be higher as zero. Before pulling, the machine is set back to zero. After pulling, there is an offset between the neutral value and the value before because of zeroing, so the offset needs to be corrected. To avoid this, the pulling machine is set to zero force while waiting instead. Then no offset correction is needed. The offset correction and new method increased the accuracy between pull tests.
-
-To verify the setup, samples coated with 4:1 and 1:2 curing agent to base coat weight ratio and uncoated coverglass used as slides are compared. The results show 2:1 mixture ratio with $87.3\pm19.9\,\si{\kilo\pascal}$ is easier to detach than 1:4 mixture ratio with $429.1\pm5.1\,\si{\kilo\pascal}$ (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). Also glass without PDMS takes up a lot more tensile stress with $1161.5\pm111.5\,\si{\kilo\pascal}$. sometimes the machine is able to break the glass. Under the microscope, it is not visible if the PDMS layer itself was lifted from the glass or not.
-
-\begin{figure}[hbt!]
-	\centering	
-	\input{../images/plotVGLZugspannungPDMSMischungsverhaeltnisse.pgf}
-	\caption{Comparison 4:1, 1:2 Base coat to curing Agent and glass without PDMS}
-	\label{fig:vgl4:1zu1:2zuGlas}
-\end{figure}
-
-In literature, the ice adhesion on PDMS without plasma treatment is \SI{35}{\kilo\pascal}. for 2:1 and 5:1 the stress is between $60$ to \SI{80}{\kilo\pascal} \cite{IbanezIbanez.2022}. This is lower considerably lower than the experiment before. Therefore, one limitation is that the actual adhesion between ice and PDMS cannot be simulated by this experiment. Still, there is a correlation between the values and the experiment can give an insight of PDMS durability. In the end, if the separation happens between ice and pdms or pdms and glass are both good results. 
-
-\begin{figure}[hbt!]
-	\centering
-	\input{../images/plotForceOverTime.pgf}
-	\caption{force over Time}
-\end{figure}
-
-In the next experiment, the effect of plasma curing is investigated. As the mixture ratio of 1:2 has the lowest adhesion, this experiment used this pdms mixture ratio. The same setup is used. Samples with a 2:1 weight ratio PDMS are additionally plasma treated before quickly clamping on the pulling machine. Even with low repetition rates, a clear tendency can be observed. With lower and stronger plasma treatment, the durable the PDMS Layer gets (Fig. \ref{fig:PlotPlasmaAktivierung}). Over the whole range, The needed stress sextubles. Because the repititon rate is low, the exact values should be treated cautiosly. Also the results are not applicable to other mixture ratios, as different behaviour in plasma activation was observed between 2:1 and 4:1 weight ratio. also no glass-like state was observed in 2:1 weight ratio mixture.
-
-
-\begin{figure}[hbt!]
-	\centering
-	\input{../images/plot2_1PlasmaAktivierung.pgf}
-	\caption{PDMS 2:1 Comparison between various Plasma curing strengths and durations.}
-	\label{fig:PlotPlasmaAktivierung}
-\end{figure}
-
-As PDMS is hydrophobic, plasma activation is needed to freeze a thin layer of ice onto the coated slide. still, the lowest setting in the plasma machine(???) is not neccessarily enough plasma activation to get a low enough plasma angle. In a small test, PDMS coated slides with mixture ratio 1:2 is plasmaactivated with $25\%$ for \SI{0.1}{\minute}, $30\%$ for \SI{0.2}{\minute} and $35\%$ or \SI{0.3}{\minute}. $25\%$ for \SI{0.1} {\minute} does not deliver a low enough contact angle. $25\%$ for \SI{0.2}{\minute} contact angle is already very low. $35\%$ with \SI{0.3}{\minute} is definetly low enough. Both $25\%$ for \SI{0.2}{\minute} and $35\%$ with \SI{0.3}{\minute} are used in experiments.
-
-PDMS wie aussehen in Raumtemperatur
-
-
-
-\FloatBarrier
-
-\subsection{experiments at cryogenic temperatures}
-
-At cryogenic temperatures, three different mixture ratios are tested. 1:2 mixture ratio is used with minimal plasmaactivation, based on the result in previous chapter. 4:1 is used with 10 minutes 100\% plasma activation. 50:1 is used with 3 minutes plasmaactivation with 25\% and 100\%. additionally for 50:1, plasma activation for 10 minutes at 100\% is tested
-
-1:2
-
-To additionally measure the force applied of the finger, the pulling machine is used in combination with the finger. In the lab, the small bath is used for sample preparation. after microscopy, the sample is transported to the pulling machine. the big bath is fixed on the bottom of the pulling machine. on top, the finger is clamped into the shackle and aligned to the shuttle. The process is still as previously stated. 
-
-This setup has a lot of limitation. Aligning the finger is very difficult, as the screws are hard to reach in cold temperature. When cooling, the previous alignment ist lost as the coldness distort the setup. Also little movement at the finger has maximum effect on the sample and alignment. touching the tubes can loosen the sample and/or the setup needs to be new aligned. Even a bigger window is not enough. Errors in alignment and therefore gluing to the border of the window and loosening through movement are the two biggest error sources in this setup. So the old setup is used in further experiments to eliminate big error sources.
-
-Over all pulls, the HFE can transfer a maximum force of $1.30\pm0.49\,\si{\newton}$. The area which experienced the force is unknown. Additionally, the force distribution is uneven (e.g. like Fig. \ref{fig:ZeichnungBerechnungStress_a}). Still, a worst case and a best case which are easily calculated can be determined. as best case, all force is evenly distributed under the area of the finger (Fig. \ref{fig:ZeichnungBerechnungStress_b}). With this assumption, the Area is equal to the finger tip area. The worst case is an even distribution over the whole surface (Fig. \ref{fig:ZeichnungBerechnungStress_c}). The surface is clamped by the window. So the inner diameter of the Window is the worst case area. In reality, the Force is somewhere in between (Table \ref{table:VerschAbschätzungenStressFinger}).
-
-\begin{figure}[hbt!]
-	\centering
-	\begin{subfigure}[]{0.3\textwidth}
-		\centering
-		\input{../images/ZeichnungBerechnungStressFinger_Combined.pdf_tex}
-		\caption{}
-		\label{fig:ZeichnungBerechnungStress_a}
-	\end{subfigure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\centering
-		\input{../images/ZeichnungBerechnungStressFinger_Finger.pdf_tex}
-		\caption{}
-		\label{fig:ZeichnungBerechnungStress_b}
-	\end{subfigure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\centering
-		\input{../images/ZeichnungBerechnungStressFinger_Window.pdf_tex}
-		\caption{}
-		\label{fig:ZeichnungBerechnungStress_c}
-	\end{subfigure}
-	\caption{Areas Vgl (TODO BESCHREIBUNG)}
-	\label{fig:ZeichnungBerechnungStress}
-\end{figure}
-
-
-\begin{table}[hbt!]
-	\centering
-	\begin{tabular}{|l|l|l|}
-		\hline
-		Area used & Area Size & Tensile Stress\\
-		\hline
-		\hline
-		Finger & \SI{2.217}{\milli\meter\squared} & $585.4\pm219.4\,\si{\kilo\pascal}$ \\ 
-		\hline
-		Small Window & \SI{4.91}{\milli\meter\squared} & $264.3\pm99.1\,\si{\kilo\pascal}$ \\ 
-		\hline
-		Big Window & \SI{12.56}{\milli\meter\squared} & $103.3\pm38.7\,\si{\kilo\pascal}$ \\ 
-		\hline
-	\end{tabular}
-	\caption{different Areas used estimation of finger. The Real value is between the optimum of the finger area and the worst case of the window.}
-	\label{table:VerschAbschätzungenStressFinger}
-\end{table}
-
-
-
-GRAPHIK HIER MIT MAxIMALER KRAFT DIE MIT HFE AUSGEWIRKT WIRD
-
-RECHNUNG WIE DIE ZUGSPANNUNG IST ZWISCHEN DEN FENSTERN.
-
-	Zugmaschine mit Finger
-
-4:1
-
-50:1 
+MOVEMENT
 
 
