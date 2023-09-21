@@ -1,106 +1,14 @@
 % !TeX spellcheck = en_US
 
-(vielleicht absatz dass die Arbeit größtenteils aus praktischen Versuchen bestand???)
-
-To find a working solution, many experiments are conducted. 
-
-\section{Phospholipids}
-\label{section:metodeLipide}
-
-Phospholipids are the building block of membranes in nature. They are made of two long nonpolar carbon chains and a polar head. A membrane is a bilayer of Phospholipids with the hydrophobic carbon chains oriented inwards and the hydrophilic head pointing outwards. They are also natural detergents, as they can bind to hydrophobic waste forming an emulsion, making them removable with polar liquids like water \cite{SriramaM.BhairiPh.D..}.
-
-Phospholipids are solvable in some common solvents. To apply Phospholipids, a slide is dipped into the solvent. When the solvent dries out, the lipids are binding to the surface of the slide, forming a layer with varying homogeneity. this layer can be removed with the same solvents. If the ice layer is frozen onto the lipid layer, the lipids can be solved at cryogenic temperatures, detaching the ice. But to solve this layer, a high solubility at cryogenic temperatures is required. 
-
-% as the surface of the sacrifical layer is only on the edge of the sample.!
-
-\subsection{Parylene}
-
-Parylene is a hydrophobic polymer used as a coating to repel particles, including water and ice. Parylene is also biocompatible and used in medicine and biology (QUELLE?).
-
-Parylene is not usable without a second layer on top. Parylene hydrophobicity does not allow water to spread during plunge freezing. with plasma activation, the surface is now hyrdophilic, but ice adheres to the parylene too strong to mechanically detach. also parylene cannot be solved with a solvent as a sacrificial layer.
-
-For this reason, lipids are used in combination with parylene (Fig. \ref{fig:sacrificial layer}). The hydrophobic chains of the lipids adhere to the parylene. The polar head allow water to spread evenly over the surface. Solving the lipids with a solvent will detach the ice layer from the slide. Parylene additionally prevents (re-) attachment through holes in the lipid layer. 
-
-\begin{figure}[hbt!]
-	\centering
-	\input{../images/Zeichnung_Layer_Lipide_parylene.pdf_tex}
-	\caption{Layers of a Sample. The Lipid layer is used as a sacrificial layer. To reach the layer with a solvent, the only contact surface is to the edge. To get a fast and reliable process, a solvent with high solubility is needed.}
-	\label{fig:sacrificial layer}
-\end{figure}
-
-
-\subsection{Preparation of lipid coated slides}
-
-To create the slides with parylene and lipids, a cover glass (\SI{5}{\milli\meter} diameter) is used as base. the cover glass is coated with a thin layer of parylene. The coated cover glass is dipped into lipid solution. The cover glass is dried, leaving behind a lipid layer. The prepared slides are then used in plunge freezing.
-
-Two different kind of lipids are used: DOPC and EGG-PC. DOPC is storaged as a powder. The DOPC powder is solved in Ethanol ($25\,\si{\milli\gram}/1\,\si{\milli\liter}$ lipid to solvent) for application. 
-EGG-PC is shipped solved in chloroform in two different ratios: $25\,\si{\milli\gram}/1\,\si{\milli\liter}$ and $10\,\si{\milli\gram}/1\,\si{\milli\liter}$. The solution is shipped in phioles.
-
-The lipid solution is transferred into several small bottles. small bottles are chosen because solution forms a lubrication film on the thread of the lid. this prevents the lid from closing airtight. This leads to evaporation of the solvent over time, making the bottle unusable. In the coating process, solution often drops onto the threads, making a bottle only usable in one coating session. By splitting the solution into multiple flask, more slides can be covered from one batch of solution.
-
-\subsection{solubility lipids}
-
-These tests are conducted to find a fluid to solve a sacrificial layer out of lipids. (BEDINGUNGEN SACRIFICIAL LAYER? ODER KAM DAS SCHON?)
-
-Two consecutive solubility experiments are proposed. The first experiment is conducted at room temperature. the aim is to find solvents with high solubility at room temperature. the candidates with high solubility are then tested in the next experiment at cryogenic temperature. the aim is now to find solvents with also high solubility at cryogenic temperatures. The first experiment is conducted as there are only three baths available at cryogenic temperature. therefore the throughput for experiments is limited.
-
-\subsubsection{at room temperature}
-
-The Solvent are chosen based on availability, freezing point and safety. The solvents are all readily available in the laboratory. Some were ordered before the test. Also all chosen solvent are save to use in a well ventilated room. The followup experiment cannot be conducted under a extractor hood as too much space is taken up with the experiment. Also the solvent or solvent mixture needs to stay liquid at around \SI{-140}{\degreeCelsius} to assure that the ice layer on top stays vitrified. The tested substances are 4-Methyl Pentene, 3-Methyl Pentene, 1-Pentene, Isopentane, 1-Propanol, Pentane and Ethanol. 
-
-Each solvent is put in a separate bottle. The lipid coated slides are prepared as previously described. For each solvent, a slide is put in the corresponding bottle. After \SI{15}{\minute}, the slides are removed and examined. The results are documented in a list. When all streaks caused by the lipid layer disappeared, the solvent is tested in the next experiment.
-
-\subsubsection{at cryogenic temperature}
-\label{chapter:meltingtemp}
-
-
-Solubility is temperature dependent. Most solutions are endothermic. this means energy is needed to solve another substance. Also the saturation point of the solution can change. Therefore, solubility needs to be tested at the same temperature as in application
-
-The experiment is conducted at \SI{-140}{\degreeCelsius}. The solvents are given in liquid nitrogen cooled baths, which are regulated to the desired temperature. A slide is given into the cold solvent for \SI{15}{\minute}. Then the slide is examined for leftover streaks as before.
-
-The freezing point of tested solvents are not all below \SI{140}{\degreeCelsius}] (Table \ref{table:SchmelztemperaturLösungsmittel}). Still, solvents with a high freezing point can be mixed with other solvents with lower freezing point to lower the freezing point of the mixture. Alternatively, the temperature can be raised over the freezing point, but this could risk the ice to loose the vitrified state.
-
-\begin{table}[hbt!]
-	\centering
-	\begin{tabular}{|l|c|}
-		\hline
-		solvent & melting point in °C \\
-		\hline
-		\hline
-		4-Methyl Pentene & -154 \\ 
-		\hline
-		3-Methyl Pentene & -154 \\
-		\hline
-		1-Pentene & -165 \\
-		\hline
-		Isopentane & -160 \\
-		\hline
-		1-Propanol & -126 \\
-		\hline
-		Pentane & -129 \\
-		\hline
-		Ethanol & -114 \\
-		\hline
-	\end{tabular}
-	\caption{Melting Point in °C for tested solvents.}
-	\label{table:SchmelztemperaturLösungsmittel}
-\end{table}
-
-In the end, experiments has proven that solving lipids fast and reliable is not possible with tested solvents. As all solvent lipid combinations are endothermic. finding a working solvent lipid combination is very unlikely, as almost all combination of solvent and lipids will be endothermic.
-
-Additionally, some solvents tested are soluble in water. It is unknown whether the solvents could be solved or diffuse inside the ice layer at \SI{-140}{\degreeCelsius}. Therefore the ice layer could be changed in some undesired manner. if a sufficient solvent is found and the solvent is soluble in water, a potential change of the vitrified ice needs to be addressed.
+To detach the ice layer from the sample, two ideas are propose. The first proposal for detaching the ice layer is using mechanical force for separation. The second Idea is using a sacrificial layer which is dissolved at cryogenic temperatures.
 
 \section{Detaching ice mechanically}
 
-The next explored method is detaching the ice layer mechanically. For this, a lifting assembly is used. To make this possible, the bottom layer is engineered to reduce the adhesion of the ice. Also, as the assembly was not used in similar work before, different variables are addressed and examined.  
+ To apply mechanical forces to the ice layer, a lifting assembly referred to as "finger" is used. To make lifting possible, the bottom layer is engineered to reduce the adhesion of the ice and the stability of the sample slide. Also, as the assembly is not used in similar work before, different variables are addressed and examined.  
 
 \subsection{Assemblies used at cryogenic temperatures}
 
-The assembly used to lift up samples is called the "finger". The finger is made of two main parts. The first part is metal rod with a slightly pointed tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a temperature sensor and a heater. The second main part is a 3D printed part, containing the outer shell and routing of the cold gaseous nitrogen. The nitrogen is  directed downwards around the metal bar in an inner mantle for cooling. then, the Gas is directed upwards flowing through an outer mantle for additional cooling. Then the gas is exits through the output.
-
-The Gas is supplied by a liquid nitrogen tank. Heaters are placed inside the tank to evaporate the liquid nitrogen. The volume is rapidly expanding at eveporation, resulting in fast gas flow. the cold nitrogen gas is routed by \SI{6}{\milli\meter} pneumatic tubing. at the inlet and outlet of the finger, festo connectors are fixed to allow easy maintenance. the inlet of the finger is connected to the liquid nitrogen tank. the outlet tubing exhausts the cold nitrogen into the atmosphere.
-
-The finger is  mounted on three stages. additionally the stages are mounted on a track. the three stages allow fine adjustment of the finger position in X,Y and Z axis. Also, when the finger is attached to a surface, force can be applied by moving the stages in either direction. The Finger can also be moved along the track. In use, the assembly is clamped down on the track to prevent movement. when not in use, the assembly can be moved on the track to allow easy access of the area below the "finger".
+The finger is made of two main parts. The first part is metal rod with a slightly pointed tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a temperature sensor and a heater. The second main part is a 3D printed shell, containing the outer layer and routing of the cold gaseous nitrogen. The cold nitrogen gas is directed downwards around the metal bar in an inner mantle for cooling. then, the gas is directed upwards flowing through an outer mantle for additional cooling. Then the gas exits through the output.
 
 \begin{figure}[hbt!]
 	\centering
@@ -109,13 +17,19 @@ The finger is  mounted on three stages. additionally the stages are mounted on a
 	\label{fig:querschnittfinger}
 \end{figure}
 
-On the tip of the finger, Hydrofluorether (here HFE 7200) is applied. HFE is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}QUELLE ÜBERPRÜFEN!. Besides that, it has temperature dependent abilities. At freezing temperatures, it does not freeze into a solid at once. It gets more and more viscious before it freezes completely. this temperature dependency is used to first apply the HFE at higher temperatures with low viscosity and pull on the sample at low temperatures.
+The Cold nitrogen gas is supplied by a liquid nitrogen tank. Strong heaters are placed inside the tank to evaporate the liquid nitrogen. The volume is rapidly expanding at evaporation, resulting in fast gas flow. the cold nitrogen gas is routed by \SI{6}{\milli\meter} pneumatic tubing. The inlet of the finger is connected to the liquid nitrogen tank. At the inlet and outlet of the finger, Festo connectors are mounted to allow easy dis- and reconnecting. the outlet tubing exhausts the cold nitrogen into the atmosphere.
+
+The finger is  mounted on three stages. additionally the stages are mounted on a track. the three stages allow fine adjustment of the finger position in X,Y and Z axis. Also, when the finger is attached to a surface, force can be applied by moving the stages in either direction. The Finger can also be moved along the track. In use, the assembly is clamped down on the track to prevent movement. when not in use, the assembly can be moved on the track to allow easy access of the area below the "finger".
+
+GRAPHIC STAGES NOCH HINZUFÜGEN
+
+On the tip of the finger, Hydrofluorether (here HFE 7200) is applied. HFE is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}. Besides that, it has temperature dependent abilities. At freezing point, HFE reaches a viscous state before reaching a firm solid state. this temperature dependency is used to first apply the HFE at higher temperatures with low viscosity and pull on the sample at low temperatures with high viscosity.
 
 In the beginning a smaller bath is used (Fig. \ref{fig:KleinesBad}). The Small bath contains an elevated floor as work surface. embedded in the work surface are indents which are used as container holder. those container allow transport and long term storage of samples. Three elevated baths are installed above the work station. They are used for temperature controlling and containing other Liquids or tools. Also a Haven for a shuttle system is installed. The small baths and the haven are elevated over the second floor with an insulating layer, so a temperatures over \SI{-195.8}{\degreeCelsius} can be regulated. The liquid nitrogen is filled over the work surface, but not over the insulating layers to allow temperature controlling. The whole bath is insulated by Nitrogen gas flowing inside the 3D-printed shell of the bath. Then the Nitrogen gas is expelled from the brim, pointing from the outer edge radially to the rotation axis. In that way, the nitrogen gas separates the damp air in the room with the dry nitrogen gas inside the bath. Therefore ice formation inside the bath is inhibited.
 
-This small bath and later the big bath are also used in combination with the "finger". The "finger" is positioned over the shuttle docked in the haven. The sample is fixed in the shuttle. with the stage, the position of the "finger" is manipulated. The Nitrogen gas also keeps the "finger" tip ice free.
+This small bath and later the big bath are also used in combination with the finger. The finger is positioned over the shuttle docked in the haven. The sample is fixed in the shuttle. The position of the finger over the shuttle is manipulated with stages. The warm Nitrogen gas barrier also keeps the finger tip ice free.
 
-The usage of the small bath in combination of the finger has its limitations: first, the space is small. The "finger" can be moved along the track, but the space still limits work freedom with pincers. Additionally, the smaller baths are not needed when using the finger. also the Shuttle needs to be tilted in a specific angle so docking and undocking of shuttle in the haven is possible. The work flow also allows only one shuttle at once, limiting throughput. Also Liquid nitrogen needs to be refilled often as the bath can only hold a small volume.
+The usage of the small bath in combination of the finger has limitations: First, the space is small. The finger can be moved along the track, but the space left still limits work freedom with pincers. Additionally, the smaller baths are not needed when using the finger, using up more space. Also the Shuttle needs to be tilted in a specific angle so docking and undocking of shuttle in the haven is possible. The work flow also allows only one shuttle at once, limiting throughput. Also liquid nitrogen needs to be refilled often since the bath can only hold a smaller volume.
 
 \begin{figure}[hbt!]
 	\centering
@@ -141,11 +55,9 @@ The usage of the small bath in combination of the finger has its limitations: fi
 		\put(75,72){\makebox(0,0)[lt]{gas outlets}}
 		\put(75,72){\makebox(0,0)[lb]{nitrogen}}
 		\put(30,62){\vector(1,-1){10}}
-		\put(30,62){\makebox(0,0)[rb]{work surface}}
-
-		
+		\put(30,62){\makebox(0,0)[rb]{work surface}}	
 	\end{overpic}
-	\caption{Small Bath.}
+	\caption{Small bath used for sample preparation. This bath is combined with the finger. A major drawback of use with the finger is the lack of space inside the bath. To solve this issue, a bigger bath is constructed.}
 	\label{fig:KleinesBad}
 \end{figure}
 
@@ -175,11 +87,11 @@ During this master thesis, a second bigger bath is build (Fig. \ref{fig:GroßesB
 		\put(17, 88){\vector(0,-1){5}}
 		\put(17, 88){\makebox(0,0)[b]{connection "finger" to stage}}
 	\end{overpic}
-	\caption{Big Bath with Finger.}
+	\caption{Big bath with finger assembly. Inside samples are prepared as well as the finger is used for applying force on the sample.}
 	\label{fig:GroßesBadMitFinger}
 \end{figure}
 
-To take pictures of the sample, an inverted microscope is rebuilt for cryo microscopy (Fig. \ref{fig:Mikroskop}). A box with a metal core is fixed to the bottom of the stage. an outer frame an the top of the box is temperature controlled. The box is supplied with cold nitrogen gas to cool the iron core. A haven is fixed to the iron core and placed over the objective. The haven is temperature controlled to \SI{-140}{\degreeCelsius} to make remains of HFE liquid and distinguishable. to keep the light path between haven and objective clear from ice and fog, a component reffered to as "glasses" is used(HIER REFERENZ ZUR ZEICHNUNG VON DER BRILLE?). It contains two parallel glass slides. Warm nitrogen gas is routed beween the glass slides and the lower glass slide and objective. Additionally, a filter is used for examining fluorescent samples.
+To take pictures of the sample, an inverted microscope is modified for cryo microscopy (Fig. \ref{fig:Mikroskop}). A box with a metal core is fixed to the bottom of the stage. an outer frame an the top of the box is temperature controlled. The box is supplied with cold nitrogen gas to cool the iron core. A haven is fixed to the iron core and placed over the objective. The haven is temperature controlled to \SI{-140}{\degreeCelsius} to make remains of HFE liquid and distinguishable. to keep the light path between haven and objective clear from ice and fog, a component reffered to as "glasses" is used(HIER REFERENZ ZUR ZEICHNUNG VON DER BRILLE?). It contains two parallel glass slides. Warm nitrogen gas is routed beween the glass slides and the lower glass slide and objective. Additionally, a filter is used for examining fluorescent samples.
 
 The Shuttles are also used in cryo light microscopes. The Microscope used for cryotemperatures have an additional box installed, routing Cold nitrogen gas underneath a harbor, where the sample is placed. Heaters are placed around the box and under the harbor to archieve a constant temperature. On top of the Harbor, warm Nitrogen is blown so no ice is forming inside the optical path.
 
@@ -405,7 +317,7 @@ The Process of a pull test starts with clamping a new stamp on the top. Then the
 
 \subsection{detaching ice from PDMS}
 
-Now, different PDMS mixture ratio with different plasma activations are tested at cryogenic temperatures. With previous setup, plasma activation of 1:2 mixture ratio PDMS resulted into a more stable layer with more adhesion. Also 50:1 is tested with high plasma activation. The tensile stress of 50:1 mixture ratio is \SI{60}{\kilo\pascal} \cite{IbanezIbanez.2022}.  \cite{Ohishi.2017} suggests that strong plasma activation over \SI{3}{\min} results of a decrease of adhesion strength of around$90\,\%$. Additionally, 4:1 mixture ratio with high plasma activation is tested.
+Now, different PDMS mixture ratio with different plasma activations are tested at cryogenic temperatures. With previous setup, plasma activation of 1:2 mixture ratio PDMS resulted into a more stable layer with more adhesion. Also 50:1 is tested with high plasma activation. The tensile stress of 50:1 mixture ratio is \SI{60}{\kilo\pascal} \cite{IbanezIbanez.2022}.  \cite{Ohishi.2017} suggests that strong plasma activation over \SI{3}{\minute} results of a decrease of adhesion strength of around$90\,\%$. Additionally, 4:1 mixture ratio with high plasma activation is tested.
 
 Two different setups are used. First, the setup with "finger" and "bath" described in section \ref{section:Process} is used. Second, for additional data, a modified version of the setup with the pulling machine is used. This allows the measurement of the actual tensile strength on the sample. 
 
@@ -418,3 +330,89 @@ BILD
 Compared to the "finger" setup with stages, the finger only moves up and down. The Alignment is done by moving the bath by loosening the screws on the frame. Also new "window" parts are waterjet cut. The new "window" has a bigger central hole for easier alignment.
 
 As the pulling mashine is set up in a separate room, the samples are prepared in the laboratory next to the microscope. The small bath is used for sample preparation. The process is the same as all detachment trials with the finger. 
+
+\section{Phospholipids}
+\label{section:metodeLipide}
+
+Phospholipids are the building block of membranes in nature. They are made of two long nonpolar carbon chains and a polar head. A membrane is a bilayer of Phospholipids with the hydrophobic carbon chains oriented inwards and the hydrophilic head pointing outwards. They are also natural detergents, as they can bind to hydrophobic waste forming an emulsion, making them removable with polar liquids like water \cite{SriramaM.BhairiPh.D..2001}.
+
+Phospholipids are solvable in some common solvents. To apply Phospholipids, a slide is dipped into the solvent. When the solvent dries out, the lipids are binding to the surface of the slide, forming a layer with varying homogeneity. this layer can be removed with the same solvents. If the ice layer is frozen onto the lipid layer, the lipids can be solved at cryogenic temperatures, detaching the ice. But to solve this layer, a high solubility at cryogenic temperatures is required. 
+
+% as the surface of the sacrifical layer is only on the edge of the sample.!
+
+\subsection{Parylene}
+
+Parylene is a hydrophobic polymer used as a coating to repel particles, including water and ice. Parylene is also biocompatible and used in medicine and biology (QUELLE?).
+
+Parylene is not usable without a second layer on top. Parylene hydrophobicity does not allow water to spread during plunge freezing. with plasma activation, the surface is now hyrdophilic, but ice adheres to the parylene too strong to mechanically detach. also parylene cannot be solved with a solvent as a sacrificial layer.
+
+For this reason, lipids are used in combination with parylene (Fig. \ref{fig:sacrificial layer}). The hydrophobic chains of the lipids adhere to the parylene. The polar head allow water to spread evenly over the surface. Solving the lipids with a solvent will detach the ice layer from the slide. Parylene additionally prevents (re-) attachment through holes in the lipid layer. 
+
+\begin{figure}[hbt!]
+	\centering
+	\input{../images/Zeichnung_Layer_Lipide_parylene.pdf_tex}
+	\caption{Layers of a Sample. The Lipid layer is used as a sacrificial layer. To reach the layer with a solvent, the only contact surface is to the edge. To get a fast and reliable process, a solvent with high solubility is needed.}
+	\label{fig:sacrificial layer}
+\end{figure}
+
+
+\subsection{Preparation of lipid coated slides}
+
+To create the slides with parylene and lipids, a cover glass (\SI{5}{\milli\meter} diameter) is used as base. the cover glass is coated with a thin layer of parylene. The coated cover glass is dipped into lipid solution. The cover glass is dried, leaving behind a lipid layer. The prepared slides are then used in plunge freezing.
+
+Two different kind of lipids are used: DOPC and EGG-PC. DOPC is storaged as a powder. The DOPC powder is solved in Ethanol ($25\,\si{\milli\gram}/1\,\si{\milli\liter}$ lipid to solvent) for application. 
+EGG-PC is shipped solved in chloroform in two different ratios: $25\,\si{\milli\gram}/1\,\si{\milli\liter}$ and $10\,\si{\milli\gram}/1\,\si{\milli\liter}$. The solution is shipped in phioles.
+
+The lipid solution is transferred into several small bottles. small bottles are chosen because solution forms a lubrication film on the thread of the lid. this prevents the lid from closing airtight. This leads to evaporation of the solvent over time, making the bottle unusable. In the coating process, solution often drops onto the threads, making a bottle only usable in one coating session. By splitting the solution into multiple flask, more slides can be covered from one batch of solution.
+
+\subsection{solubility lipids}
+
+These tests are conducted to find a fluid to solve a sacrificial layer out of lipids. (BEDINGUNGEN SACRIFICIAL LAYER? ODER KAM DAS SCHON?)
+
+Two consecutive solubility experiments are proposed. The first experiment is conducted at room temperature. the aim is to find solvents with high solubility at room temperature. the candidates with high solubility are then tested in the next experiment at cryogenic temperature. the aim is now to find solvents with also high solubility at cryogenic temperatures. The first experiment is conducted as there are only three baths available at cryogenic temperature. therefore the throughput for experiments is limited.
+
+\subsubsection{at room temperature}
+
+The Solvent are chosen based on availability, freezing point and safety. The solvents are all readily available in the laboratory. Some were ordered before the test. Also all chosen solvent are save to use in a well ventilated room. The followup experiment cannot be conducted under a extractor hood as too much space is taken up with the experiment. Also the solvent or solvent mixture needs to stay liquid at around \SI{-140}{\degreeCelsius} to assure that the ice layer on top stays vitrified. The tested substances are 4-Methyl Pentene, 3-Methyl Pentene, 1-Pentene, Isopentane, 1-Propanol, Pentane and Ethanol. 
+
+Each solvent is put in a separate bottle. The lipid coated slides are prepared as previously described. For each solvent, a slide is put in the corresponding bottle. After \SI{15}{\minute}, the slides are removed and examined. The results are documented in a list. When all streaks caused by the lipid layer disappeared, the solvent is tested in the next experiment.
+
+\subsubsection{at cryogenic temperature}
+\label{chapter:meltingtemp}
+
+
+Solubility is temperature dependent. Most solutions are endothermic. this means energy is needed to solve another substance. Also the saturation point of the solution can change. Therefore, solubility needs to be tested at the same temperature as in application
+
+The experiment is conducted at \SI{-140}{\degreeCelsius}. The solvents are given in liquid nitrogen cooled baths, which are regulated to the desired temperature. A slide is given into the cold solvent for \SI{15}{\minute}. Then the slide is examined for leftover streaks as before.
+
+The freezing point of tested solvents are not all below \SI{140}{\degreeCelsius}] (Table \ref{table:SchmelztemperaturLösungsmittel}). Still, solvents with a high freezing point can be mixed with other solvents with lower freezing point to lower the freezing point of the mixture. Alternatively, the temperature can be raised over the freezing point, but this could risk the ice to loose the vitrified state.
+
+\begin{table}[hbt!]
+	\centering
+	\begin{tabular}{|l|c|}
+		\hline
+		solvent & melting point in °C \\
+		\hline
+		\hline
+		4-Methyl Pentene & -154 \\ 
+		\hline
+		3-Methyl Pentene & -154 \\
+		\hline
+		1-Pentene & -165 \\
+		\hline
+		Isopentane & -160 \\
+		\hline
+		1-Propanol & -126 \\
+		\hline
+		Pentane & -129 \\
+		\hline
+		Ethanol & -114 \\
+		\hline
+	\end{tabular}
+	\caption{Melting Point in °C for tested solvents.}
+	\label{table:SchmelztemperaturLösungsmittel}
+\end{table}
+
+In the end, experiments has proven that solving lipids fast and reliable is not possible with tested solvents. As all solvent lipid combinations are endothermic. finding a working solvent lipid combination is very unlikely, as almost all combination of solvent and lipids will be endothermic.
+
+Additionally, some solvents tested are soluble in water. It is unknown whether the solvents could be solved or diffuse inside the ice layer at \SI{-140}{\degreeCelsius}. Therefore the ice layer could be changed in some undesired manner. if a sufficient solvent is found and the solvent is soluble in water, a potential change of the vitrified ice needs to be addressed.
