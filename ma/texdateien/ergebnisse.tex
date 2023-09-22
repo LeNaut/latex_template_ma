@@ -1,8 +1,6 @@
 % !TeX spellcheck = en_US
 
-
-
-\section{Lipids}
+\section{Solubility lipids}
 
 In the previous chapter, the method of using a sacrificial layer to detach ice is discussed. For this, lipids need to be solved at cryogenic temperatures. As not every lipid is solvable in all solvents, an experiment is conducted to obtain solvents at room temperature. then the best solvents are tested at cryogenic temperatures.
 
@@ -47,7 +45,7 @@ In the experiment, no tested solvent was able to completely solve lipids at \SI{
 
 Using solvents to remove a sacrificial layer, a high solubility is required. In practice, the sacrificial layer is completely covered by the ice layer except the edges. Therefore area of contact with the solvent is small, slowing the process considerably. Additionally, as the ice layer needs to stay vitrified. The temperature cannot be raised over \SI{-140}{\degreeCelsius} to speed up the process.
 
-The solving process of lipids proves to be endothermic. This means that heat is needed to solve lipids, so cold temperature heavily decrease solubility QUELLE DENNIS ODER SO. This effect was observed over the last experiments by all solvents to varying degree. It can be assumed that the majority of solvent lipids mixtures are endothermic which is very disadvantageous for finding a potential solvent lipid candidate. Strongly exothermic solvents could heat up the ice enough to crystallize the ice. So weakly exothermic solvents would be optimal for this task.
+The solving process of lipids proves to be endothermic. This means that heat is needed to solve lipids, so cold temperature heavily decrease solubility. This effect was observed over the last experiments by all solvents to varying degree. It can be assumed that the majority of solvent lipids mixtures are endothermic which is very disadvantageous for finding a potential solvent lipid candidate. Strongly exothermic solvents could heat up the ice enough to crystallize the ice. So weakly exothermic solvents would be optimal for this task.
 
 \begin{table}[hbt!]
 	\begin{subtable}{\linewidth}
@@ -97,8 +95,6 @@ The solving process of lipids proves to be endothermic. This means that heat is 
 \FloatBarrier
 \section{Detaching ice mechanically}
 \label{Chapter:LipidPullingTests}
-
-
 
 \subsection{PDMS experiments at room temperature}
 
@@ -368,13 +364,47 @@ In the results, there is no difference between hand-freezed and plunge-freezed s
 	\label{table:AttemptsHandsvsMachine}
 \end{table}
 
-1:2
+To compare PDMS coated slides to lipid coated slides, the same experiment is repeated for three different mixture ratios. Under the microscope, a continuous layer of ice is visible. \ref{fig:VglPDMSicemixtureratio}). The Ice layer has the same structure for each mixture ratio. Still, the ice layer has a different structure to ice frozen on lipid slides (fig \ref{fig:VglHandFreeze}, \ref{fig:VglMachineFreeze}). The layer is only interrupted by the imprint of pincers used for plunge freezing, visible in fig. \ref{fig:VglPDMSicemixtureratio_f}. Also almost no cracks are visible in the ice layer. This indicates a strong continuous ice layer.
 
-4:1
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{1_2_Ice_echtlicht.ome}
+		\caption{PDMS 1:2 sample in true light}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{1_2_Ice_fluorescence.ome}
+		\caption{PDMS 1:2 sample with fluorescence filter}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{4_1_Ice_echtlicht.ome}
+		\caption{PDMS 4:1 sample in true light}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{4_1_Ice_fluorescence.ome}
+		\caption{PDMS 4:1 sample with fluorescence filter}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{50_1_Ice_echtlicht.ome}
+		\caption{PDMS 50:1 sample in true light}
+	\end{subfigure}
+		\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{50_1_Ice_fluorescence.ome}
+		\caption{PDMS 50:1 sample with fluorescence filter}
+		\label{fig:VglPDMSicemixtureratio_f}
+	\end{subfigure}
+	\caption{comparison of ice on different PDMS samples. The ice crystallized ice structure only changes minimally. A continuous ice layer forms over each plasma activated PDMS sample. the layer is only interrupted by the imprint of the pinces at plunge-freezing here visible in (f).}
+	\label{fig:VglPDMSicemixtureratio}
+\end{figure}
 
-50:1 
+In pulling tests with the finger the three PDMS mixture ratios are tested. For mixture ratio 1:2 and 50:1, all test are unsuccessful (fig. \ref{table:AttemptsPDMS}). however, at mixture ratio 4:1, a successful detachment was performed. However, the detachment cannot be confirmed as the before picture did not cover the area of the missing piece (fig. \ref{fig:SuccessfulDetachment}). without this proof, the formation of the hole when freezing cannot ruled out even if unlikely. Also a piece of ice is not distinguishable when hanging on the finger. Still, since a mixture ratio gave partial succesful results, this mixture ratio needs to be investigated further.
 
-%Combined!!
 \begin{table}
 	\centering
 	\begin{tabular}{|c|c|c|c|}
@@ -382,21 +412,50 @@ In the results, there is no difference between hand-freezed and plunge-freezed s
 		Category & PDMS 1:2 & PDMS 4:1 & PDMS 50:1 \\
 		\hline
 		\hline
-		count executed tries & a & 3 & c\\
+		count executed tries & 5 & 3 & 6\\
 		\hline
-		unsuccessful & a & 2 & c\\
+		unsuccessful & 5 & 2 & 6\\
 		\hline
-		breaks/movement of ice & a & 0 & c\\
+		breaks/movement of ice & 0 & 0 & 0\\
 		\hline
-		piece lifted with finger & 0 & 1 & 0\\
+		piece lifted with finger & 0 & 1* & 0\\
 		\hline		
 	\end{tabular}
-	\caption{Comparison of detachability between PDMS mixture ratios}
+	\caption{Comparison of detachability between PDMS mixture ratios. Pulling tests at PDMS of 1:2 and 50:1 mixture ratio were unsuccessful. But at mixture ratio of 4:1, detachment was successful one time. However, this could be a statistical outlier or a false positive. A hole was spotted after pulling with the finger. however, the hole is located outside of the before image. therefore the hole could already exist while freezing even if unlikely.}
 	\label{table:AttemptsPDMS}
 \end{table}
 
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{Successfu_try_before}
+		\caption{Before}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{Successfu_try_after}
+		\caption{After}
+	\end{subfigure}
+	\caption{Successful pulling test of 4:1 PDMS. However, this result should be taken cautiously. The before and after image each catch a different part of the sample. Under normal circumstances, no holes form in the ice layer when freezing (shown in fig. \ref{fig:VglPDMSicemixtureratio}) however, this case cannot be ruled out.}
+	\label{fig:SuccessfulDetachment}
+\end{figure}
 
-CONTINUOUS ICE SURFACE
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{SurfaceModDiamontpencil.ome}
+		\caption{Ice layer scatched with pencil}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7cm]{SurfaceModPincer.ome}
+		\caption{Ic layer with loose ice near pincer improint}
+	\end{subfigure}
+	\caption{Twod different methods to break the continuos ice surface.}
+	\label{fig:SurfaceMod}
+\end{figure}
 
 \FloatBarrier
 
