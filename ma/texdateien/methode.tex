@@ -1,35 +1,52 @@
 % !TeX spellcheck = en_US
 
-To detach the ice layer from the sample, two ideas are propose. The first proposal for detaching the ice layer is using mechanical force for separation. The second Idea is using a sacrificial layer which is dissolved at cryogenic temperatures.
+To detach the ice layer from the sample holder, two main ideas are proposed. The first method for detaching the ice layer is using mechanical force to separe the ice layer. The second idea is to design a sacrificial layer which can be dissolved at cryogenic temperatures.
 
-\section{Detaching ice mechanically}
+\section{Separating the ice layer mechanically}
 
- To apply mechanical forces to the ice layer, a lifting assembly referred to as "finger" is used. To make lifting possible, the bottom layer is engineered to reduce the adhesion of the ice and the stability of the sample slide. Also, as the assembly is not used in similar work before, different variables are addressed and examined.  
+To apply mechanical forces to the ice layer, a lifting assembly referred to as "finger" is used. To make lifting possible, a layer is engineered to reduce the adhesion of the ice on the sample holder. Additionally, a brittle layer could also reduce the force needed to separate the ice layer. Also, as the assembly is not used in similar work before, different variables are addressed and examined.  
 
 \subsection{Assemblies used at cryogenic temperatures}
 
-The finger is made of two main parts. The first part is metal rod with a slightly pointed tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a temperature sensor and a heater. The second main part is a 3D printed shell, containing the outer layer and routing of the cold gaseous nitrogen. The cold nitrogen gas is directed downwards around the metal bar in an inner mantle for cooling. then, the gas is directed upwards flowing through an outer mantle for additional cooling. Then the gas exits through the output.
+The finger is made of two main parts. The first part is metal rod with a flat tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a Pt1000 used as a temperature sensor and a heater. The second main part is a 3D printed structure, containing the outer layer and routing of the cold gaseous nitrogen. Inside the 3D printed structure, the cold nitrogen gas is directed from the inlet downwards around the metal bar in an inner mantle for cooling. Then, the cold gas is redirected upwards flowing through an outer mantle for additional cooling. Afterwards, the gas exits through the output.
 
 \begin{figure}[hbt!]
 	\centering
 	\input{../images/ZeichnungFinger.pdf_tex}
-	\caption{A cross-section of the "finger" assembly. The metal rod is cooled with cold nitrogen gas. the gas is routed from the inlet around the metal bar onto an outer layer to the outlet. The metal rod is temperature controlled by a temperature sensor and a heater. With HFE 7200 is applied to the tip, the finger can attach to a surface at cryogenic temperatures and apply force. }
+	\caption{A cross-section of the "finger" assembly. The metal rod is cooled with cold nitrogen gas. the gas is routed from the inlet around the metal bar onto an outer layer to the outlet. The metal rod is temperature controlled by a Pt1000 temperature sensor and a heater. With HFE 7200 is applied to the tip, the finger can attach to a surface at cryogenic temperatures and apply force. }
 	\label{fig:querschnittfinger}
 \end{figure}
 
-The Cold nitrogen gas is supplied by a liquid nitrogen tank. Strong heaters are placed inside the tank to evaporate the liquid nitrogen. The volume is rapidly expanding at evaporation, resulting in fast gas flow. the cold nitrogen gas is routed by \SI{6}{\milli\meter} pneumatic tubing. The inlet of the finger is connected to the liquid nitrogen tank. At the inlet and outlet of the finger, Festo connectors are mounted to allow easy dis- and reconnecting. the outlet tubing exhausts the cold nitrogen into the atmosphere.
+The Cold nitrogen gas is supplied by a liquid nitrogen tank. Strong heaters placed inside the tank evaporate the liquid nitrogen. The volume is rapidly expanding at evaporation, resulting in fast gas flow. Cold nitrogen gas leaving the tank is routed by \SI{6}{\milli\meter} pneumatic tubing (PRÜFEN) to the finger inlet. On the inlet and outlet of the finger, Festo connectors are mounted to allow easy dis- and re-connection of tubes. Cold nitrogen gas which passed through the finger are exhausted by outlet tubing into the atmosphere.
 
-The finger is  mounted on three stages. additionally the stages are mounted on a track. the three stages allow fine adjustment of the finger position in X,Y and Z axis. Also, when the finger is attached to a surface, force can be applied by moving the stages in either direction. The Finger can also be moved along the track. In use, the assembly is clamped down on the track to prevent movement. when not in use, the assembly can be moved on the track to allow easy access of the area below the "finger".
+The finger is  mounted on three stages. The three stages allow fine adjustment of the finger position in X,Y and Z axis (fig. \ref{fig:FingerStages}). Also, when the finger is attached to a surface, force can be applied by moving the stages in either direction. Additionally the stages are mounted on a track. The track allows fast movement along one axis to make assemblies below the finger reachable. Whenever the finger is used, the assembly is clamped down on the track to prevent additional movement. Whenever the finger is not in use, the assembly can be moved on the track to allow easy access of the area below the finger.
 
-GRAPHIC STAGES NOCH HINZUFÜGEN
+\begin{figure}[hbt!]
+	\centering
+	\begin{overpic}[width=10cm]{Finger_Stages}
+		\white
+		\put(20,37){\makebox(0,0)[c]{Track}}
+		\put(37,90){\vector(1,0){10}}
+		\put(37,90){\makebox(0,0)[r]{Stage Z-axis}}
+		\put(75,45){\vector(0,-1){10}}
+		\put(75,45){\makebox(0,0)[b]{Stage X-axis}}
+		\put(36,8){\vector(1,0){10}}
+		\put(36,8){\makebox(0,0)[r]{Stage Y-axis}}
+		\put(67,88){\vector(-1,0){10}}
+		\put(67,88){\makebox(0,0)[l]{Finger}}
+		\put(70,65){\makebox(0,0)[c]{Bath}}
+	\end{overpic}
+	\caption{Stages to precisely manipulate the finger tip in X, Y and Z direction. When the finger is not in use, it is moved along the track to allow access to assemblies below.}
+	\label{fig:FingerStages}
+\end{figure}
 
-On the tip of the finger, Hydrofluorether (here HFE 7200) is applied. HFE is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}. Besides that, it has temperature dependent abilities. At freezing point, HFE reaches a viscous state before reaching a firm solid state. this temperature dependency is used to first apply the HFE at higher temperatures with low viscosity and pull on the sample at low temperatures with high viscosity.
+On the tip of the finger, Hydrofluorether (here HFE 7200) is applied. HFE is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}. HFE has temperature dependent characteristics. At freezing point, HFE reaches a viscous state before reaching a firm solid state. This temperature dependency allows to first apply the HFE at higher temperatures with low viscosity and pull on the sample at lower temperatures with high viscosity.
 
-In the beginning a smaller bath is used (Fig. \ref{fig:KleinesBad}). The Small bath contains an elevated floor as work surface. embedded in the work surface are indents which are used as container holder. those container allow transport and long term storage of samples. Three elevated baths are installed above the work station. They are used for temperature controlling and containing other Liquids or tools. Also a Haven for a shuttle system is installed. The small baths and the haven are elevated over the second floor with an insulating layer, so a temperatures over \SI{-195.8}{\degreeCelsius} can be regulated. The liquid nitrogen is filled over the work surface, but not over the insulating layers to allow temperature controlling. The whole bath is insulated by Nitrogen gas flowing inside the 3D-printed shell of the bath. Then the Nitrogen gas is expelled from the brim, pointing from the outer edge radially to the rotation axis. In that way, the nitrogen gas separates the damp air in the room with the dry nitrogen gas inside the bath. Therefore ice formation inside the bath is inhibited.
+A small bath and later a big bath are placed below the finger. In the baths, samples are prepared and holds a harbor-shuttle system. The sample is fixed in the shuttle for transportation and to hold on to the sample holder when pulling with the finger. A warm nitrogen gas barrier keeps the finger tip ice free by displacing humid air.
 
-This small bath and later the big bath are also used in combination with the finger. The finger is positioned over the shuttle docked in the haven. The sample is fixed in the shuttle. The position of the finger over the shuttle is manipulated with stages. The warm Nitrogen gas barrier also keeps the finger tip ice free.
+In the beginning a smaller bath is used (Fig. \ref{fig:KleinesBad}). The small bath contains an elevated floor utilizing as work surface. Embedded in the work surface are indents which fit container holder. These container allow transport and long term storage of samples. Three elevated baths are installed on the elevated floor. They are temperature controlled for containing other Liquids or tools at different temperatures. Also a Haven for a shuttle system is installed. The small baths and the haven are separated from the elevated floor with an insulating layer. The bath is filled with liquid nitrogen covering the work surface. The level is kept on the height of the insulated layer to allow temperature controlling over \SI{-195.8}{\degreeCelsius}. The whole bath is insulated by Nitrogen gas flowing inside the 3D-printed shell of the bath. The warm nitrogen gas is expelled from the brim, flowing from the outer edge radially to the middle rotation axis. In that way, the nitrogen gas separates the damp air in the room with the dry nitrogen gas inside the bath.
 
-The usage of the small bath in combination of the finger has limitations: First, the space is small. The finger can be moved along the track, but the space left still limits work freedom with pincers. Additionally, the smaller baths are not needed when using the finger, using up more space. Also the Shuttle needs to be tilted in a specific angle so docking and undocking of shuttle in the haven is possible. The work flow also allows only one shuttle at once, limiting throughput. Also liquid nitrogen needs to be refilled often since the bath can only hold a smaller volume.
+The usage of the small bath in combination of the finger has limitations: First, the space in the small bath is small. The movement along the track is very limited. The finger can be moved along the track, but the space left still limits work with pincers. Additionally, the smaller baths are not needed when using the finger, therefore taking up much needed space. Also the Shuttle needs to be tilted in a specific angle to dock and undock the shuttle. The work flow also allows only one shuttle at once, limiting throughput. Also liquid nitrogen needs to be refilled often since the bath can only hold a smaller volume.
 
 \begin{figure}[hbt!]
 	\centering
@@ -61,7 +78,7 @@ The usage of the small bath in combination of the finger has limitations: First,
 	\label{fig:KleinesBad}
 \end{figure}
 
-During this master thesis, a second bigger bath is build (Fig. \ref{fig:GroßesBadMitFinger}). In general, the structure is similar. It also has an elevated floor as a work surface. The work surface is fabricated out of two plates screwed together. Indents are formed by holes in the upper plate. No baths are installed, but the space is planned in for later addition. The work surface is held in place by 3D printed holders which are fixed to the brim of the metal bath. Also two harbors can be mounted for parallel work on two separate shuttles. The harbors are screwed on an aluminum block. the aluminum block is temperature regulated. between the aluminum block and the work surface, a 3D-printed insulating layer is placed. Also both harbors can be mounted either flat or in an angle, depending of the 3D printed layer. The Bath is insulated with styrofoam and a rim with holes for warm nitrogen gas is placed on top. The holes are places along the inside of the longer perimeter, so the stream covers the whole area with minimal turbulence. This also keeps the inside ice free.
+During this master thesis, a second bigger bath is build (Fig. \ref{fig:GroßesBadMitFinger}). In general, the structure is similar. It also uses an elevated floor as a work surface. The work surface is fabricated out of two plates screwed together and fixed to the brim with 3D-Printed hooks. Indents are formed by holes in the upper plate. No baths are installed, but the space is reserved for later addition. Two harbors are mountable for parallel work on two separate shuttles. The harbors are screwed on an aluminum block with Pt-100 temperature sensors and heaters for temperature regulation. Between the aluminum block and the work surface, a 3D-printed insulating spacer is placed. Also both harbors can be mounted either flat or in an angle, depending of the 3D printed spacer. The bath is insulated with styrofoam and a rim with holes for warm nitrogen gas is placed on top. The holes are places along the inside of the long perimeter.
 
 \begin{figure}[hbt!]
 	\centering
@@ -87,13 +104,11 @@ During this master thesis, a second bigger bath is build (Fig. \ref{fig:GroßesB
 		\put(17, 88){\vector(0,-1){5}}
 		\put(17, 88){\makebox(0,0)[b]{connection "finger" to stage}}
 	\end{overpic}
-	\caption{Big bath with finger assembly. Inside samples are prepared as well as the finger is used for applying force on the sample.}
+	\caption{Big bath with finger assembly. Inside the bath samples are prepared. When applying forces with the finger, the sample fixed on a shuttle is held in place by the harbor.}
 	\label{fig:GroßesBadMitFinger}
 \end{figure}
 
-To take pictures of the sample, an inverted microscope is modified for cryo microscopy (Fig. \ref{fig:Mikroskop}). A box with a metal core is fixed to the bottom of the stage. an outer frame an the top of the box is temperature controlled. The box is supplied with cold nitrogen gas to cool the iron core. A haven is fixed to the iron core and placed over the objective. The haven is temperature controlled to \SI{-140}{\degreeCelsius} to make remains of HFE liquid and distinguishable. to keep the light path between haven and objective clear from ice and fog, a component reffered to as "glasses" is used(HIER REFERENZ ZUR ZEICHNUNG VON DER BRILLE?). It contains two parallel glass slides. Warm nitrogen gas is routed beween the glass slides and the lower glass slide and objective. Additionally, a filter is used for examining fluorescent samples.
-
-The Shuttles are also used in cryo light microscopes. The Microscope used for cryotemperatures have an additional box installed, routing Cold nitrogen gas underneath a harbor, where the sample is placed. Heaters are placed around the box and under the harbor to archieve a constant temperature. On top of the Harbor, warm Nitrogen is blown so no ice is forming inside the optical path.
+To take detailed pictures of the sample, an inverted microscope is modified for cryo- microscopy (Fig. \ref{fig:Mikroskop}). A box with a metal core is fixed to the bottom of the stage. An outer frame surronding the box is temperature regulated to prevent buildup of ice. The box is supplied with cold nitrogen gas to cool the metal core. A haven is fixed to the metal core and placed over the objective. The haven is temperature controlled by a ring heater to \SI{-140}{\degreeCelsius}. This makes HFE liquid and distinguishable from the frozen sample. to keep the light path between haven and objective clear from ice and fog, a component referred to as "glasses" is used(HIER REFERENZ ZUR ZEICHNUNG VON DER BRILLE?). It contains two thin and parallel glass panes. Warm nitrogen gas is routed between the glass panes and out between the lower glass pane and objective. Additionally, a filter is used for examining fluorescent samples.
 
 \begin{figure}[hbt!]
 	\centering
@@ -120,24 +135,26 @@ The Shuttles are also used in cryo light microscopes. The Microscope used for cr
 	\label{fig:Mikroskop}
 \end{figure}
 
-The shuttle allows easy transportation of the sample without limiting the access to the sample. The sample is clamped down by a brace, which is also reffered to as "window". The "window" is fixed with two screws to the shuttle, holding the sample in place. the "window" gives access to the top side of the sample with a center hole for microscopy and "finger". A long rod with a thread at one side and a temperature insulated knob on the other side is used to screw into the sample. This allows easy transport between bath and microscope. 
+The shuttle allows easy transportation and access to the sample. The sample is clamped down by the "window" brace (fig. \ref{fig:shuttle}). The window brace is fixed with two screws to the shuttle, holding the sample in place. A center hole in the window gives access to the top side of the sample for microscopy and finger. In the copper shuttle a thread is placed. With a long threaded metal rod the sample is transported between assemblies.
 
 \begin{figure}[hbt!]
 	\centering
-	\input{../images/Zeichnung_shuttle.pdf_tex}
-	\caption{Shuttle for transporting a sample between bath and microscope. The "window" is clamped down by screws to the copper shuttle, holding the sample in place. Through the hole in the window, microscopy is done on the sample. The "finger" fit also through the "window" for pulling. For transport, a rod is screwed into the copper shuttle.}
-	\label{fig:shuttle}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\input{../images/Zeichnung_shuttle.pdf_tex}
+		\caption{Shuttle for transporting a sample between bath and microscope. The window is clamped down by screws to the copper shuttle, holding the sample in place. the center hole in the window gives access for microscopy and finger.}
+		\label{fig:shuttle}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\input{../images/Zeichnung_transportbox.pdf_tex}
+		\caption{Small 3D-printed transport box for three samples. A cap is screwed onto the central thread. These boxes fit into storage units. The design is based on a commonly used storing system.\newline\newline}
+		\label{fig:transportbox}
+	\end{subfigure}
+	\label{fig:shuttleandtransportbox}
 \end{figure}
 
-On the other hand, small container with space for three $\varnothing$\SI{5}{\milli\meter} samples are used (Fig. \ref{fig:transportbox}). These are 3D Printed, modified version of other containers. a cap which is identical with the other versions of container is screwed on top with a special pencil. Inside the bath, the container fit into the indent. the cap is screwed next to the container, holding it into place. Also the container can be stored in the same container of the other version. This allows long term storage of samples with \SI{5}{\milli\meter} diameter.
-
-
-\begin{figure}[hbt!]
-	\centering
-	\input{../images/Zeichnung_transportbox.pdf_tex}
-	\caption{Small transport box for three samples. a cap is screwed onto the central thread. (WAS ZUM DECKEL SCHREIBEN). These boxes fit into storage units for long time storage.}
-	\label{fig:transportbox}
-\end{figure}
+For long time storage small containers with space for three $\varnothing$\SI{5}{\milli\meter} samples are designed (Fig. \ref{fig:transportbox}). These are 3D Printed, modified version of other containers. a cap which is identical with the other versions of container is screwed on top with a special tool. Inside the bath, the container fit into the indent. The cap is screwed next to the container, clamping the container down to the work surface. Also the container are interoperable with most other tools. This allows long term storage of samples with \SI{5}{\milli\meter} diameter.
 
 \FloatBarrier
 

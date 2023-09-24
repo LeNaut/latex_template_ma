@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Zeichnung_Shuttle.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{203.47428012bp}%
+    \setlength{\unitlength}{203.09804593bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.40858521)%
+  \begin{picture}(1,0.40961411)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Zeichnung_Shuttle.pdf}}%
-    \put(0.33881853,0.01057944){\color[rgb]{0.85882353,0.50588235,0.20784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Copper Shuttle\end{tabular}}}}%
-    \put(0.84740906,0.36583386){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Screws\end{tabular}}}}%
-    \put(0.41857057,0.32753032){\color[rgb]{0,0.2,0.98431373}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sample\end{tabular}}}}%
-    \put(0.00593888,0.37582014){\color[rgb]{0.20392157,0.85490196,0.25490196}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"Window" holder\end{tabular}}}}%
+    \put(0.33944618,0.01087104){\color[rgb]{0.85882353,0.50588235,0.20784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Copper Shuttle\end{tabular}}}}%
+    \put(0.84897886,0.36678357){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Screws\end{tabular}}}}%
+    \put(0.41934596,0.32840907){\color[rgb]{0,0.2,0.98431373}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sample\end{tabular}}}}%
+    \put(0.00594988,0.37678835){\color[rgb]{0.20392157,0.85490196,0.25490196}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"Window" holder\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Zeichnung_Shuttle.pdf}}%
   \end{picture}%
 \endgroup%
