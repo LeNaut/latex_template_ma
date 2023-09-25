@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Zeichnung_Layers_in_general.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{346.99015566bp}%
+    \setlength{\unitlength}{355.73298367bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,13 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.08546503)%
+  \begin{picture}(1,0.08686793)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Zeichnung_Layers_in_general.pdf}}%
-    \put(-0.0001804,0.01308491){\color[rgb]{0.04705882,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sample holder\end{tabular}}}}%
-    \put(0.77843391,0.04207358){\color[rgb]{1,0.1372549,0.1372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}engineered layer\end{tabular}}}}%
-    \put(0.07483547,0.06453335){\color[rgb]{0.49411765,0.48627451,0.92941176}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ice layer\end{tabular}}}}%
+    \put(-0.00046009,0.01196241){\color[rgb]{0.04705882,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sample holder\end{tabular}}}}%
+    \put(0.78475642,0.03307107){\color[rgb]{1,0.1372549,0.1372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Engineered layer\end{tabular}}}}%
+    \put(0.07248706,0.06494493){\color[rgb]{0.49411765,0.48627451,0.92941176}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ice layer\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Zeichnung_Layers_in_general.pdf}}%
+    \put(0.78517329,0.06734325){\color[rgb]{0,0.89411765,0.04705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Specimen\end{tabular}}}}%
   \end{picture}%
 \endgroup%

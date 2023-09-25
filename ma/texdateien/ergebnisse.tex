@@ -441,17 +441,37 @@ In pulling tests with the finger the three PDMS mixture ratios are tested. For m
 	\label{fig:SuccessfulDetachment}
 \end{figure}
 
+To test the behavior of an ice layer frozen onto PDMS, the surface is damaged in two ways. In one experiment, the Sample is scratched with a diamond pencil. This is done after mounting the sample on the shuttle. The diamond tip is drawn around the inside of the window several times, forming a visible groove (fig. \ref{fig:ScratchedSample}). In the other experiment, The pincer is intentionally placed through the middle of the sample when plunge-freezing. Therefore an intentional big imprint is left after freezing (fig. \ref{fig:PincerImprint}).
+
+Scratching the ice layer with a diamond pencil 
+
 \begin{figure}[hbt!]
 	\centering
-	\begin{subfigure}[]{0.45\textwidth}
+	\begin{subfigure}[]{\textwidth}
 		\centering
-		\includegraphics[width=7cm]{SurfaceModDiamontpencil.ome}
-		\caption{Ice layer scatched with pencil}
+		\begin{subfigure}[]{0.45\textwidth}
+			\centering
+			\includegraphics[width=7cm]{SurfaceModDiamontpencil.ome}
+		\end{subfigure}	
+		\begin{subfigure}[]{0.45\textwidth}
+			\centering
+			\includegraphics[width=7cm]{SurfaceModDiamontpencilFLuorescence.ome}
+		\end{subfigure}
+		\caption{Ice layer scratched with diamond pencil.\\}
+		\label{fig:ScratchedSample}	
 	\end{subfigure}
-	\begin{subfigure}[]{0.45\textwidth}
+	\begin{subfigure}[]{\textwidth}
 		\centering
-		\includegraphics[width=7cm]{SurfaceModPincer.ome}
-		\caption{Ic layer with loose ice near pincer improint}
+		\begin{subfigure}[]{0.45\textwidth}
+			\centering		
+			\includegraphics[width=7cm]{SurfaceModPincerReallight.ome}	
+		\end{subfigure}
+		\begin{subfigure}[]{0.45\textwidth}
+			\centering
+			\includegraphics[width=7cm]{SurfaceModPincer.ome}	
+		\end{subfigure}
+		\caption{Ice layer with loose ice near pincer imprint}
+		\label{fig:PincerImprint}
 	\end{subfigure}
 	\caption{Twod different methods to break the continuos ice surface.}
 	\label{fig:SurfaceMod}
@@ -469,8 +489,15 @@ The duration of time between reaching the "glue" state from the "unglue" state m
 
 The formation of Ice inside the bath is largely inhibited through the Nitrogen Gas inlets. The nitrogen is forming a barrier to the atmosphere which contains humidity that turns into ice at cold temperatures. However, through turbulence and the finger, some ice can form inside the bath. 
 
-In some experiments, high buildup of additional ice is observed on the sample. The additional ice is looser, reducing the possible grip onto the desired ice layer. The formation is traced back to a leakage in the finger. The tolerances between 3D printed part and metal bar should be able to seal the gap airtight. But trough changing out parts, the tolerances are looser, allowing a weak cold nitrogen current right on the sample. There are two possibility where the humidity itself is coming from: The cold nitrogen gas itself could contain some humidity. Second through additional turbulence, more air is sucked through the barrier. The air is directed directly on the sample, causing more ice buildup. To avoid this, the gap is sealed tight with tooth silicone????
+In some experiments, high buildup of additional ice is observed on the sample. The additional ice is looser, reducing the possible grip onto the desired ice layer. The formation is traced back to a leakage in the finger. The tolerances between 3D printed part and metal bar should be able to seal the gap airtight. But trough changing out parts, the tolerances are looser, allowing a weak cold nitrogen current right on the sample. There are two possibility where the humidity itself is coming from: The cold nitrogen gas itself could contain some humidity. Second through additional turbulence, more air is sucked through the barrier. The air is directed directly on the sample, causing more ice buildup. To avoid this, the gap is sealed tight with twinsil dublicating silicone typically used for dental application.
 
-MOVEMENT
+\section{Inverted microscope}
 
+The used microscope setup is a prototype based on an uninverted microscope. As using more inverted light microscopes are considered for usage in cryogenic temperature, the setup is analized and some common issues and possible fixes are proposed.
 
+To take pictures, a two-fold and 5-fold objective is used. The 5-fold objective fits between the microscope and glasses assembly without a significant gap. However, to fit the 2-fold objective the glasses assembly needs to designed thinner. With the increased gap between objective and glasses assembly, more ambient light is lighting the sample. This decreased the visibility of fluorescence on samples. With the increased field of view with the 2-fold objective, total reflection of the two glass panes in the glasses assembly is inducing strong noise in the pictures. Also the access hole to the harbor is a bit too small.
+To reduce noice and increase the harbor access, the glasses assembly is fixed tilted to the box by adding spacers. In future, the glasses assembly needs to be redesigned to fix all those issues.
+
+In general, fitting the sample into the harbor is difficult. The cold gas is exhausted over the access to the harbor. The exhausted cold gas results in fog and locally reduces oxygen. The big stage and cooled box on top reduces visibility to the access point. In future, the exhaust should be pointed away from important access points.
+
+Ice frozen to the assembly can also damage the microscope. Especially when the setup warms back up to room temperature, the ice melts and water drops onto important parts. Therefore, the objectives should be designed water proof. Gaps should be closed as much as possible to avoid water entering the inside of the microscope.

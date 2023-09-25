@@ -1,12 +1,14 @@
 % !TeX spellcheck = en_US
 
-To detach the ice layer from the sample holder, two main ideas are proposed. The first method for detaching the ice layer is using mechanical force to separe the ice layer. The second idea is to design a sacrificial layer which can be dissolved at cryogenic temperatures.
+To detach the ice layer from the sample holder, two main ideas are proposed. The first method is using mechanical force to separate the ice layer. The second idea is to design a sacrificial layer which can be dissolved at cryogenic temperatures.
 
 \section{Separating the ice layer mechanically}
 
-To apply mechanical forces to the ice layer, a lifting assembly referred to as "finger" is used. To make lifting possible, a layer is engineered to reduce the adhesion of the ice on the sample holder. Additionally, a brittle layer could also reduce the force needed to separate the ice layer. Also, as the assembly is not used in similar work before, different variables are addressed and examined.  
+The goal is to mechanically lift a piece or the whole ice layer from the sample holder it is frozen to. In the whole process, the ice layer must stay in a vitrified state. The sample is frozen with plunge-freezing. For later steps the sample is prepared in a bath. The "finger" assembly is used to attach and pull on the ice layer with Hydrofluorether (HFE). The goal is to vary the engineered layer do reduce the adhesion between ice and sample holder. Also the microscope is used to take pictures  of the sample before and after using the finger without heating up the sample. 
 
 \subsection{Assemblies used at cryogenic temperatures}
+
+Plunge-freezer, Con
 
 The finger is made of two main parts. The first part is metal rod with a flat tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a Pt1000 used as a temperature sensor and a heater. The second main part is a 3D printed structure, containing the outer layer and routing of the cold gaseous nitrogen. Inside the 3D printed structure, the cold nitrogen gas is directed from the inlet downwards around the metal bar in an inner mantle for cooling. Then, the cold gas is redirected upwards flowing through an outer mantle for additional cooling. Afterwards, the gas exits through the output.
 
@@ -40,7 +42,9 @@ The finger is  mounted on three stages. The three stages allow fine adjustment o
 	\label{fig:FingerStages}
 \end{figure}
 
-On the tip of the finger, Hydrofluorether (here HFE 7200) is applied. HFE is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}. HFE has temperature dependent characteristics. At freezing point, HFE reaches a viscous state before reaching a firm solid state. This temperature dependency allows to first apply the HFE at higher temperatures with low viscosity and pull on the sample at lower temperatures with high viscosity.
+On the tip of the finger, Ethoxynonafluorobutane, also called Hydrofluorether 7200 (HFE) is used throughout all experiments. HFE is an oil typically used as an cryoimmersion fluid \cite{Faoro.2018b}. HFE has temperature dependent characteristics. At freezing point, HFE reaches a viscous state before reaching a firm solid state. This temperature dependency allows to first apply the HFE at higher temperatures with low viscosity and pull on the sample at lower temperatures with high viscosity.
+
+The temperature regulation of the finger has three modes: First the "unglue" mode which regulates the Temperature to \SI{-140}{\degreeCelsius}. HFE has a low viscosity, which allows the application of HFE. Also separating the finger off the sample without transferring force is possible. Second, in "glue" mode the shuttle and the finger are cooled to \SI{-160}{\degreeCelsius}. HFE hardens and force can be applied to detach the ice layer. Third, "thaw" cleans the finger by heating the tip to \SI{20}{\degreeCelsius}, evaporating everything stuck on the finger.
 
 A small bath and later a big bath are placed below the finger. In the baths, samples are prepared and holds a harbor-shuttle system. The sample is fixed in the shuttle for transportation and to hold on to the sample holder when pulling with the finger. A warm nitrogen gas barrier keeps the finger tip ice free by displacing humid air.
 
@@ -161,54 +165,48 @@ For long time storage small containers with space for three $\varnothing$\SI{5}{
 \subsection{Process}
 \label{section:Process}
 
-The goal is to mechanically lift a piece or the whole ice layer from the slide it is frozen to. In the whole process, the ice stays in the vitrified state. The sample is prepared in the bath. The "finger" is used to attach and pull on the ice layer with HFE. Also the microscope is used to take pictures of the sample without heating up the sample.
+To try out the separating with the finger in a repeatable manner, a core process is established. The sample is prepared. The sample is plunge-frozen or taken out of the storage and placed on the work surface in the bath. The copper shuttle is placed in the harbor. With HFE, the sample is placed in the middle of the shuttle. The HFE helps the sample to stay in place before fixation. The window brace is placed on top and screwed down. The now prepared shuttle is transported quickly to the microscope for pre-imaging. When the transfer is not possible within seconds, the shuttle is placed in a portable container with liquid nitrogen. After microscopy, the sample is placed into the bath unter the cooled finger. 
 
-To try out the detachment with the "finger" in a repeatable manner, a core process is established for orientation. The sample is prepared and put in the bath. The copper shuttle part is placed in the harbor. With HFE, the sample is placed in the middle of the shuttle. The HFE helps the sample to stay in place before fixation. The window brace is placed on top and screwed down. The now prepared shuttle is transported quickly to the microscope. When the transfer is not possible within seconds, the shuttle is placed in a portable container with liquid nitrogen. After microscopy, the sample is placed into the bath unter the cooled finger. 
-
-First, if not already done, cool down the "finger" to \SI{-140}{\degreeCelsius}. HFE is applied to the tip. The "finger" is lowered onto the sample while correcting the position with the stages until the HFE contacts and spreads over the sample. The temperature is reduced to \SI{-160}{\degreeCelsius} and waited until the sample and finger is cooled down. When the temperature is reached the finger is pulled up by turning the stage until detachment. Then the shuttle is transported to the microscope and the sample is analyzed. 
+First, if not already done, cool down the finger to \SI{-140}{\degreeCelsius}. HFE is applied to the tip. The "finger" is lowered onto the sample while correcting the position with three stages until the HFE contacts and spreads over the sample. The temperature is reduced to \SI{-160}{\degreeCelsius} and waited until the sample and finger is cooled down. When the temperature is reached the finger is pulled up by turning the stage until detachment. Then the shuttle is transported to the microscope and the sample is analyzed. 
 
 When detachment is successful, the ice piece hanging on the "finger" is placed on another shuttle. This is done by lowering the finger onto the new shuttle and raising the Temperature to \SI{-140}{\degreeCelsius}.
 
-To collect first insight, samples with parylene and lipids (as described in Section \ref{section:metodeLipide}) are used first. different variables are determined which could significantly influence successful detaching. Then the different variables are examined with experiments to improve the reliability of the "finger". The different variables found in this thesis are discussed in the following sections.
+To collect first insight, different variables are determined which could significantly influence successful detaching. With experiments, these variables are examined to improve the reliability of the "finger". The different variables found in this thesis are discussed in the following section.
 
-\subsection{Volume of Hydrofluorether on "finger"}
+\subsection{Examined factors influencing separation with finger}
 
-Using the correct amount of HFE is important for higher repeatability. Too little HFE will not bind to the finger and sample. too much HFE results either in a thicker layer, or the HFE flows between "window" and sample.
-as the cohesion of the HFE is considerably lower than the sample and the finger, a thick layer is prone to breaking before the ice layer. HFE under the "window" clamp will redirect a part of the force, making the sample more stable. This makes detaching also harder.
+Following main variables are determined: The right volume of HFE on finger tip improves reliability. The temperature influences the strength of HFE. The right direction of force can make separation easier. The ice structure influences the stability of the sample and adhesion. Right positioning is important to induce forces efficient onto the right surfaces.
 
-In the beginning, the HFE was applied with a pincer.The HFE is given in a cold bath at \SI{-140}{\degreeCelsius}. HFE gets more viscous at colder temperatures and is evaporating much slower. The thickened HFE is now scooped with pincers onto the tip of the "finger". This method is not used later, as measuring the volume of HFE when applying is not possible.
+\subsubsection{Volume of HFE on finger}
 
-As an effort to determine the volume of HFE a pipette is used. The HFE is pipetted at room temperature onto the cold finger. When HFE is applied onto the desired surface, around \SI{4}{\micro\liter} has already evaporated. Also, only HFE on the flat surface facing the sample is usable.
+Using the correct amount of HFE on the finger tip is important for higher repeatability. Too little HFE will not bind to the finger and sample. too much HFE results either in a thicker layer, or the HFE flows between "window" and sample. as the cohesion of the HFE is considerably lower than the sample and the finger, a thick layer is prone to breaking before the ice layer. HFE under the "window" clamp will redirect a part of the force, making the sample more stable. This makes detaching also harder.
+
+At the start, the HFE was applied with a pincer.The HFE is given in a cold bath at \SI{-140}{\degreeCelsius}. HFE gets more viscous at colder temperatures and is evaporating much slower. The thickened HFE is now scooped with pincers onto the tip of the "finger". As an effort to determine the volume of HFE a pipette is used. The HFE is pipetted at room temperature onto the cold finger. When HFE is applied onto the desired surface, around \SI{4}{\micro\liter} has already evaporated. Also, only HFE on the flat surface facing the sample is usable.
 
 Another way to determine the Volume of HFE on the "finger" is by analyzing pictures of the "finger" with HFE. The volume is calculated with the contact angle on the "finger" and the area covered in HFE. With the knowledge if the HFE spreads too much or not being attached properly to the sample, a range can be given where success is more likely. Still, other factors like temperature or the gap between sample and "finger" can influence the result.
-%In the first experiment, I dosaged three different volumes of HFE onto the tip of the finger with the pipette. The amount on the finger did not correspond to the amount of HFE. So other variablilities like the time between loading and unloading and hitting the correct spot on the finger is more relevant than the amount of HFE used.
 
-%To still determine the correct glue amount, two pictures representing the lowest and the highest usable HFE amount was picked. then the volume is calculated. this can be used as reference for future work for dosaging the right amount of HFE.
+\subsubsection{Temperature}
 
-
-
-\subsection{Temperature}
-
-Ethoxynonafluorobutane, also called HFE 7200, is used throughout all experiments. It has a freezing point of \SI{-138}{\degreeCelsius}. Below the freezing point, HFE gets increasingly viscous. at a certain point, the hfe gets brittle and cracks start to form by decreasing temperature. Between the freezing point and the point of cracking, HFE is usable as glue. With a temperature near the freezing point, HFE can spread over the surface. At lower temperatures, HFE gets hard enough to hold the finger to the upper ice layer.
-
-The temperature regulation of the finger has three modes: First the "unglue" mode which regulates the Temperature to \SI{-140}{\degreeCelsius}. HFE has a low viscosity, which allows the application of HFE. Also detachment without transferring force is possible. Second, in "glue" mode the shuttle and the finger are cooled to \SI{-160}{\degreeCelsius}. HFE hardens and force can be applied to detach the ice layer. Third, "thaw" cleans the finger by heating the tip to \SI{20}{\degreeCelsius}, evaporating everything stuck on the "finger". 
+HFE has a freezing point of \SI{-138}{\degreeCelsius}. Below the freezing point, HFE gets increasingly viscous. at a certain point, the HFE gets brittle and cracks start to form by decreasing temperature. Between the freezing point and the point of cracking, HFE is usable similar to glue. With a temperature near the freezing point, HFE can spread over the surface. At lower temperatures, HFE gets hard enough to hold the finger to the upper ice layer.
 
 As HFE is getting harder with temperature, lower temperatures in the "glue" state could allow higher forces on the ice layer. Still, the point where HFE starts to crack will decrease the tensile strength. To test this hypothesis, HFE is examined at temperatures until \SI{-170}{\degreeCelsius}.
 
-\subsection{Direction of force}
+\subsubsection{Direction of force}
 
-The direction of force can increase the likelyhood of detachment. Tensile mode and shear mode can be applied by the finger. Tensile mode is the easiest to apply with the finger. Also HFE is able to withstand some tensile forces. But for separating layers, this mode could take more force than applying tensile forces, depending on the bottom layer. Still, HFE stability to shear stress is not known. Additionally, the sample is clamped down to the top. This does not allow the ice surface to slide off without breaking.
+The direction of force can increase the likelihood of a successful separation. For example, to remove a suction cup from a flat surface, using tensile force by pulling will take a higher maximum force than by sliding the suction off the surface by shear forces. The same can apply to the sample. 
 
-In some experiments, the shuttle is tilted around 15 degrees for easier access to the shuttle. The finger is also tilted so the tip surface is parallel to the sample. To apply force, the finger is pulled by stages in either X, Y, or Z direction. For each direction, the stress is split into tensile and shear stress. In Z direction, mostly tensile stress is applied (Fig. \ref{fig:tensilevsshear} (a)). in X direction, mostly shear stress is applied (Fig. \ref{fig:tensilevsshear} (b)). In Y direction, only shear stress is applied, but will result in shattering of the ice layer, probably taking additional force. For this reason, only X and Z direction are tested.
+Tensile mode and shear mode can be applied by the finger. Tensile mode is the easiest to apply with the finger. Also HFE is able to withstand some tensile forces. But for separating layers, this mode could take more force than applying tensile forces, depending on the bottom layer. Still, HFE stability to shear stress is not known. Additionally, the sample is clamped down to the top. This does not allow the ice surface to slide off without breaking.
+
+In most experiments, the shuttle is tilted around 15 degrees for easier access to the shuttle. The finger is also tilted so the tip surface is parallel to the sample. To apply force, the finger is pulled by stages in either X, Y, or Z direction. For each direction, the resulting stress can be split into tensile and shear stress. In Z direction, mostly tensile stress is applied (Fig. \ref{fig:tensilevsshear} (a)). in X direction, mostly shear stress is applied (Fig. \ref{fig:tensilevsshear} (b)). In Y direction, only shear stress is applied. But detached pieces moving in Y direction will collide with the clamped down part of the ice layer. This could shatter the ice layer or take more force. Additionally, the sample is clamped down only by friction, strong forces in Y direction could slide the sample inside the shuttle. For this reason, only X and Z direction are tested.
 
 \begin{figure}[hbt!]
 	\centering
 	\input{../images/Zeichnung_finger_Tensile_vs_Shear.pdf_tex}
-	\caption{Tensile vs Shear mode}
+	\caption{The shuttle is tilted inside the bath at \SI{15}{\degree}. Pulling on the sample in Z direction (a) results in mostly tensile stress and some shear stress on the sample. Pulling in X direction (b) results in mostly shear stress and some tensile stress.}
 	\label{fig:tensilevsshear}
 \end{figure}
 
-\subsection{ice structure}
+\subsubsection{Ice structure}
 
 DER TEIL BRAUCHT NOCH ARBEIT!!!!!!!
 
@@ -222,16 +220,14 @@ To compare the influence of hand freezing and plunge freezing, results of liftin
 
 SAMPLE INTEGRITY
 
-\subsection{positioning}
+\subsubsection{positioning}
 \label{section:positioning}
 
-Before attaching the "finger" to the sample, the "finger" is positioned with the stages. At positioning, two different errors can occur: first, the finger is incorrectly positioned over the sample. the HFE is partially on the "window" brace. The second error is a too small or too big gap between "finger" and sample. 
+Before attaching the finger to the sample, the finger is positioned with the stages. At positioning, two different errors can occur: first, the finger is incorrectly positioned in X and Y direction over the sample. The HFE will spread partially on and under the window brace. The second error is a too small or too big gap between finger and sample in Z-direction. 
 
-An incorrectly positioned finger is expected to be a major error. Depending on the overlap, the force is transferred mostly to the brace than to the sample. This will lead to an unsucessful detachment. With the setup of three stages, the positioning is easily corrected. Alternatively, a "window" brace with a bigger central hole makes positioning easier.
+An incorrectly position in X or Y direction is expected to massively effect detaching. Depending on the overlap, the force is transferred mostly to the window brace than to the sample. This will lead to an unsuccessful detachment. With the setup of a stage in each axis, the positioning is easily corrected. Alternatively, a window brace with a bigger central hole makes positioning easier.
 
-The gap between sample and "finger" is sometimes hard to estimate. The HFE volume can influence the preferred gap size to avoid pressing the HFE between sample and "window". On the other hand, HFE is shrinking between temperatures used at attaching and pulling.
-
- (HIER WEITERSCHREIBEN ODER BEI ERGEBNISSE??) 
+The gap between sample and "finger" is sometimes hard to estimate. The HFE volume influences the optimal gap size to avoid pressing the HFE between sample and "window". On the other hand, HFE is shrinking between temperatures used at attaching and pulling. Also the cohesion of HFE is low, so keeping a bigger gap will also influence the maximum force. Therefore, the gap size is not completely isolatable with the HFE volume.
 
 \section{PDMS}
 
