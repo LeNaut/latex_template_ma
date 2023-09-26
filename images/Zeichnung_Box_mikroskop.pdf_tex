@@ -1,0 +1,69 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Zeichnung_Box_mikroskop.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{431.3030788bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.64772562)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Zeichnung_Box_mikroskop.pdf}}%
+    \put(0.31492582,0.50112443){\color[rgb]{0.38431373,0.7254902,0.9254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Glass pane\end{tabular}}}}%
+    \put(0.33440314,0.56401949){\color[rgb]{0.74117647,0.4,0.9254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"Glasses"\end{tabular}}}}%
+    \put(0.55088631,0.05987209){\color[rgb]{0.83137255,0.08235294,0.08235294}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box\end{tabular}}}}%
+    \put(0.48706199,0.22205617){\color[rgb]{0.25098039,0.15294118,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cold nitrogen\\gas Flow\end{tabular}}}}%
+    \put(0.00024718,0.31587872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Inlet tubing\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Zeichnung_Box_mikroskop.pdf}}%
+    \put(0.48174402,0.32754774){\color[rgb]{0.90588235,0.62352941,0.22352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Copper heat sink\end{tabular}}}}%
+    \put(0.77430024,0.49918344){\color[rgb]{0,0.72941176,0.02745098}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box lid\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Zeichnung_Box_mikroskop.pdf}}%
+    \put(0.60789111,0.62046143){\color[rgb]{0.98431373,0.95686275,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Light path\end{tabular}}}}%
+    \put(0.77888618,0.56630692){\color[rgb]{0.80784314,0.07843137,0.07843137}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Warm Nitrogen gas\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
