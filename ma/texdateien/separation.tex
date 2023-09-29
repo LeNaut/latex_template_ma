@@ -7,11 +7,9 @@ to mechanically separate the ice layer from the sample holder, the adhesion need
 
 To speed up the process of finding the right balance of PDMS Mixture ratio and plasma curing, experiments are done at room temperature. For this, a pulling machine is used. First the sample is prepared. Then, the sample is clamped to the pulling machine. Then a plexiglass stamp is aligned on top of the sample. With UV glue, the stamp is glued to the PDMS layer on the sample. Before gluing, The relative force and distance is set to zero on the pulling machine. After gluing, a couple minutes have to be waited, so no further stress changes are ongoing from the gluing process. After setting the force again to zero, the Machine is pulling on the sample with constant velocity. After detachment, the measurement is stopped. Afterwards, the stamp and the layer are analyzed under a microscope. The area of the attached UV glue to the sample is determined. With the maximum force and area, the maximum stress is calculated. Each experiment is repeated multiple times.
 
+In section \ref{section:Stateoftheart}, Different effects of changing mixture ratio and plasma treatment are described. In conclusion, A mixture ratio with high curing agent content results in low adhesion without plasma curing. The effect of plasma activation on mixture ratios over 50:1 results in a brittle surface. Still, the effect of plasma activation under 50:1 is unknown. The plasma activation has two effects: first, it increases wettability and therefore adhesion on ice to PDMS. second, the PDMS changes its structure, which could decrease the strength of the PDMS layer.
 
-%\subsection{Plasma surface treatment of PDMS}
-
-%TODO BOGEN SCHLIE?EN ZU STATE OF THE ART
-Still, the effect of plasma activation under 50:1 is unknown. The plasma activation has two effects: first, it can increase the adhesion on ice to PDMS. second, the PDMS changes its structure, which could increase as well as decrease the strength of the PDMS layer. In the following, the effect of plasma activation on PDMS are examined. This is done at room temperature to speed up the process.
+In the following, A process is developed to perform tensile testing on a PDMS layer at room temperature. The advantage is a big simplification of the test process, but a certain transferability of the results must be shown. Then the effect of plasma curing on PDMS with mixture ratios of 1:2 base coat to curing agent is investigated and compared to the effect on other PDMS mixture ratios.
 
 \subsection{Preparation of PDMS samples}
 
@@ -43,13 +41,13 @@ For shorter baking times at 1:2 mixture ratio, plasma treatment has a slighlty d
 
 %For 50:1 base coat to curing agent weight ratio, the PDMS mixture is as viscious as the base coat. A longer vacuum of \SI{1}{\hour} is needed to air out all bubbles. The coat spinning speed and time is increased to \SI{3500}{\rpm} for \SI{180}{\minute} (NACHSCHAUEN). Also a longer baking time of \SI{20}{\hour} at \SI{80}{\degreeCelsius} is needed to harden the PDMS. 
 
-In the coat spinning setup, each slide is coat spinned in succession of each other. With each spin-coating taking 2 to 3 minutes, this step takes up to multiple hours. To speed up the process, rectangular cover glass with \SI{20}{\milli\meter} x \SI{20}{\milli\meter} and \SI{24}{\milli\meter} x \SI{40}{\milli\meter} are coat spinned instead. afterwards the cover glass is split in multiple smaller pieces. 
+In the coat spinning setup, each  $\varnothing$\SI{5}{\milli\meter} sample holder is coat spinned in succession of each other. With each spin-coating taking 2 to 3 minutes, this step takes up to multiple hours. To speed up the process, rectangular cover glass with \SI{20}{\milli\meter} x \SI{20}{\milli\meter} and \SI{24}{\milli\meter} x \SI{40}{\milli\meter} are coat spinned instead. afterwards the cover glass is split in multiple smaller pieces. 
 
 The process is the same described as before for all PDMS mixture ratio, but with some minor adjustments. Before coat spinning, the glass is scratched with a diamond pencil. The scratches in the glass are weak points for breaking out smaller parts. Kapton tape is put over the scratched glass. The glass is put into the coat spinner with the taped side facing down. The PDMS is coat spinned onto the exposed glass side. The baking process is as previously described. After baking, the glass is broken into smaller pieces. This is done by dragging the attached tape over a table edge. Then the glass is fixed to the table with PDMS facing up. The PDMS is covered with Mylar foil to keep the PDMS clean. As the sticky side of the tape is not facing the table, the tape ends are additionally taped to the Table. Then smaller sample pieces can be broken off, The pieces are loosened from the tape by forcing a flat pincer between glass and the tape it is attached to.
 
 This method has advantages as well as drawbacks to coat spinning small glass pieces separately. First, time is won by coat spinning, as one big glass can be split into several smaller ones. The Sample can stay fixed at the table without risking damaged. The samples can be broken off shortly before the experiment. But with hand scratching, only irregular and rectangular shapes can be won out of the bigger glass piece. also there is a significant loss of samples. This is by one part by breaking the sample. Some cracks do not follow the scratch, which leads to too small samples. Also in the process of loosening a piece cracks can form, making the piece too small for use.
 
-In the end, both fabrication methods are used for different experiments. The small round cover glass is used in combination with the finger. The regular pieces are easier set up with the shuttle. The glass pieces broken out of a big cover glass are used with the pulling machine at room temperature. In this setup, fluctuations in size of the glass pieces are easier to handle and the clamping of the slide is more flexible. %TODO MAYBE was schreiben mit area dass es da weniger ausmacht oder so?
+In the end, both preparation methods are used for different experiments. The $\varnothing$\SI{5}{\milli\meter} cover glass is used in combination with the finger. The regular pieces are easier set up with the shuttle. The glass pieces broken out of a big cover glass are used with the pulling machine at room temperature. In this setup, fluctuations in size of the glass pieces are easier to handle and the clamping of the slide is more flexible. %TODO MAYBE was schreiben mit area dass es da weniger ausmacht oder so?
 
 \subsection{Setup of the pulling machine}
 
@@ -108,15 +106,31 @@ To test the tensile strength of different PDMS mixtures and the effect of plasma
 
 On the bottom, a 3D-Printed stage is clamped (Fig. \ref{fig:PullingMachineSetupZoomedPic}). The stage has four holes with threads for screws. Between the threads, the sample is placed. A brace similar to the "window" is fixed with screws onto the sample. A rectangle shape hole gives access for the UV-glue and the stamp. 
 
-The Process of a pull test starts with clamping a new stamp on the top. Then the sample is plasma treated. After treatment, the sample is quickly transported to the pulling machine and fixed to the stage with screws. The stamp is aligned to the sample. When alignment is finished, the UV glue is given onto the stamp. the top is lowered on the sample. The UV glue is cured with UV radiation for \SI{3}{\minute}. After gluing, \SI{3}{\minute} are waited until forces settle resulting from curing and heat. Then, the pulling machine pulls with constant speed of \SI{0,01}{\milli\meter\per\second} and measures the stress strain curves. The process is ended manually. The now separated stamp and sample are stored for analyzation under a microscope. To calculate the maximum tensile stress, the area of the glue on the sample which is still attached to the stamp is measured.
-
-%TODO BILDER VOM AUSMESSEN
-
 \subsection{Tensile testing of PDMS}
+
+The Process of a tensile test starts with clamping a new stamp to the top clamp. Then the sample is plasma treated. After treatment, the sample is quickly transported to the pulling machine and fixed to the stage with screws. The stamp is aligned to the clamped down sample. When the stamp and sample is alignment, the UV glue is given onto the stamp. the stamp is lowered on the sample until contact is made with the UV-glue. The UV-glue is cured with UV radiation for \SI{3}{\minute}. After gluing, \SI{3}{\minute} are waited until forces settle resulting from curing and heat. Then, the tensile testing machine pulls with constant speed of \SI{0,01}{\milli\meter\per\second} and measures the stress strain curves. The process is ended manually. The now separated stamp and sample are stored for analyzation under a microscope. To calculate the maximum tensile stress, the area of the glue on the sample which is still attached to the stamp is measured.
+
+Measuring the Area of the contact surface between PDMS and UV-glue is not trivial. Multiple separating layers are visible, which are sometimes hard to distinguish (fig. \ref{fig:AreaStamp}). First the transition between Stamp and UV-glue is visible. Then the Area between PDMS and UV-glue is visible on top, which is the area used to calculate the tensile stress. Then sometimes there is potentially the ripped of PDMS layer itself. Some reflection in light additionally make finding the correct outline difficult. Still, the relative error when picking the area incorrectly is within $10\,\%$, which is small enough to keep results distinguishable.
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{zugversuch10_oben_außen}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}[]{0.45\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{zugversuch10_oben_innen}
+		\caption{}
+	\end{subfigure}
+	\caption{Example of two potential outlines of the Area between PDMS and UV-Glue. As all layers of the contact surface of the stamp, UV-Glue and potentially the ripped of PDMS layer are very close together, finding the right outline of the Area between PDMS ans UV-Glue is hard to distinguish. (b) was picked to calculate the tensile stress. This results into an absolute error of $9.34\,\%$ if (a) would be the correct Area between PDMS ans UV-Glue. Therefore the error from picking the wrong outline is small enough to keep results distinguishable.}
+	\label{fig:AreaStamp}
+\end{figure}
 
 In between experiments, small variations and improvements are done: two different stamps are used, one has an area of \SI{2}{\milli\meter} x \SI{3}{\milli\meter} and another stamp is \SI{3}{\milli\meter} x \SI{3}{\milli\meter}. Since the area is measured by the attached surface to the sample, the effect of a bigger stamp is taken into account. Also, in first experiments, while waiting of the stress changes to subside, the pulling machine is holding the position. As the UV glue cools and shrinks while being polymerized, the UV glue pulls the stamp and the surface more and more together. Before pulling, the machine is set back to zero. After pulling, an offset exists between before pulling which is set to zero and after pulling when both ends are disconnected. The offset is then corrected in evaluation. To avoid calculating an offset, the pulling machine sets the distance corresponding to the forces being constant to zero. The offset correction and new method increased the accuracy between pull tests.
 
-To verify the setup, cover glass coated with 4:1 and 1:2 curing agent to base coat weight ratio and uncoated cover glass as control surface are compared. For each, multiple tensile tests are conducted. The Force over position is recorded and evaluated. Example results are shown in fig. \ref{fig:forceOverTime}. With the area measured of the UV-Glue residue on the stamp, The maximum tensile stress is calculated over successful tensile tests with mean and standard deviation.  
+To verify the setup, cover glass pieces coated with 4:1 and 1:2 curing agent to base coat weight ratio and uncoated cover glass as control surface are compared. For each, multiple tensile tests are conducted. The Force over position is recorded and evaluated. Example results are shown in fig. \ref{fig:forceOverTime}. With the area measured of the UV-Glue residue on the stamp, The maximum tensile stress is calculated over successful tensile tests with mean and standard deviation.  
 
 \begin{figure}[hbt!]
 	\centering
@@ -127,9 +141,9 @@ To verify the setup, cover glass coated with 4:1 and 1:2 curing agent to base co
 \end{figure}
 
 %TODO schöner schreiben
-For PDMS coated cover glass, following cases occuring at tensile testing are sorted out. In some cases, the UV glue does not stay connected to the stamp. This suggest that the glue did not adhere well enough to the stamp, potentially reducing the tensile stress measured. In other cases, the cover glass cracks when testing. These are sorted out for the same reason. Additionally, cases in which the Tensile stress is near or within the uncertaincy of the control are sorted out as well. This can occur when the PDMS coated cover glass piece flips between loosening and fastening. As most of these cases occur randomly and are detected later in evaluation, the repetition rate is sometimes not met.
+For PDMS coated cover glass, following cases occuring at tensile testing are sorted out. In some cases, the UV glue does not stay connected to the stamp. This suggest that the glue did not adhere well enough to the stamp, potentially reducing the tensile stress measured. In other cases, the cover glass cracks when testing. These are sorted out for the same reason. Additionally, cases in which the Tensile stress is near or within the uncertaincy of the control are sorted out as well. This can occur when the PDMS coated cover glass piece flips between preparation and clamping down. As some of these cases occur randomly and are detected after conducting tensile testing, the repetition rate is sometimes not met.
 
-The results show 2:1 mixture ratio with $87.3\pm19.9\,\si{\kilo\pascal}$ is easier to detach than 1:4 mixture ratio with $429.1\pm5.1\,\si{\kilo\pascal}$ (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). Also the cover glass without PDMS takes up a lot more tensile stress up to $1161.5\pm111.5\,\si{\kilo\pascal}$. sometimes the machine is able to break the control cover glass. 
+The results show 2:1 mixture ratio with $87.3\pm19.9\,\si{\kilo\pascal}$ has lower adhesion than 1:4 mixture ratio with $429.1\pm5.1\,\si{\kilo\pascal}$ (Fig. \ref{fig:vgl4:1zu1:2zuGlas}). Also the cover glass without PDMS takes up a lot more tensile stress up to $1161.5\pm111.5\,\si{\kilo\pascal}$. sometimes the machine is able to break the control cover glass. This shows that the UV-glue is stable enough to pull on the PDMS layer.
 
 
 \begin{figure}[hbt!]
@@ -145,7 +159,7 @@ In literature, the ice adhesion on PDMS without plasma treatment is \SI{35}{\kil
 
 In the next experiment, the effect of plasma curing is investigated. A mixture ratio of 1:2 is examined as this mixture ratio leads to the lowest adhesion to ice and other surfaces. The same setup on the pulling machine is used. Samples with a 2:1 weight ratio PDMS are additionally plasma treated before quickly clamping on the pulling machine. The minimum plasma activation possible with used plasma machine is $25\%$ at \SI{0.1}{\minute}. Below $25\%$ plasma does not reliably form in the chamber. the maximum tested plasma activation of \SI{2}{\minute} by $100\%$ is additionally done with a bigger plasma machine.
 
-Even with low repetition rates of $n = 1$ to $ n =3$, a clear tendency is visible. With lower and stronger plasma treatment, the tensile stress needed to detach from the PDMS Layer is higher (Fig. \ref{fig:PlotPlasmaAktivierung}). Over the whole range, The tensile strength of PDMS becomes up to six times higher. This is not expected, as plasma activation on mixture ratios of 50:1 has the opposite effect \cite{Ohishi.2017}. This means that this the results are not applicable to other mixture ratios. also no visible changes to a glass-like state was observed in 2:1 weight ratio mixture. Because the repetition rate is low, the exact values should be treated with caution. 
+Even with low repetition rates of $n = 1$ to $ n =3$, a clear tendency is visible. With lower and stronger plasma treatment, the tensile stress needed to detach from the PDMS Layer is higher (Fig. \ref{fig:PlotPlasmaAktivierung}). Over the whole range, The tensile strength of PDMS becomes up to six times higher. This is not expected, as plasma activation on mixture ratios of 50:1 has the opposite effect \cite{Ohishi.2017}. This means that this the results are not applicable to other mixture ratios. also no visible changes to a glass-like state was observed in 2:1 weight ratio mixture. Because the repetition rate is especially low, the exact values should be treated with caution. 
 
 \begin{figure}[hbt!]
 	\centering
@@ -183,34 +197,36 @@ As PDMS is hydrophobic, plasma activation is needed to freeze a thin layer of ic
 
 \section{Experiments at cryogenic temperature}
 
-%TODO AN PASSENDE STELLE
-To try out the separating with the finger in a repeatable manner, a core process is established. The sample is plunge-frozen with fluoresceine water or taken out of the storage and placed on the work surface in the bath. The copper shuttle is placed in the harbor. With HFE, the sample is placed in the middle of the shuttle. The HFE helps the sample to stay in place before fixation. The window brace is placed on top and screwed down. The now prepared shuttle is transported quickly to the microscope for pre-imaging. When the transfer is not possible within seconds, the shuttle is placed in a portable container with liquid nitrogen. After microscopy, the sample is placed into the bath unter the cooled finger. 
+To actually try to separate an ice layer from sample holder, experiments are done to archieve separation. The aim is to test the reduction of adhesion of the engineered layer. With enough reduction of adhesion and enough force applied, the ice layer should separate.
+
+Seperation of the ice layer is tested on parylene and lipid coated sample holder as well as PDMS-coated sample holders with different mixture ratio and plasma curing. Different variables of the finger are examined to increase tensile strength applied and reliability.
+
+For all experiments, $\varnothing$\SI{5}{\milli\meter} cover glass is used as sample holder. These cover glass holders have a higher thermal conductivity resulting out of different composition and higher thickness than sapphire sample holders used for cryo-light microscopy. Therefore no or only partial vitrification of the ice layer is reached. Therefore a slight reduction of ice adhesion is expected by using non vitrified ice. Also, as no specimen is frozen into the ice layer. Also, the costs of using cover glasses is very low. Therefore using cover glass holders is sufficient for first experiments.
+%TODO
+Two different setups are used. First, the setup with "finger" and "bath" is used. Second, for additional data, a modified version of the setup with the pulling machine is used. This allows the measurement of the actual tensile strength on the sample. 
+
+To try out the separating with the finger in a repeatable manner, a core process is established. The sample is plunge-frozen with fluoresceine water or taken out of the storage and placed on the work surface in the bath. The copper shuttle is placed in the harbor. With HFE, the sample is placed in the middle of the shuttle. The HFE helps the sample to stay in place before fixation. The window brace is placed on top and screwed down. The now prepared shuttle is transported quickly to the microscope for pre-imaging. When the transfer is not possible within seconds, the shuttle is placed in a portable container with liquid nitrogen. After microscopy, the sample is placed into the bath under the cooled finger. 
 
 \subsection{Preparation of samples}
 %TODO
+The sample preparation are based on the preparation of samples in cryo-light microscopy. Plunge-freezing is used to freeze the ice layer to the sample holder. This process is done manually and with a plunge-freezer. For both the steps are the same. Generally, plunge-freezing manually should give similar results to a plunge-freezer. More flexibility and a faster process is reached by freezing manually but higher consistency is reached by a plunge-freezer.
 
-In sample preparation for cryo microscopy, specimens such as cells are frozen inside a thin ice layer. the specimen can be stained with fluorescein before freezing for later observation with cryo light microscopy. Also a sample can be prepared to study with cryo-transmission electron microscopy (cryo-TEM). cryo-TEM allows us to see samples in an hydrated state. This is only possible in cryo-TEM, as liquid water would evaporate in vaccuum \cite{Danino.2012}.
+To successfully plunge-freeze a sample, following steps are taken: First, the slide is held by tweezers. Then a \SI{2}{\milli\liter} water drop containing fluoresceine is pipetted onto the hydrophilic slide. The water droplet is blotted with filter paper, creating a thin film of water which evaporates quickly. The tweezers holding the slide is shot in cold liquid under \SI{-140}{\degreeCelsius}, typically liquid ethane. The rapid temperature drop freezes the water into a thin vitrificated layer of ice. vitrificated ice has no crystal structure.
 
-For cryo light microscopy and cryo-TEM, plunge-freezing is used in sample preparation \cite{Danino.2012} \cite{Faoro.2018}. This can be done either manually or with a plunge-freezer, with comparable results. In practice, using a plunge-freezer gives more consistent results.
+To create vitrified ice, The liquid which is used to freeze the sample should not possess the Leidenfrost effect, which prevents instant contact of the sample with the cold liquid. As liquid nitrogen is possessing the Leidenfrost effect, other coolants like liquid ethane are used. In this master thesis, samples frozen manually are not given into liquid ethane, as additional preparation must be done with higher safety risk without improving sample quality, as the sample holders used greatly inhibit formation of vitrified ice.
 
-To successfully plunge-freeze a sample, following steps are taken: First, the slide is held by tweezers. Then a \SI{2}{\milli\liter} water drop containing the specimen is pipetted onto the hydrophilic slide. The water droplet is blotted with filter paper, creating a thin film of water which evaporates quickly. The tweezers holding the slide is shot in cold liquid under \SI{-140}{\degreeCelsius}, typically liquid ethane. The rapid temperature drop freezes the water into a thin vitrificated layer of ice. vitrificated ice has no crystal structure.
+For storing samples after plunge freezing over prolonged time, boxes with space for three $\varnothing$\SI{5}{\milli\meter} samples are designed (Fig. \ref{fig:transportbox}). These are 3D Printed, modified version of grid boxes. a grid box cap is screwed on top with a specialized tool. Inside the bath, grid boxes and these 3D-printed container fit into the indent. The cap is screwed next to the container, clamping it down to the work surface. Also the container are interoperable with tools used for grid boxes. This allows long term storage of samples with \SI{5}{\milli\meter} diameter.
 
-For example, thin sapphire slides or a metal grid with a film are commonly used. Also the liquid which is used to freeze the sample should not possess the Leidenfrost effect, which prevents instant contact of the sample with the cold liquid. As liquid nitrogen is possessing the Leidenfrost effect, other coolants like liquid ethane are used.
-
-For long time storage small containers with space for three $\varnothing$\SI{5}{\milli\meter} samples are designed (Fig. \ref{fig:transportbox}). These are 3D Printed, modified version of grid boxes. a grid box cap is screwed on top with a special tool. Inside the bath, grid boxes and these 3D-printed container fit into the indent. The cap is screwed next to the container, clamping it down to the work surface. Also the container are interoperable with tools used for grid boxes. This allows long term storage of samples with \SI{5}{\milli\meter} diameter.
-
-%TODO mentioning dass Samples die hier untersucht werden ncith vitrifiziert sind
+\begin{figure}
+	\centering
+	\input{../images/Zeichnung_transportbox.pdf_tex}
+	\caption{Small 3D-printed transport box for three samples. A cap is screwed onto the central thread. These boxes fit into storage units. The design is based on a commonly used storing system.\newline\newline}
+	\label{fig:transportbox}
+\end{figure}
 
 \subsection{Inverted microscope}
 
-The used microscope setup is a prototype based on an uninverted microscope. As using more inverted light microscopes are considered for usage in cryogenic temperature, the setup is analized and some common issues and possible fixes are proposed.
-
-To take pictures, a two-fold and 5-fold objective is used. The 5-fold objective fits between the microscope and glasses assembly without a significant gap. However, to fit the 2-fold objective the glasses assembly needs to designed thinner. With the increased gap between objective and glasses assembly, more ambient light is lighting the sample. This decreased the visibility of fluorescence on samples. With the increased field of view with the 2-fold objective, total reflection of the two glass panes in the glasses assembly is inducing strong noise in the pictures. Also the access hole to the harbor is a bit too small.
-To reduce noice and increase the harbor access, the glasses assembly is fixed tilted to the box by adding spacers. In future, the glasses assembly needs to be redesigned to fix all those issues.
-
-To take detailed pictures of the sample, an inverted microscope is modified for cryo- microscopy (fig. \ref{fig:Mikroskop}). A box with a copper heat sink is fixed to the bottom of the stage. The box is supplied with cold nitrogen gas to cool the heat sink (fig. \ref{fig:boxmikroskop}). A haven is fixed to the heat sink and placed over the objective. The haven is temperature controlled to \SI{-140}{\degreeCelsius}. the "glasses" component keeps the light path between haven and objective clear from ice and fog. It contains two thin and parallel glass panes. Warm nitrogen gas is routed between the glass panes and out between the lower glass pane and objective.
-
-The microscope is able to image fluorescence light. For this, filters are swapped between real light images and fluorescence images. A 2 fold and and later 5 fold objective is used for imaging. %TODO hier müsste dann das mit dem Kippen der brille noch hinzukommen
+To take detailed pictures of the sample, an inverted microscope is modified for cryo- microscopy (fig. \ref{fig:Mikroskop}). The microscope is able to image fluorescence light. For this, filters are swapped between real light images and fluorescence images. A 2 fold and and later 5 fold objective is used for imaging. A box is added to cool the sample to cryogenic temperatures. The box is designed for an uninverted microscope. One goal of this setup is to test the applicability of cryo microscopy of inverted microscopes and which modification should be made to improve the setup.
 
 \begin{figure}[hbt!]
 	\centering
@@ -231,9 +247,11 @@ The microscope is able to image fluorescence light. For this, filters are swappe
 		\put(32, 35){\vector(1,0){10}}
 		\put(32, 35){\makebox(0,0)[r]{access shuttle}}		
 	\end{overpic}
-	\caption{Modified microscope for cryo microscopy.}
+	\caption{Modified inverted microscope for cryo microscopy. The box is added to let the sample stay cool at cryogenic temperatures (fig. \ref{fig:boxmikroskop}).}
 	\label{fig:Mikroskop}
 \end{figure}
+
+The box with a copper heat sink is fixed to the bottom of the stage (fig. \ref{fig:boxmikroskop}). The box is supplied with cold nitrogen gas to cool the heat sink. A haven is fixed to the heat sink and placed over the objective. The haven is temperature controlled to \SI{-140}{\degreeCelsius}. the "glasses" component keeps the light path between haven and objective clear from ice and fog. It contains two thin and parallel glass panes. Warm nitrogen gas is routed between the glass panes and out between the lower glass pane and objective. Under the glasses, a shuttle containing the sample is placed in the harbor.
 
 \begin{figure}[hbt!]
 	\centering
@@ -242,51 +260,26 @@ The microscope is able to image fluorescence light. For this, filters are swappe
 	\label{fig:boxmikroskop}
 \end{figure}
 
-In general, fitting the sample into the harbor is difficult. The cold gas is exhausted over the access to the harbor. The exhausted cold gas results in fog and locally reduces oxygen. The big stage and cooled box on top reduces visibility to the access point. In future, the exhaust should be pointed away from important access points.
+The shuttle allows easy transportation and access to the sample. The sample is clamped down by the "window" brace (fig. \ref{fig:shuttle}). The window brace is fixed with two screws to the shuttle, holding the sample in place. A center hole in the window gives access to the top side of the sample for microscopy and finger. In the copper shuttle a thread is placed. With a long threaded metal rod the sample is transported between assemblies.
+
+\begin{figure}[hbt!]
+	\centering
+	\input{../images/Zeichnung_shuttle.pdf_tex}
+	\caption{Shuttle for transporting a sample between bath and microscope. The window is clamped down by screws to the copper shuttle, holding the sample in place. the center hole in the window gives access for microscopy and finger.}
+	\label{fig:shuttle}
+\end{figure}
+
+In general, The inverted cryo microscope was successfully used throughout the master thesis. Still, many improvements should be made to increase usability and accessability of the inverted microscope. 
+
+To take pictures, a two-fold and 5-fold objective is used. The 5-fold objective fits between the microscope and glasses assembly without a significant gap. However, to fit the 2-fold objective the glasses assembly needs to designed thinner. With the increased gap between objective and glasses assembly, more ambient light is lighting the sample. This decreased the visibility of fluorescence on samples. With the increased field of view with the 2-fold objective, total reflection of the two glass panes in the glasses assembly is inducing strong noise in the pictures. Also the access hole to the harbor is a bit too small.
+To reduce noice and increase the harbor access, the glasses assembly is fixed tilted to the box by adding spacers. In future, the glasses assembly needs to be redesigned to hold tilted glass panes. When using multiple objective with different magnifications, A way needs to be found to block out ambient light to increase visibility.
+
+Besides the "glasses", the exhaused gas decreases accessability of the harbor.The exhausted cold gas over the harbor results in fog and locally reduces oxygen. As the fog falls down over distance, the access point is only visible incertain angles.
+The big stage and cooled box on top additionally reduce visibility to the access point. In future, the exhaust should be pointed away from important access points.
 
 Ice frozen to the assembly can also damage the microscope. Especially when the setup warms back up to room temperature, the ice melts and water drops onto important parts. Therefore, the objectives should be designed water proof. Gaps should be closed as much as possible to avoid water entering the inside of the microscope.
 
-The shuttle allows easy transportation and access to the sample. The sample is clamped down by the "window" brace (fig. \ref{fig:shuttle}). The window brace is fixed with two screws to the shuttle, holding the sample in place. A center hole in the window gives access to the top side of the sample for microscopy and finger. In the copper shuttle a thread is placed. With a long threaded metal rod the sample is transported between assemblies.
-
-\subsection{Baths and finger}
-
-Two different setups are used. First, the setup with "finger" and "bath" is used. Second, for additional data, a modified version of the setup with the pulling machine is used. This allows the measurement of the actual tensile strength on the sample. 
-
-The finger is made of two main parts: The first part is a metal rod with a flat tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a Pt1000 used as a temperature sensor and a heater. The second part is a 3D printed structure, containing the outer layer and routing of the cold gaseous nitrogen. Inside the 3D printed structure, the cold nitrogen gas is directed from the inlet downwards around the metal rod in an inner mantle for cooling. Then, the cold gas is redirected upwards flowing through an outer mantle for additional cooling. Afterwards, the gas exits through the output.
-
-\begin{figure}[hbt!]
-	\centering
-	\input{../images/ZeichnungFinger.pdf_tex}
-	\caption{A cross-section of the "finger" assembly. The metal rod is cooled with cold nitrogen gas. the gas is routed from the inlet around the metal bar onto an outer layer to the outlet. The metal rod is temperature controlled by a Pt1000 temperature sensor and a heater. With HFE 7200 is applied to the tip, the finger can attach to a surface at cryogenic temperatures and apply force. }
-	\label{fig:querschnittfinger}
-\end{figure}
-
-The cold nitrogen gas is supplied by a liquid nitrogen tank. Heaters placed inside the tank evaporate the liquid nitrogen. Cold nitrogen gas leaving the tank is routed by \SI{6}{\milli\meter} pneumatic tubing to the finger inlet. On the inlet and outlet of the finger, Festo connectors are mounted to allow easy dis- and re-connection of \SI{6}{\milli\meter} tubes. Cold nitrogen gas which passed through the finger are exhausted by outlet tubing into the atmosphere.
-
-The finger is mounted on a three stages. These stages allow fine adjustment of the finger position in X,Y and Z axis (fig. \ref{fig:FingerStages}). Also, when the finger is attached to a surface, force can be applied by moving the stages in either direction. Additionally the stages are mounted on a track. The track allows fast movement along one axis to make assemblies below the finger reachable. Whenever the finger is used, the assembly is clamped down to the track to prevent additional movement.
-
-\begin{figure}[hbt!]
-	\centering
-	\begin{overpic}[width=10cm]{Finger_Stages}
-		\white
-		\put(20,37){\makebox(0,0)[c]{Track}}
-		\put(37,90){\vector(1,0){10}}
-		\put(37,90){\makebox(0,0)[r]{Stage Z-axis}}
-		\put(75,45){\vector(0,-1){10}}
-		\put(75,45){\makebox(0,0)[b]{Stage X-axis}}
-		\put(36,8){\vector(1,0){10}}
-		\put(36,8){\makebox(0,0)[r]{Stage Y-axis}}
-		\put(67,88){\vector(-1,0){10}}
-		\put(67,88){\makebox(0,0)[l]{Finger}}
-		\put(70,65){\makebox(0,0)[c]{Bath}}
-	\end{overpic}
-	\caption{Stages to precisely manipulate the finger tip in X, Y and Z direction. When the finger is not in use, it is moved along the track to allow access to assemblies below.}
-	\label{fig:FingerStages}
-\end{figure}
-
-On the tip of the finger, Ethoxynonafluorobutane, also called Hydrofluorether 7200 (HFE) is used throughout all experiments. HFE is used as cooling agent \cite{Tsai.2005} as well as an cryoimmersion fluid \cite{Faoro.2018b}. HFE has temperature dependent characteristics. At freezing point, HFE reaches a viscous state before reaching a firm solid state. This temperature dependency allows to first apply the HFE at higher temperatures with low viscosity and pull on the sample at lower temperatures with high viscosity.
-
-The temperature regulation of the finger has three modes: First the "unglue" mode which regulates the Temperature to \SI{-140}{\degreeCelsius}. HFE has a low viscosity, which allows the application of HFE. Also separating the finger off the sample without transferring force is possible. Second, in "glue" mode the shuttle and the finger are cooled to \SI{-160}{\degreeCelsius}. HFE hardens and force can be applied to detach the ice layer. Third, "thaw" cleans the finger by heating the tip to \SI{20}{\degreeCelsius}, evaporating everything stuck on the finger.
+\subsection{Baths}
 
 In the beginning a smaller bath is used (Fig. \ref{fig:KleinesBad}). The small bath contains an elevated work surface. Embedded in the work surface are indents which fit container holder. Three elevated baths are installed on the elevated floor. They are temperature controlled for containing other Liquids or tools at different temperatures. Also a Haven for a shuttle system is installed. The small baths and the haven are separated from the elevated floor with an insulating layer. The bath is filled with liquid nitrogen covering the work surface. The whole bath is insulated by Nitrogen gas flowing inside the 3D-printed shell of the bath. The warm nitrogen gas is expelled from the brim, flowing from the outer edge radially to the middle rotation axis.
 
@@ -352,38 +345,96 @@ During this master thesis, a second bigger bath is build (Fig. \ref{fig:GroßesB
 	\label{fig:GroßesBadMitFinger}
 \end{figure}
 
-\subsection{Setup pulling machine for cryogenic tests}
+In practice, the bigger bath is more pleasant to work with. The additional access speeds up the preparation progress. Less attention must be paid to keep the nitrogen level over the working surface. The funnel system is less used as the funnel does not stay in the desired place. In the end, one shuttle is used. The camera angle is worse than in the small bath. Originally, The nitrogen gas ring is placed directly on the bath rim. The finger was not completey submerged under the barrier, leading to light ice formation. With a styrofoam, the ring is elevated by \SI{2}{\centi\meter} 
 
-To allow tests at cryogenic temperatures with the pulling machine, the setup is modified to allow fitting a bath and the "finger" to the pulling machine. The big bath is used with a flat harbor. An outer frame is used and modified to hold the bath. The bottom clamp is removed and the Bath is fixed over the bottom attachment. The top part is used with the same load cells, but with a bigger clamp. The "finger" 3D printed shell modified with a flat outer profile for clamping and clamped onto the top. \SI{90}{\degree} festo tubing is used to connect the cold nitrogen gas supply. A power source and a temperature regulator is again used. 
+\subsection{Finger}
 
-%TODO BILD
-
-Compared to the "finger" setup with stages, the finger only moves up and down. The Alignment is done by moving the bath by loosening the screws on the frame. Also new "window" parts are waterjet cut. The new "window" has a bigger central hole for easier alignment.
-
-As the tensile testing machine is set up in a separate room, the samples are prepared in the laboratory next to the microscope. The small bath is used for sample preparation. The process is the same as all detachment trials with the finger. 
+The finger is made of two main parts: The first part is a metal rod with a flat tip (Fig. \ref{fig:querschnittfinger}). The rod is cooled with cold nitrogen gas. Near the tip, the rod is temperature controlled with a Pt1000 used as a temperature sensor and a heater. The second part is a 3D printed structure, containing the outer layer and routing of the cold gaseous nitrogen. Inside the 3D printed structure, the cold nitrogen gas is directed from the inlet downwards around the metal rod in an inner mantle for cooling. Then, the cold gas is redirected upwards flowing through an outer mantle for additional cooling. Afterwards, the gas exits through the output.
 
 \begin{figure}[hbt!]
 	\centering
-	\begin{subfigure}[]{0.45\textwidth}
-		\centering
-		\input{../images/Zeichnung_shuttle.pdf_tex}
-		\caption{Shuttle for transporting a sample between bath and microscope. The window is clamped down by screws to the copper shuttle, holding the sample in place. the center hole in the window gives access for microscopy and finger.}
-		\label{fig:shuttle}
-	\end{subfigure}
-	\begin{subfigure}[]{0.45\textwidth}
-		\centering
-		\input{../images/Zeichnung_transportbox.pdf_tex}
-		\caption{Small 3D-printed transport box for three samples. A cap is screwed onto the central thread. These boxes fit into storage units. The design is based on a commonly used storing system.\newline\newline}
-		\label{fig:transportbox}
-	\end{subfigure}
-	\label{fig:shuttleandtransportbox}
+	\input{../images/ZeichnungFinger.pdf_tex}
+	\caption{A cross-section of the "finger" assembly. The metal rod is cooled with cold nitrogen gas. the gas is routed from the inlet around the metal bar onto an outer layer to the outlet. The metal rod is temperature controlled by a Pt1000 temperature sensor and a heater. With HFE 7200 is applied to the tip, the finger can attach to a surface at cryogenic temperatures and apply force. }
+	\label{fig:querschnittfinger}
 \end{figure}
+
+The cold nitrogen gas is supplied by a liquid nitrogen tank. Heaters placed inside the tank evaporate the liquid nitrogen. Cold nitrogen gas leaving the tank is routed by \SI{6}{\milli\meter} pneumatic tubing to the finger inlet. On the inlet and outlet of the finger, Festo connectors are mounted to allow easy dis- and re-connection of \SI{6}{\milli\meter} tubes. Cold nitrogen gas which passed through the finger are exhausted by outlet tubing into the atmosphere.
+
+The finger is mounted on a three stages. These stages allow fine adjustment of the finger position in X,Y and Z axis (fig. \ref{fig:FingerStages}). Also, when the finger is attached to a surface, force can be applied by moving the stages in either direction. Additionally the stages are mounted on a track. The track allows fast movement along one axis to make assemblies below the finger reachable. Whenever the finger is used, the assembly is clamped down to the track to prevent additional movement.
+
+\begin{figure}[hbt!]
+	\centering
+	\begin{overpic}[width=10cm]{Finger_Stages}
+		\white
+		\put(20,37){\makebox(0,0)[c]{Track}}
+		\put(37,90){\vector(1,0){10}}
+		\put(37,90){\makebox(0,0)[r]{Stage Z-axis}}
+		\put(75,45){\vector(0,-1){10}}
+		\put(75,45){\makebox(0,0)[b]{Stage X-axis}}
+		\put(36,8){\vector(1,0){10}}
+		\put(36,8){\makebox(0,0)[r]{Stage Y-axis}}
+		\put(67,88){\vector(-1,0){10}}
+		\put(67,88){\makebox(0,0)[l]{Finger}}
+		\put(70,65){\makebox(0,0)[c]{Bath}}
+	\end{overpic}
+	\caption{Stages to precisely manipulate the finger tip in X, Y and Z direction. When the finger is not in use, it is moved along the track to allow access to assemblies below.}
+	\label{fig:FingerStages}
+\end{figure}
+
+On the tip of the finger, Ethoxynonafluorobutane, also called Hydrofluorether 7200 (HFE) is used throughout all experiments. HFE is used as cooling agent \cite{Tsai.2005} as well as an cryoimmersion fluid \cite{Faoro.2018b}. HFE has temperature dependent characteristics. At freezing point, HFE reaches a viscous state before reaching a firm solid state. This temperature dependency allows to first apply the HFE at higher temperatures with low viscosity and pull on the sample at lower temperatures with high viscosity.
+
+The temperature regulation of the finger has three modes: First the "unglue" mode which regulates the Temperature to \SI{-140}{\degreeCelsius}. HFE has a low viscosity, which allows the application of HFE. Also separating the finger off the sample without transferring force is possible. Second, in "glue" mode the shuttle and the finger are cooled to \SI{-160}{\degreeCelsius}. HFE hardens and force can be applied to detach the ice layer. Third, "thaw" cleans the finger by heating the tip to \SI{20}{\degreeCelsius}, evaporating everything stuck on the finger.
+
+\subsection{Setup pulling machine for cryogenic tests}
+
+To allow tests at cryogenic temperatures with the pulling machine, the setup is modified to allow fitting a bath and the "finger" to the pulling machine (fig. \ref{fig:tensileTestingMachineCryo}). The big bath is used with a flat harbor. An outer frame is used and modified to hold the bath. The bottom clamp is removed and the Bath is fixed over the bottom attachment. The top part is used with the same load cells, but with a bigger clamp. The "finger" 3D printed shell modified with a flat outer profile for clamping and clamped onto the top. \SI{90}{\degree} festo tubing is used to connect the cold nitrogen gas supply. A power source and a temperature regulator is again used. 
+
+%TODO BILD
+\begin{figure}[hbt!]
+	\centering
+	\begin{overpic}[width=10cm]{AufbauTensileTestingMachineCryo}
+		\begin{comment}
+			\white
+			\put(40,25){\vector(1,1){10}}
+			\put(40,25){\makebox(0,0)[r]{shuttle haven}}
+			\put(20,45){\vector(1,0){15}}
+			\put(20,45){\makebox(0,0)[r]{tool bath}}
+			\put(73,35){\vector(-1,1){10}}
+			\put(73,35){\makebox(0,0)[l]{ethanol bath}}
+			\put(73,27){\vector(-1,1){10}}
+			\put(73,27){\makebox(0,0)[l]{HFE bath}}
+			%\put(49,76){\vector(-0.15,-1){3.4}}
+			%\put(51,76){\vector(0.15,-1){3.4}}
+			\put(48,65){\vector(-0.25,-1){2.8}}
+			\put(52,65){\vector(0.25,-1){2.8}}
+			\put(50,65){\makebox(0,0)[b]{container holder}}
+			%\put(75,78){\vector(-2,-1){10}}
+			%\put(76,78){\vector(-1,-2){4.5}}
+			\put(75,72){\vector(-1,0){10}}
+			\put(79,68){\vector(-1,-1){3.5}}
+			\put(75,72){\makebox(0,0)[lt]{gas outlets}}
+			\put(75,72){\makebox(0,0)[lb]{nitrogen}}
+			\put(30,62){\vector(1,-1){10}}
+			\put(30,62){\makebox(0,0)[rb]{work surface}}
+		\end{comment}
+	
+	\end{overpic}
+	\caption{TODO}
+	\label{fig:tensileTestingMachineCryo}
+\end{figure}
+
+Compared to the "finger" setup with stages, the finger only moves up and down. The Alignment is done by moving the bath by loosening the screws on the frame. Also new "window" parts with a bigger central hold for easier alingment are waterjet cut.
+
+As the tensile testing machine is set up in a separate room, the samples are prepared in the laboratory next to the microscope. The small bath is used for sample preparation. The process is the same as all detachment trials with the finger. 
 
 This setup has a lot of limitation. Aligning the finger is very difficult, as the screws are hard to reach in cold temperature. When cooling, the previous alignment ist lost as the coldness distort the setup. Also little movement at the finger has maximum effect on the sample and alignment. touching the tubes can loosen the sample and/or the setup needs to be new aligned. Even a bigger window is not enough. Errors in alignment and therefore gluing to the border of the window and loosening through movement are the two biggest error sources in this setup. So the old setup is used in further experiments to eliminate big error sources.
 
 \subsection{Factors observed influencing detachment with finger}
 
-%TODO
+To increase the reliability and force applied through the finger, different variables are found and the influence examined. The volume of HFE on the finger tip can improve both force and repeatability. higher temperatures can increase the thensile strength of HFE. The direction of force can decrease the force needed for detachment. Right positioning is also important, expecially finding the right gap. Additionally, other factors with less significance are also found.
+
+%As the finger is used for this application for the first time, different variables are determined which could significantly influence successful detaching. With experiments, these variables are examined to improve the reliability of the finger. Following main variables are determined: The right volume of HFE on finger tip improves reliability. The temperature influences the strength of HFE. The right direction of force can make separation easier. Right positioning is important to induce forces efficient onto the right surfaces.
+
 
 \subsubsection{Volume of Hydrofluorether on finger}
 
@@ -431,12 +482,9 @@ At \SI{-150}{\degreeCelsius} to  \SI{-155}{\degreeCelsius} , the HFE is still on
 
 Heating the cracked HFE up leads to the cracks eventually disappearing. at \SI{-165}{\degreeCelsius}, first cracks disappear, but a many remain. The cracks left are still lowering the mechanical stability of the HFE. Heating up to \SI{-160}{\degreeCelsius} results in less cracks, but some still remain. A temperature of \SI{-150}{\degreeCelsius} will result in cracks completely disappearing.
 
-In conclusion, maximum load can be applied at \SI{-165}{\degreeCelsius}. Higher temperatures result in lower viscosity, which lowers the maximum stress before HFE breaks. At \SI{-170}{\degreeCelsius}, cracks will form, lowering the maximum stress.
+In conclusion, maximum load can be applied at \SI{-165}{\degreeCelsius}. Higher temperatures result in lower viscosity, which lowers the maximum stress before HFE breaks. At \SI{-170}{\degreeCelsius}, cracks will form, lowering the maximum stress. To test if desired temperatures are archieved with the finger setup, tensile tests are done with decreased "glue" temperature.
 
-%TODO
-To test how applicable the temperatures are with the "finger" setup, pulling tests are done as described in section
-
- except the temperatures of the finger is lowered to \SI{-165}{\degreeCelsius} and \SI{-170}{\degreeCelsius} in the "glue" state. With attention to proper insulation and no leakages of cold nitrogen gas, \SI{-165}{\degreeCelsius} is quickly reached and is held stable by temperature regulation over a time span of minutes. Still, the setup is not very reliable as new leaks can form and changing of tanks/tubings can lead to new leaks. These leaks are spotted only when the finger is already cooled. To fix leaks, the setup needs to warm up. \SI{-170}{\degreeCelsius} can sometimes be reached with the finger, but holding the temperature stable is not possible. 
+The finger setup is used as described, except the temperatures of the finger is lowered to \SI{-165}{\degreeCelsius} and \SI{-170}{\degreeCelsius} in the "glue" state. With attention to proper insulation and no leakages of cold nitrogen gas, \SI{-165}{\degreeCelsius} is quickly reached and is held stable by temperature regulation over a time span of minutes. Still, the setup is not very reliable as new leaks can form and changing of tanks/tubings can lead to new leaks. These leaks are spotted only when the finger is already cooled. To fix leaks, the setup needs to warm up. \SI{-170}{\degreeCelsius} can sometimes be reached with the finger, but holding the temperature stable is not possible. 
 
 When cooling down to the desired temperature with the "glue" state, liquid nitrogen is refilled to increase cooling. When refilling and cooling at the same time, rapid cooling happens when liquid nitrogen touches the shuttle directly at refilling. With this, the Temperature can shortly drop below \SI{-170}{\degreeCelsius}. This induces cracks in HFE, lowering the tensile strength. If this happens, the Sample and finger can be heaten up to the "unglue" state at \SI{-140}{\degreeCelsius} and the cracks disappear. Then cooling can start again.
 
@@ -444,7 +492,11 @@ In conclusion, the finger "glue" temperature is most effective at \SI{-165}{\deg
 
 \subsubsection{Applied Tensile force to HFE}
 
-To additionally measure the force applied of the finger, the pulling machine is used in combination with the finger. In the lab, the small bath is used for sample preparation. after microscopy, the sample is transported to the pulling machine. the big bath is fixed on the bottom of the pulling machine. on top, the finger is clamped into the shackle and aligned to the shuttle. The process is still as previously stated. 
+%TODO
+TODO vielleicht kombinieren mit dem Absatz mit dem der Aufbau der Pulling mashine mit dem Finger beschrieben wird.
+
+Forces applied to the sample by the finger are unknown. To measure the force transferred to a sample, the setup of the tensile testing machine in combination of the finger is used.
+%To additionally measure the force applied of the finger, the pulling machine is used in combination with the finger. In the lab, the small bath is used for sample preparation. after microscopy, the sample is transported to the pulling machine. the big bath is fixed on the bottom of the pulling machine. on top, the finger is clamped into the shackle and aligned to the shuttle. The process is still as previously stated. 
 
 Over all pulls, the HFE can transfer a maximum force of $1.30\pm0.49\,\si{\newton}$. The exact size of the area which experienced the force is unknown. Additionally, the force distribution is uneven (e.g. like Fig. \ref{fig:ZeichnungBerechnungStress_c}). A worst case and a best case which are easily calculated can be determined. as best case, all force is evenly distributed under the area of the finger (Fig. \ref{fig:ZeichnungBerechnungStress_a}). With this assumption, the Area is equal to the finger tip area. The worst case is an even distribution over the whole surface (Fig. \ref{fig:ZeichnungBerechnungStress_b}). The surface is clamped by the window. So the inner diameter of the Window is the worst case area. In reality, the Force is somewhere in between (Table \ref{table:VerschAbschätzungenStressFinger}).
 
