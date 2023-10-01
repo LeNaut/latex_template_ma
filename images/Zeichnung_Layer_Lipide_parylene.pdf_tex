@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Zeichnung_Layer_Lipide_parylene.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{299.16200986bp}%
+    \setlength{\unitlength}{317.10178404bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,13 +50,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.1294561)%
+  \begin{picture}(1,0.12213222)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Zeichnung_Layer_Lipide_parylene.pdf}}%
-    \put(-0.000268,0.01042513){\color[rgb]{0.04705882,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Glass slide\end{tabular}}}}%
-    \put(0.86945827,0.04832627){\color[rgb]{1,0.1372549,0.1372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}parylene\end{tabular}}}}%
-    \put(0.01135138,0.07675213){\color[rgb]{0.49411765,0.92156863,0.51372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}lipid layer\end{tabular}}}}%
-    \put(0.86960516,0.10517799){\color[rgb]{0.49411765,0.48627451,0.92941176}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ice layer\end{tabular}}}}%
+    \put(-0.00053,0.01212661){\color[rgb]{0.04705882,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sample holder\end{tabular}}}}%
+    \put(0.87681584,0.04559225){\color[rgb]{1,0.1372549,0.1372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Parylene\end{tabular}}}}%
+    \put(0.05625752,0.07332646){\color[rgb]{0.49411765,0.92156863,0.51372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Lipid layer\end{tabular}}}}%
+    \put(0.87695443,0.09922763){\color[rgb]{0.49411765,0.48627451,0.92941176}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ice layer\end{tabular}}}}%
   \end{picture}%
 \endgroup%

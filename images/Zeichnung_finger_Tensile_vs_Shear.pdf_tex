@@ -54,19 +54,19 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Zeichnung_finger_Tensile_vs_Shear.pdf}}%
-    \put(0.67855614,0.19070197){\color[rgb]{0.20392157,0.08627451,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Shear Mode\end{tabular}}}}%
+    \put(0.67855614,0.19070197){\color[rgb]{0.20392157,0.08627451,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Shear mode\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Zeichnung_finger_Tensile_vs_Shear.pdf}}%
-    \put(0.05102438,0.08630959){\color[rgb]{1,0.03137255,0.03137255}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Tensile Mode\end{tabular}}}}%
+    \put(0.05102438,0.08630959){\color[rgb]{1,0.03137255,0.03137255}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Tensile mode\end{tabular}}}}%
     \put(0.25388834,0.34729503){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Combined\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{Zeichnung_finger_Tensile_vs_Shear.pdf}}%
-    \put(0.60199265,0.34580961){\color[rgb]{1,0.03137255,0.03137255}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Tensile Mode\end{tabular}}}}%
+    \put(0.60199265,0.34580961){\color[rgb]{1,0.03137255,0.03137255}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Tensile mode\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{Zeichnung_finger_Tensile_vs_Shear.pdf}}%
     \put(0.40343241,0.70131994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(a)\end{tabular}}}}%
     \put(0.19593434,0.2576396){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(b)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{Zeichnung_finger_Tensile_vs_Shear.pdf}}%
     \put(0.98711427,0.09622708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Z\end{tabular}}}}%
-    \put(0.98182131,0.00500936){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}y\end{tabular}}}}%
-    \put(0.88255512,0.0391482){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
+    \put(0.98182131,0.00500936){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Y\end{tabular}}}}%
+    \put(0.88255512,0.0391482){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}X\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{Zeichnung_finger_Tensile_vs_Shear.pdf}}%
   \end{picture}%
 \endgroup%

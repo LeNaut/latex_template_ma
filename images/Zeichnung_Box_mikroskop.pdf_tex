@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Zeichnung_Box_mikroskop.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{431.3030788bp}%
+    \setlength{\unitlength}{431.02182737bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,20 +50,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.64772562)%
+  \begin{picture}(1,0.64814827)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Zeichnung_Box_mikroskop.pdf}}%
-    \put(0.31492582,0.50112443){\color[rgb]{0.38431373,0.7254902,0.9254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Glass pane\end{tabular}}}}%
-    \put(0.33440314,0.56401949){\color[rgb]{0.74117647,0.4,0.9254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"Glasses"\end{tabular}}}}%
-    \put(0.55088631,0.05987209){\color[rgb]{0.83137255,0.08235294,0.08235294}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box\end{tabular}}}}%
-    \put(0.48706199,0.22205617){\color[rgb]{0.25098039,0.15294118,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cold nitrogen\\gas Flow\end{tabular}}}}%
-    \put(0.00024718,0.31587872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Inlet tubing\end{tabular}}}}%
+    \put(0.31447879,0.50145142){\color[rgb]{0.38431373,0.7254902,0.9254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Glass pane\end{tabular}}}}%
+    \put(0.33396882,0.56438753){\color[rgb]{0.74117647,0.4,0.9254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"Glasses"\end{tabular}}}}%
+    \put(0.55059326,0.05991116){\color[rgb]{0.83137255,0.08235294,0.08235294}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box\end{tabular}}}}%
+    \put(0.48672728,0.22220107){\color[rgb]{0.25098039,0.15294118,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cold nitrogen\\gas flow\end{tabular}}}}%
+    \put(-0.00040518,0.31608484){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Inlet tubing\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Zeichnung_Box_mikroskop.pdf}}%
-    \put(0.48174402,0.32754774){\color[rgb]{0.90588235,0.62352941,0.22352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Copper heat sink\end{tabular}}}}%
-    \put(0.77430024,0.49918344){\color[rgb]{0,0.72941176,0.02745098}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box lid\end{tabular}}}}%
+    \put(0.48140585,0.32776148){\color[rgb]{0.90588235,0.62352941,0.22352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Copper heat sink\end{tabular}}}}%
+    \put(0.80590939,0.47959416){\color[rgb]{0,0.72941176,0.02745098}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Box lid\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{Zeichnung_Box_mikroskop.pdf}}%
-    \put(0.60789111,0.62046143){\color[rgb]{0.98431373,0.95686275,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Light path\end{tabular}}}}%
-    \put(0.77888618,0.56630692){\color[rgb]{0.80784314,0.07843137,0.07843137}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Warm Nitrogen gas\end{tabular}}}}%
+    \put(0.60763525,0.6208663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Light path\end{tabular}}}}%
+    \put(0.78197138,0.54919145){\color[rgb]{0.83529412,0.08235294,0.08235294}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Warm nitrogen gas\end{tabular}}}}%
+    \put(0.52576308,0.43977076){\color[rgb]{0.90588235,0.62352941,0.22352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Harbor\end{tabular}}}}%
   \end{picture}%
 \endgroup%
